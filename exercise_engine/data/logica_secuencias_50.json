@@ -1,0 +1,2902 @@
+[
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 7,
+      "d": 4,
+      "n": 15
+    },
+    "content_hash": "930a8d76968cdc7c",
+    "question": "En la sucesión 7, 11, 15, 19, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "63",
+    "answer_display": "63",
+    "explanation": "Es aritmética con a(1) = 7 y d = 4. a(15) = 7 + (15−1)·4 = 63.",
+    "choices": [
+      {
+        "text": "63",
+        "correct": true
+      },
+      {
+        "text": "189",
+        "correct": false
+      },
+      {
+        "text": "127/2",
+        "correct": false
+      },
+      {
+        "text": "61",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SEQ_AR_01-930a8d76968cdc7c"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 5,
+      "d": 8,
+      "n": 20
+    },
+    "content_hash": "6ed69f31bd216699",
+    "question": "En la sucesión 5, 13, 21, 29, …, ¿cuál es el término número 20?",
+    "question_latex": null,
+    "answer": "157",
+    "answer_display": "157",
+    "explanation": "Es aritmética con a(1) = 5 y d = 8. a(20) = 5 + (20−1)·8 = 157.",
+    "choices": [
+      {
+        "text": "785",
+        "correct": false
+      },
+      {
+        "text": "314",
+        "correct": false
+      },
+      {
+        "text": "157",
+        "correct": true
+      },
+      {
+        "text": "1570",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-6ed69f31bd216699"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 15,
+      "d": 2,
+      "n": 20
+    },
+    "content_hash": "d55bf3d33712aad4",
+    "question": "En la sucesión 15, 17, 19, 21, …, ¿cuál es el término número 20?",
+    "question_latex": null,
+    "answer": "53",
+    "answer_display": "53",
+    "explanation": "Es aritmética con a(1) = 15 y d = 2. a(20) = 15 + (20−1)·2 = 53.",
+    "choices": [
+      {
+        "text": "53/2",
+        "correct": false
+      },
+      {
+        "text": "63",
+        "correct": false
+      },
+      {
+        "text": "53",
+        "correct": true
+      },
+      {
+        "text": "530",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-d55bf3d33712aad4"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 5,
+      "d": 4,
+      "n": 12
+    },
+    "content_hash": "5c6729314d2b0131",
+    "question": "En la sucesión 5, 9, 13, 17, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "49",
+    "answer_display": "49",
+    "explanation": "Es aritmética con a(1) = 5 y d = 4. a(12) = 5 + (12−1)·4 = 49.",
+    "choices": [
+      {
+        "text": "49",
+        "correct": true
+      },
+      {
+        "text": "99/2",
+        "correct": false
+      },
+      {
+        "text": "59",
+        "correct": false
+      },
+      {
+        "text": "51",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SEQ_AR_01-5c6729314d2b0131"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 9,
+      "d": 5,
+      "n": 15
+    },
+    "content_hash": "e70dd32f30dc7bfd",
+    "question": "En la sucesión 9, 14, 19, 24, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "79",
+    "answer_display": "79",
+    "explanation": "Es aritmética con a(1) = 9 y d = 5. a(15) = 9 + (15−1)·5 = 79.",
+    "choices": [
+      {
+        "text": "395",
+        "correct": false
+      },
+      {
+        "text": "89",
+        "correct": false
+      },
+      {
+        "text": "79",
+        "correct": true
+      },
+      {
+        "text": "159/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-e70dd32f30dc7bfd"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 3,
+      "d": 7,
+      "n": 12
+    },
+    "content_hash": "9943de27c8fec4b6",
+    "question": "En la sucesión 3, 10, 17, 24, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "80",
+    "answer_display": "80",
+    "explanation": "Es aritmética con a(1) = 3 y d = 7. a(12) = 3 + (12−1)·7 = 80.",
+    "choices": [
+      {
+        "text": "80",
+        "correct": true
+      },
+      {
+        "text": "160",
+        "correct": false
+      },
+      {
+        "text": "163/2",
+        "correct": false
+      },
+      {
+        "text": "70",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SEQ_AR_01-9943de27c8fec4b6"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 13,
+      "d": 7,
+      "n": 12
+    },
+    "content_hash": "c1c2fc4c0f26c0c2",
+    "question": "En la sucesión 13, 20, 27, 34, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "90",
+    "answer_display": "90",
+    "explanation": "Es aritmética con a(1) = 13 y d = 7. a(12) = 13 + (12−1)·7 = 90.",
+    "choices": [
+      {
+        "text": "180",
+        "correct": false
+      },
+      {
+        "text": "181/2",
+        "correct": false
+      },
+      {
+        "text": "900",
+        "correct": false
+      },
+      {
+        "text": "90",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SEQ_AR_01-c1c2fc4c0f26c0c2"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 11,
+      "d": 9,
+      "n": 12
+    },
+    "content_hash": "12b4d22660198666",
+    "question": "En la sucesión 11, 20, 29, 38, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "110",
+    "answer_display": "110",
+    "explanation": "Es aritmética con a(1) = 11 y d = 9. a(12) = 11 + (12−1)·9 = 110.",
+    "choices": [
+      {
+        "text": "120",
+        "correct": false
+      },
+      {
+        "text": "110",
+        "correct": true
+      },
+      {
+        "text": "109",
+        "correct": false
+      },
+      {
+        "text": "329/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SEQ_AR_01-12b4d22660198666"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 7,
+      "d": 6,
+      "n": 12
+    },
+    "content_hash": "2a06dc425b2767bd",
+    "question": "En la sucesión 7, 13, 19, 25, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "73",
+    "answer_display": "73",
+    "explanation": "Es aritmética con a(1) = 7 y d = 6. a(12) = 7 + (12−1)·6 = 73.",
+    "choices": [
+      {
+        "text": "73",
+        "correct": true
+      },
+      {
+        "text": "74",
+        "correct": false
+      },
+      {
+        "text": "730",
+        "correct": false
+      },
+      {
+        "text": "-73",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SEQ_AR_01-2a06dc425b2767bd"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 8,
+      "d": 4,
+      "n": 10
+    },
+    "content_hash": "a06d8321b90905bf",
+    "question": "En la sucesión 8, 12, 16, 20, …, ¿cuál es el término número 10?",
+    "question_latex": null,
+    "answer": "44",
+    "answer_display": "44",
+    "explanation": "Es aritmética con a(1) = 8 y d = 4. a(10) = 8 + (10−1)·4 = 44.",
+    "choices": [
+      {
+        "text": "88",
+        "correct": false
+      },
+      {
+        "text": "34",
+        "correct": false
+      },
+      {
+        "text": "44",
+        "correct": true
+      },
+      {
+        "text": "46",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-a06d8321b90905bf"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 19,
+      "d": 5,
+      "n": 15
+    },
+    "content_hash": "7fc68fec6ea36b38",
+    "question": "En la sucesión 19, 24, 29, 34, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "89",
+    "answer_display": "89",
+    "explanation": "Es aritmética con a(1) = 19 y d = 5. a(15) = 19 + (15−1)·5 = 89.",
+    "choices": [
+      {
+        "text": "267",
+        "correct": false
+      },
+      {
+        "text": "89",
+        "correct": true
+      },
+      {
+        "text": "179/2",
+        "correct": false
+      },
+      {
+        "text": "87",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SEQ_AR_01-7fc68fec6ea36b38"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 15,
+      "d": 6,
+      "n": 15
+    },
+    "content_hash": "90c29fa5214a9a12",
+    "question": "En la sucesión 15, 21, 27, 33, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "99",
+    "answer_display": "99",
+    "explanation": "Es aritmética con a(1) = 15 y d = 6. a(15) = 15 + (15−1)·6 = 99.",
+    "choices": [
+      {
+        "text": "89",
+        "correct": false
+      },
+      {
+        "text": "99",
+        "correct": true
+      },
+      {
+        "text": "296/3",
+        "correct": false
+      },
+      {
+        "text": "98",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SEQ_AR_01-90c29fa5214a9a12"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 16,
+      "d": 5,
+      "n": 15
+    },
+    "content_hash": "b01906adfd2279d1",
+    "question": "En la sucesión 16, 21, 26, 31, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "86",
+    "answer_display": "86",
+    "explanation": "Es aritmética con a(1) = 16 y d = 5. a(15) = 16 + (15−1)·5 = 86.",
+    "choices": [
+      {
+        "text": "86",
+        "correct": true
+      },
+      {
+        "text": "860",
+        "correct": false
+      },
+      {
+        "text": "258",
+        "correct": false
+      },
+      {
+        "text": "43",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SEQ_AR_01-b01906adfd2279d1"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 7,
+      "d": 6,
+      "n": 10
+    },
+    "content_hash": "22cbe55e9fc9e6b2",
+    "question": "En la sucesión 7, 13, 19, 25, …, ¿cuál es el término número 10?",
+    "question_latex": null,
+    "answer": "61",
+    "answer_display": "61",
+    "explanation": "Es aritmética con a(1) = 7 y d = 6. a(10) = 7 + (10−1)·6 = 61.",
+    "choices": [
+      {
+        "text": "125/2",
+        "correct": false
+      },
+      {
+        "text": "62",
+        "correct": false
+      },
+      {
+        "text": "183",
+        "correct": false
+      },
+      {
+        "text": "61",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SEQ_AR_01-22cbe55e9fc9e6b2"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 14,
+      "d": 8,
+      "n": 10
+    },
+    "content_hash": "30118a765d36bd5b",
+    "question": "En la sucesión 14, 22, 30, 38, …, ¿cuál es el término número 10?",
+    "question_latex": null,
+    "answer": "86",
+    "answer_display": "86",
+    "explanation": "Es aritmética con a(1) = 14 y d = 8. a(10) = 14 + (10−1)·8 = 86.",
+    "choices": [
+      {
+        "text": "84",
+        "correct": false
+      },
+      {
+        "text": "86",
+        "correct": true
+      },
+      {
+        "text": "257/3",
+        "correct": false
+      },
+      {
+        "text": "430",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SEQ_AR_01-30118a765d36bd5b"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 8,
+      "d": 4,
+      "n": 20
+    },
+    "content_hash": "ed0a8798864bde7c",
+    "question": "En la sucesión 8, 12, 16, 20, …, ¿cuál es el término número 20?",
+    "question_latex": null,
+    "answer": "84",
+    "answer_display": "84",
+    "explanation": "Es aritmética con a(1) = 8 y d = 4. a(20) = 8 + (20−1)·4 = 84.",
+    "choices": [
+      {
+        "text": "252",
+        "correct": false
+      },
+      {
+        "text": "83",
+        "correct": false
+      },
+      {
+        "text": "82",
+        "correct": false
+      },
+      {
+        "text": "84",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SEQ_AR_01-ed0a8798864bde7c"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 5,
+      "d": 8,
+      "n": 12
+    },
+    "content_hash": "be729cd766f94839",
+    "question": "En la sucesión 5, 13, 21, 29, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "93",
+    "answer_display": "93",
+    "explanation": "Es aritmética con a(1) = 5 y d = 8. a(12) = 5 + (12−1)·8 = 93.",
+    "choices": [
+      {
+        "text": "930",
+        "correct": false
+      },
+      {
+        "text": "279",
+        "correct": false
+      },
+      {
+        "text": "93",
+        "correct": true
+      },
+      {
+        "text": "92",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-be729cd766f94839"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 13,
+      "d": 3,
+      "n": 15
+    },
+    "content_hash": "2ea5d00a7293f7d2",
+    "question": "En la sucesión 13, 16, 19, 22, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "55",
+    "answer_display": "55",
+    "explanation": "Es aritmética con a(1) = 13 y d = 3. a(15) = 13 + (15−1)·3 = 55.",
+    "choices": [
+      {
+        "text": "550",
+        "correct": false
+      },
+      {
+        "text": "55",
+        "correct": true
+      },
+      {
+        "text": "221/4",
+        "correct": false
+      },
+      {
+        "text": "45",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SEQ_AR_01-2ea5d00a7293f7d2"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 10,
+      "d": 9,
+      "n": 15
+    },
+    "content_hash": "48246d0510209dce",
+    "question": "En la sucesión 10, 19, 28, 37, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "136",
+    "answer_display": "136",
+    "explanation": "Es aritmética con a(1) = 10 y d = 9. a(15) = 10 + (15−1)·9 = 136.",
+    "choices": [
+      {
+        "text": "408",
+        "correct": false
+      },
+      {
+        "text": "68",
+        "correct": false
+      },
+      {
+        "text": "136",
+        "correct": true
+      },
+      {
+        "text": "135",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-48246d0510209dce"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 12,
+      "d": 4,
+      "n": 12
+    },
+    "content_hash": "b14076460676306a",
+    "question": "En la sucesión 12, 16, 20, 24, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "56",
+    "answer_display": "56",
+    "explanation": "Es aritmética con a(1) = 12 y d = 4. a(12) = 12 + (12−1)·4 = 56.",
+    "choices": [
+      {
+        "text": "57",
+        "correct": false
+      },
+      {
+        "text": "56",
+        "correct": true
+      },
+      {
+        "text": "115/2",
+        "correct": false
+      },
+      {
+        "text": "28",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SEQ_AR_01-b14076460676306a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 14,
+      "d": 3,
+      "n": 20
+    },
+    "content_hash": "6828502df47ce475",
+    "question": "En la sucesión 14, 17, 20, 23, …, ¿cuál es el término número 20?",
+    "question_latex": null,
+    "answer": "71",
+    "answer_display": "71",
+    "explanation": "Es aritmética con a(1) = 14 y d = 3. a(20) = 14 + (20−1)·3 = 71.",
+    "choices": [
+      {
+        "text": "145/2",
+        "correct": false
+      },
+      {
+        "text": "-71",
+        "correct": false
+      },
+      {
+        "text": "71",
+        "correct": true
+      },
+      {
+        "text": "69",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-6828502df47ce475"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 16,
+      "d": 4,
+      "n": 20
+    },
+    "content_hash": "e117da01d385a934",
+    "question": "En la sucesión 16, 20, 24, 28, …, ¿cuál es el término número 20?",
+    "question_latex": null,
+    "answer": "92",
+    "answer_display": "92",
+    "explanation": "Es aritmética con a(1) = 16 y d = 4. a(20) = 16 + (20−1)·4 = 92.",
+    "choices": [
+      {
+        "text": "184",
+        "correct": false
+      },
+      {
+        "text": "187/2",
+        "correct": false
+      },
+      {
+        "text": "369/4",
+        "correct": false
+      },
+      {
+        "text": "92",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SEQ_AR_01-e117da01d385a934"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 6,
+      "d": 3,
+      "n": 12
+    },
+    "content_hash": "38a1ef3f99151383",
+    "question": "En la sucesión 6, 9, 12, 15, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "39",
+    "answer_display": "39",
+    "explanation": "Es aritmética con a(1) = 6 y d = 3. a(12) = 6 + (12−1)·3 = 39.",
+    "choices": [
+      {
+        "text": "38",
+        "correct": false
+      },
+      {
+        "text": "116/3",
+        "correct": false
+      },
+      {
+        "text": "39",
+        "correct": true
+      },
+      {
+        "text": "40",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-38a1ef3f99151383"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 3,
+      "d": 2,
+      "n": 12
+    },
+    "content_hash": "56252c4b3a716422",
+    "question": "En la sucesión 3, 5, 7, 9, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "25",
+    "answer_display": "25",
+    "explanation": "Es aritmética con a(1) = 3 y d = 2. a(12) = 3 + (12−1)·2 = 25.",
+    "choices": [
+      {
+        "text": "-25",
+        "correct": false
+      },
+      {
+        "text": "53/2",
+        "correct": false
+      },
+      {
+        "text": "25",
+        "correct": true
+      },
+      {
+        "text": "35",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-56252c4b3a716422"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 14,
+      "d": 2,
+      "n": 12
+    },
+    "content_hash": "26fbb3eed56fc14b",
+    "question": "En la sucesión 14, 16, 18, 20, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "36",
+    "answer_display": "36",
+    "explanation": "Es aritmética con a(1) = 14 y d = 2. a(12) = 14 + (12−1)·2 = 36.",
+    "choices": [
+      {
+        "text": "108",
+        "correct": false
+      },
+      {
+        "text": "360",
+        "correct": false
+      },
+      {
+        "text": "18",
+        "correct": false
+      },
+      {
+        "text": "36",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SEQ_AR_01-26fbb3eed56fc14b"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 12,
+      "d": 2,
+      "n": 12
+    },
+    "content_hash": "070322f4ab26a04b",
+    "question": "En la sucesión 12, 14, 16, 18, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "34",
+    "answer_display": "34",
+    "explanation": "Es aritmética con a(1) = 12 y d = 2. a(12) = 12 + (12−1)·2 = 34.",
+    "choices": [
+      {
+        "text": "340",
+        "correct": false
+      },
+      {
+        "text": "69/2",
+        "correct": false
+      },
+      {
+        "text": "34",
+        "correct": true
+      },
+      {
+        "text": "32",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-070322f4ab26a04b"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 12,
+      "d": 3,
+      "n": 15
+    },
+    "content_hash": "1e439a86779c2b02",
+    "question": "En la sucesión 12, 15, 18, 21, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "54",
+    "answer_display": "54",
+    "explanation": "Es aritmética con a(1) = 12 y d = 3. a(15) = 12 + (15−1)·3 = 54.",
+    "choices": [
+      {
+        "text": "217/4",
+        "correct": false
+      },
+      {
+        "text": "111/2",
+        "correct": false
+      },
+      {
+        "text": "54",
+        "correct": true
+      },
+      {
+        "text": "540",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-1e439a86779c2b02"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 17,
+      "d": 2,
+      "n": 15
+    },
+    "content_hash": "22e2cf397fb279d3",
+    "question": "En la sucesión 17, 19, 21, 23, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "45",
+    "answer_display": "45",
+    "explanation": "Es aritmética con a(1) = 17 y d = 2. a(15) = 17 + (15−1)·2 = 45.",
+    "choices": [
+      {
+        "text": "45",
+        "correct": true
+      },
+      {
+        "text": "35",
+        "correct": false
+      },
+      {
+        "text": "134/3",
+        "correct": false
+      },
+      {
+        "text": "46",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SEQ_AR_01-22e2cf397fb279d3"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 4,
+      "d": 6,
+      "n": 15
+    },
+    "content_hash": "81dde16eebfa3760",
+    "question": "En la sucesión 4, 10, 16, 22, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "88",
+    "answer_display": "88",
+    "explanation": "Es aritmética con a(1) = 4 y d = 6. a(15) = 4 + (15−1)·6 = 88.",
+    "choices": [
+      {
+        "text": "88",
+        "correct": true
+      },
+      {
+        "text": "264",
+        "correct": false
+      },
+      {
+        "text": "440",
+        "correct": false
+      },
+      {
+        "text": "86",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SEQ_AR_01-81dde16eebfa3760"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 6,
+      "d": 9,
+      "n": 15
+    },
+    "content_hash": "8469fec1ece94f12",
+    "question": "En la sucesión 6, 15, 24, 33, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "132",
+    "answer_display": "132",
+    "explanation": "Es aritmética con a(1) = 6 y d = 9. a(15) = 6 + (15−1)·9 = 132.",
+    "choices": [
+      {
+        "text": "142",
+        "correct": false
+      },
+      {
+        "text": "-132",
+        "correct": false
+      },
+      {
+        "text": "132",
+        "correct": true
+      },
+      {
+        "text": "264",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-8469fec1ece94f12"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 14,
+      "d": 4,
+      "n": 20
+    },
+    "content_hash": "bcf5597294d2bc91",
+    "question": "En la sucesión 14, 18, 22, 26, …, ¿cuál es el término número 20?",
+    "question_latex": null,
+    "answer": "90",
+    "answer_display": "90",
+    "explanation": "Es aritmética con a(1) = 14 y d = 4. a(20) = 14 + (20−1)·4 = 90.",
+    "choices": [
+      {
+        "text": "450",
+        "correct": false
+      },
+      {
+        "text": "-90",
+        "correct": false
+      },
+      {
+        "text": "100",
+        "correct": false
+      },
+      {
+        "text": "90",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SEQ_AR_01-bcf5597294d2bc91"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 8,
+      "d": 8,
+      "n": 15
+    },
+    "content_hash": "9a68e62f48229a9a",
+    "question": "En la sucesión 8, 16, 24, 32, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "120",
+    "answer_display": "120",
+    "explanation": "Es aritmética con a(1) = 8 y d = 8. a(15) = 8 + (15−1)·8 = 120.",
+    "choices": [
+      {
+        "text": "122",
+        "correct": false
+      },
+      {
+        "text": "120",
+        "correct": true
+      },
+      {
+        "text": "118",
+        "correct": false
+      },
+      {
+        "text": "-120",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SEQ_AR_01-9a68e62f48229a9a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 14,
+      "d": 2,
+      "n": 15
+    },
+    "content_hash": "a74f59dae8ff0824",
+    "question": "En la sucesión 14, 16, 18, 20, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "42",
+    "answer_display": "42",
+    "explanation": "Es aritmética con a(1) = 14 y d = 2. a(15) = 14 + (15−1)·2 = 42.",
+    "choices": [
+      {
+        "text": "32",
+        "correct": false
+      },
+      {
+        "text": "-42",
+        "correct": false
+      },
+      {
+        "text": "42",
+        "correct": true
+      },
+      {
+        "text": "85/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-a74f59dae8ff0824"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 16,
+      "d": 8,
+      "n": 12
+    },
+    "content_hash": "d50c00061ae35bce",
+    "question": "En la sucesión 16, 24, 32, 40, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "104",
+    "answer_display": "104",
+    "explanation": "Es aritmética con a(1) = 16 y d = 8. a(12) = 16 + (12−1)·8 = 104.",
+    "choices": [
+      {
+        "text": "104",
+        "correct": true
+      },
+      {
+        "text": "94",
+        "correct": false
+      },
+      {
+        "text": "311/3",
+        "correct": false
+      },
+      {
+        "text": "1040",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SEQ_AR_01-d50c00061ae35bce"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 2,
+      "d": 5,
+      "n": 10
+    },
+    "content_hash": "78df4c4e8c9ada81",
+    "question": "En la sucesión 2, 7, 12, 17, …, ¿cuál es el término número 10?",
+    "question_latex": null,
+    "answer": "47",
+    "answer_display": "47",
+    "explanation": "Es aritmética con a(1) = 2 y d = 5. a(10) = 2 + (10−1)·5 = 47.",
+    "choices": [
+      {
+        "text": "189/4",
+        "correct": false
+      },
+      {
+        "text": "47",
+        "correct": true
+      },
+      {
+        "text": "97/2",
+        "correct": false
+      },
+      {
+        "text": "45",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SEQ_AR_01-78df4c4e8c9ada81"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 11,
+      "d": 6,
+      "n": 10
+    },
+    "content_hash": "43f9c02488aa9ffe",
+    "question": "En la sucesión 11, 17, 23, 29, …, ¿cuál es el término número 10?",
+    "question_latex": null,
+    "answer": "65",
+    "answer_display": "65",
+    "explanation": "Es aritmética con a(1) = 11 y d = 6. a(10) = 11 + (10−1)·6 = 65.",
+    "choices": [
+      {
+        "text": "65",
+        "correct": true
+      },
+      {
+        "text": "131/2",
+        "correct": false
+      },
+      {
+        "text": "194/3",
+        "correct": false
+      },
+      {
+        "text": "-65",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SEQ_AR_01-43f9c02488aa9ffe"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 14,
+      "d": 6,
+      "n": 20
+    },
+    "content_hash": "81575f634258aa30",
+    "question": "En la sucesión 14, 20, 26, 32, …, ¿cuál es el término número 20?",
+    "question_latex": null,
+    "answer": "128",
+    "answer_display": "128",
+    "explanation": "Es aritmética con a(1) = 14 y d = 6. a(20) = 14 + (20−1)·6 = 128.",
+    "choices": [
+      {
+        "text": "-128",
+        "correct": false
+      },
+      {
+        "text": "384",
+        "correct": false
+      },
+      {
+        "text": "257/2",
+        "correct": false
+      },
+      {
+        "text": "128",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SEQ_AR_01-81575f634258aa30"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 15,
+      "d": 5,
+      "n": 12
+    },
+    "content_hash": "6da09b5b28f5cde1",
+    "question": "En la sucesión 15, 20, 25, 30, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "70",
+    "answer_display": "70",
+    "explanation": "Es aritmética con a(1) = 15 y d = 5. a(12) = 15 + (12−1)·5 = 70.",
+    "choices": [
+      {
+        "text": "35",
+        "correct": false
+      },
+      {
+        "text": "70",
+        "correct": true
+      },
+      {
+        "text": "209/3",
+        "correct": false
+      },
+      {
+        "text": "281/4",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SEQ_AR_01-6da09b5b28f5cde1"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 2,
+      "d": 8,
+      "n": 10
+    },
+    "content_hash": "fc5f44dad5437900",
+    "question": "En la sucesión 2, 10, 18, 26, …, ¿cuál es el término número 10?",
+    "question_latex": null,
+    "answer": "74",
+    "answer_display": "74",
+    "explanation": "Es aritmética con a(1) = 2 y d = 8. a(10) = 2 + (10−1)·8 = 74.",
+    "choices": [
+      {
+        "text": "75",
+        "correct": false
+      },
+      {
+        "text": "149/2",
+        "correct": false
+      },
+      {
+        "text": "72",
+        "correct": false
+      },
+      {
+        "text": "74",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SEQ_AR_01-fc5f44dad5437900"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 6,
+      "d": 8,
+      "n": 12
+    },
+    "content_hash": "b563f27b40047194",
+    "question": "En la sucesión 6, 14, 22, 30, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "94",
+    "answer_display": "94",
+    "explanation": "Es aritmética con a(1) = 6 y d = 8. a(12) = 6 + (12−1)·8 = 94.",
+    "choices": [
+      {
+        "text": "189/2",
+        "correct": false
+      },
+      {
+        "text": "84",
+        "correct": false
+      },
+      {
+        "text": "94",
+        "correct": true
+      },
+      {
+        "text": "95",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-b563f27b40047194"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 4,
+      "d": 2,
+      "n": 20
+    },
+    "content_hash": "69897d08b888d9c6",
+    "question": "En la sucesión 4, 6, 8, 10, …, ¿cuál es el término número 20?",
+    "question_latex": null,
+    "answer": "42",
+    "answer_display": "42",
+    "explanation": "Es aritmética con a(1) = 4 y d = 2. a(20) = 4 + (20−1)·2 = 42.",
+    "choices": [
+      {
+        "text": "-42",
+        "correct": false
+      },
+      {
+        "text": "87/2",
+        "correct": false
+      },
+      {
+        "text": "42",
+        "correct": true
+      },
+      {
+        "text": "85/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-69897d08b888d9c6"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 11,
+      "d": 5,
+      "n": 12
+    },
+    "content_hash": "7d97b1c0023a2eb7",
+    "question": "En la sucesión 11, 16, 21, 26, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "66",
+    "answer_display": "66",
+    "explanation": "Es aritmética con a(1) = 11 y d = 5. a(12) = 11 + (12−1)·5 = 66.",
+    "choices": [
+      {
+        "text": "132",
+        "correct": false
+      },
+      {
+        "text": "198",
+        "correct": false
+      },
+      {
+        "text": "197/3",
+        "correct": false
+      },
+      {
+        "text": "66",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SEQ_AR_01-7d97b1c0023a2eb7"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 10,
+      "d": 4,
+      "n": 10
+    },
+    "content_hash": "dd5bb6be72b2a5f9",
+    "question": "En la sucesión 10, 14, 18, 22, …, ¿cuál es el término número 10?",
+    "question_latex": null,
+    "answer": "46",
+    "answer_display": "46",
+    "explanation": "Es aritmética con a(1) = 10 y d = 4. a(10) = 10 + (10−1)·4 = 46.",
+    "choices": [
+      {
+        "text": "46",
+        "correct": true
+      },
+      {
+        "text": "48",
+        "correct": false
+      },
+      {
+        "text": "23",
+        "correct": false
+      },
+      {
+        "text": "-46",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SEQ_AR_01-dd5bb6be72b2a5f9"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 19,
+      "d": 2,
+      "n": 12
+    },
+    "content_hash": "e98530b116eb373c",
+    "question": "En la sucesión 19, 21, 23, 25, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "41",
+    "answer_display": "41",
+    "explanation": "Es aritmética con a(1) = 19 y d = 2. a(12) = 19 + (12−1)·2 = 41.",
+    "choices": [
+      {
+        "text": "41",
+        "correct": true
+      },
+      {
+        "text": "31",
+        "correct": false
+      },
+      {
+        "text": "85/2",
+        "correct": false
+      },
+      {
+        "text": "41/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SEQ_AR_01-e98530b116eb373c"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 15,
+      "d": 8,
+      "n": 12
+    },
+    "content_hash": "8fa19c54dcddcdb4",
+    "question": "En la sucesión 15, 23, 31, 39, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "103",
+    "answer_display": "103",
+    "explanation": "Es aritmética con a(1) = 15 y d = 8. a(12) = 15 + (12−1)·8 = 103.",
+    "choices": [
+      {
+        "text": "105",
+        "correct": false
+      },
+      {
+        "text": "103",
+        "correct": true
+      },
+      {
+        "text": "104",
+        "correct": false
+      },
+      {
+        "text": "207/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SEQ_AR_01-8fa19c54dcddcdb4"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 14,
+      "d": 8,
+      "n": 12
+    },
+    "content_hash": "0b16c4953046bae8",
+    "question": "En la sucesión 14, 22, 30, 38, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "102",
+    "answer_display": "102",
+    "explanation": "Es aritmética con a(1) = 14 y d = 8. a(12) = 14 + (12−1)·8 = 102.",
+    "choices": [
+      {
+        "text": "305/3",
+        "correct": false
+      },
+      {
+        "text": "104",
+        "correct": false
+      },
+      {
+        "text": "92",
+        "correct": false
+      },
+      {
+        "text": "102",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SEQ_AR_01-0b16c4953046bae8"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 15,
+      "d": 4,
+      "n": 15
+    },
+    "content_hash": "e992df0815cd97c3",
+    "question": "En la sucesión 15, 19, 23, 27, …, ¿cuál es el término número 15?",
+    "question_latex": null,
+    "answer": "71",
+    "answer_display": "71",
+    "explanation": "Es aritmética con a(1) = 15 y d = 4. a(15) = 15 + (15−1)·4 = 71.",
+    "choices": [
+      {
+        "text": "142",
+        "correct": false
+      },
+      {
+        "text": "71",
+        "correct": true
+      },
+      {
+        "text": "71/2",
+        "correct": false
+      },
+      {
+        "text": "145/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SEQ_AR_01-e992df0815cd97c3"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 14,
+      "d": 6,
+      "n": 12
+    },
+    "content_hash": "dd7c87566d25c9bf",
+    "question": "En la sucesión 14, 20, 26, 32, …, ¿cuál es el término número 12?",
+    "question_latex": null,
+    "answer": "80",
+    "answer_display": "80",
+    "explanation": "Es aritmética con a(1) = 14 y d = 6. a(12) = 14 + (12−1)·6 = 80.",
+    "choices": [
+      {
+        "text": "163/2",
+        "correct": false
+      },
+      {
+        "text": "82",
+        "correct": false
+      },
+      {
+        "text": "80",
+        "correct": true
+      },
+      {
+        "text": "81",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SEQ_AR_01-dd7c87566d25c9bf"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 15,
+      "d": 3,
+      "n": 10
+    },
+    "content_hash": "3444b5845ba0c21b",
+    "question": "En la sucesión 15, 18, 21, 24, …, ¿cuál es el término número 10?",
+    "question_latex": null,
+    "answer": "42",
+    "answer_display": "42",
+    "explanation": "Es aritmética con a(1) = 15 y d = 3. a(10) = 15 + (10−1)·3 = 42.",
+    "choices": [
+      {
+        "text": "52",
+        "correct": false
+      },
+      {
+        "text": "42",
+        "correct": true
+      },
+      {
+        "text": "85/2",
+        "correct": false
+      },
+      {
+        "text": "44",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SEQ_AR_01-3444b5845ba0c21b"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "progresiones",
+    "difficulty": 4.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "patrones",
+      "progresiones",
+      "razonamiento"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SEQ_AR_01",
+    "variant_params": {
+      "a1": 4,
+      "d": 9,
+      "n": 10
+    },
+    "content_hash": "e9a11a051be0b257",
+    "question": "En la sucesión 4, 13, 22, 31, …, ¿cuál es el término número 10?",
+    "question_latex": null,
+    "answer": "85",
+    "answer_display": "85",
+    "explanation": "Es aritmética con a(1) = 4 y d = 9. a(10) = 4 + (10−1)·9 = 85.",
+    "choices": [
+      {
+        "text": "171/2",
+        "correct": false
+      },
+      {
+        "text": "85",
+        "correct": true
+      },
+      {
+        "text": "-85",
+        "correct": false
+      },
+      {
+        "text": "255",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SEQ_AR_01-e9a11a051be0b257"
+  }
+]

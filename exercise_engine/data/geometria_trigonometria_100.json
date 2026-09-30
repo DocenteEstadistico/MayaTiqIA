@@ -1,0 +1,5956 @@
+[
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 9,
+      "b": 12,
+      "c": 15,
+      "modo": "cateto"
+    },
+    "content_hash": "b844b38013bc45e3",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 15 cm y uno de los catetos mide 12 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 15\\text{ cm}, b = 12\\text{ cm}, a = ?\\)",
+    "answer": "9",
+    "answer_display": "9 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(15² − 12²) = √(225 − 144) = √(81) = 9 cm.",
+    "choices": [
+      {
+        "text": "45",
+        "correct": false
+      },
+      {
+        "text": "9/2",
+        "correct": false
+      },
+      {
+        "text": "9",
+        "correct": true
+      },
+      {
+        "text": "-1",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_PIT_01-b844b38013bc45e3"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 18,
+      "b": 24,
+      "c": 30,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "cf6f8ccd9d03ee14",
+    "question": "En un triángulo rectángulo, los catetos miden 18 cm y 24 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 18\\text{ cm}, b = 24\\text{ cm}, c = ?\\)",
+    "answer": "30",
+    "answer_display": "30 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(18² + 24²) = √(324 + 576) = √(900) = 30 cm.",
+    "choices": [
+      {
+        "text": "30",
+        "correct": true
+      },
+      {
+        "text": "-30",
+        "correct": false
+      },
+      {
+        "text": "28",
+        "correct": false
+      },
+      {
+        "text": "60",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_PIT_01-cf6f8ccd9d03ee14"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 15,
+      "b": 36,
+      "c": 39,
+      "modo": "cateto"
+    },
+    "content_hash": "d30338088b2d41b3",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 39 cm y uno de los catetos mide 36 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 39\\text{ cm}, b = 36\\text{ cm}, a = ?\\)",
+    "answer": "15",
+    "answer_display": "15 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(39² − 36²) = √(1521 − 1296) = √(225) = 15 cm.",
+    "choices": [
+      {
+        "text": "15",
+        "correct": true
+      },
+      {
+        "text": "150",
+        "correct": false
+      },
+      {
+        "text": "25",
+        "correct": false
+      },
+      {
+        "text": "16",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_PIT_01-d30338088b2d41b3"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 15,
+      "b": 36,
+      "c": 39,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "fbd8e27b6468792d",
+    "question": "En un triángulo rectángulo, los catetos miden 15 cm y 36 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 15\\text{ cm}, b = 36\\text{ cm}, c = ?\\)",
+    "answer": "39",
+    "answer_display": "39 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(15² + 36²) = √(225 + 1296) = √(1521) = 39 cm.",
+    "choices": [
+      {
+        "text": "81/2",
+        "correct": false
+      },
+      {
+        "text": "40",
+        "correct": false
+      },
+      {
+        "text": "49",
+        "correct": false
+      },
+      {
+        "text": "39",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_PIT_01-fbd8e27b6468792d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 30,
+      "b": 40,
+      "c": 50,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "1d78058f07463482",
+    "question": "En un triángulo rectángulo, los catetos miden 30 cm y 40 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 30\\text{ cm}, b = 40\\text{ cm}, c = ?\\)",
+    "answer": "50",
+    "answer_display": "50 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(30² + 40²) = √(900 + 1600) = √(2500) = 50 cm.",
+    "choices": [
+      {
+        "text": "40",
+        "correct": false
+      },
+      {
+        "text": "150",
+        "correct": false
+      },
+      {
+        "text": "52",
+        "correct": false
+      },
+      {
+        "text": "50",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_PIT_01-1d78058f07463482"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 6,
+      "b": 8,
+      "c": 10,
+      "modo": "cateto"
+    },
+    "content_hash": "692c2a62664ac299",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 10 cm y uno de los catetos mide 8 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 10\\text{ cm}, b = 8\\text{ cm}, a = ?\\)",
+    "answer": "6",
+    "answer_display": "6 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(10² − 8²) = √(100 − 64) = √(36) = 6 cm.",
+    "choices": [
+      {
+        "text": "17/3",
+        "correct": false
+      },
+      {
+        "text": "16",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": true
+      },
+      {
+        "text": "30",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_PIT_01-692c2a62664ac299"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 18,
+      "b": 24,
+      "c": 30,
+      "modo": "cateto"
+    },
+    "content_hash": "ea49d0c8a2ba4c50",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 30 cm y uno de los catetos mide 24 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 30\\text{ cm}, b = 24\\text{ cm}, a = ?\\)",
+    "answer": "18",
+    "answer_display": "18 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(30² − 24²) = √(900 − 576) = √(324) = 18 cm.",
+    "choices": [
+      {
+        "text": "54",
+        "correct": false
+      },
+      {
+        "text": "28",
+        "correct": false
+      },
+      {
+        "text": "180",
+        "correct": false
+      },
+      {
+        "text": "18",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_PIT_01-ea49d0c8a2ba4c50"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 30,
+      "b": 72,
+      "c": 78,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "c3475438bd8ad975",
+    "question": "En un triángulo rectángulo, los catetos miden 30 cm y 72 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 30\\text{ cm}, b = 72\\text{ cm}, c = ?\\)",
+    "answer": "78",
+    "answer_display": "78 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(30² + 72²) = √(900 + 5184) = √(6084) = 78 cm.",
+    "choices": [
+      {
+        "text": "390",
+        "correct": false
+      },
+      {
+        "text": "78",
+        "correct": true
+      },
+      {
+        "text": "780",
+        "correct": false
+      },
+      {
+        "text": "233/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_PIT_01-c3475438bd8ad975"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 16,
+      "b": 30,
+      "c": 34,
+      "modo": "cateto"
+    },
+    "content_hash": "664803b1d20a7fac",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 34 cm y uno de los catetos mide 30 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 34\\text{ cm}, b = 30\\text{ cm}, a = ?\\)",
+    "answer": "16",
+    "answer_display": "16 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(34² − 30²) = √(1156 − 900) = √(256) = 16 cm.",
+    "choices": [
+      {
+        "text": "15",
+        "correct": false
+      },
+      {
+        "text": "16",
+        "correct": true
+      },
+      {
+        "text": "26",
+        "correct": false
+      },
+      {
+        "text": "47/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_PIT_01-664803b1d20a7fac"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 10,
+      "b": 24,
+      "c": 26,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "b6740cd155841dd3",
+    "question": "En un triángulo rectángulo, los catetos miden 10 cm y 24 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 10\\text{ cm}, b = 24\\text{ cm}, c = ?\\)",
+    "answer": "26",
+    "answer_display": "26 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(10² + 24²) = √(100 + 576) = √(676) = 26 cm.",
+    "choices": [
+      {
+        "text": "130",
+        "correct": false
+      },
+      {
+        "text": "26",
+        "correct": true
+      },
+      {
+        "text": "55/2",
+        "correct": false
+      },
+      {
+        "text": "77/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_PIT_01-b6740cd155841dd3"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 8,
+      "b": 15,
+      "c": 17,
+      "modo": "cateto"
+    },
+    "content_hash": "409df46f2bf4c9b9",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 17 cm y uno de los catetos mide 15 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 17\\text{ cm}, b = 15\\text{ cm}, a = ?\\)",
+    "answer": "8",
+    "answer_display": "8 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(17² − 15²) = √(289 − 225) = √(64) = 8 cm.",
+    "choices": [
+      {
+        "text": "18",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_PIT_01-409df46f2bf4c9b9"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 24,
+      "b": 45,
+      "c": 51,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "b457d790b8bba9be",
+    "question": "En un triángulo rectángulo, los catetos miden 24 cm y 45 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 24\\text{ cm}, b = 45\\text{ cm}, c = ?\\)",
+    "answer": "51",
+    "answer_display": "51 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(24² + 45²) = √(576 + 2025) = √(2601) = 51 cm.",
+    "choices": [
+      {
+        "text": "52",
+        "correct": false
+      },
+      {
+        "text": "51",
+        "correct": true
+      },
+      {
+        "text": "61",
+        "correct": false
+      },
+      {
+        "text": "50",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_PIT_01-b457d790b8bba9be"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 24,
+      "b": 32,
+      "c": 40,
+      "modo": "cateto"
+    },
+    "content_hash": "1bc585f5457481c4",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 40 cm y uno de los catetos mide 32 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 40\\text{ cm}, b = 32\\text{ cm}, a = ?\\)",
+    "answer": "24",
+    "answer_display": "24 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(40² − 32²) = √(1600 − 1024) = √(576) = 24 cm.",
+    "choices": [
+      {
+        "text": "24",
+        "correct": true
+      },
+      {
+        "text": "51/2",
+        "correct": false
+      },
+      {
+        "text": "14",
+        "correct": false
+      },
+      {
+        "text": "48",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_PIT_01-1bc585f5457481c4"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 16,
+      "b": 30,
+      "c": 34,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "53b0b032352fec05",
+    "question": "En un triángulo rectángulo, los catetos miden 16 cm y 30 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 16\\text{ cm}, b = 30\\text{ cm}, c = ?\\)",
+    "answer": "34",
+    "answer_display": "34 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(16² + 30²) = √(256 + 900) = √(1156) = 34 cm.",
+    "choices": [
+      {
+        "text": "17",
+        "correct": false
+      },
+      {
+        "text": "44",
+        "correct": false
+      },
+      {
+        "text": "-34",
+        "correct": false
+      },
+      {
+        "text": "34",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_PIT_01-53b0b032352fec05"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 24,
+      "b": 45,
+      "c": 51,
+      "modo": "cateto"
+    },
+    "content_hash": "87a9c14c6f8a6b1b",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 51 cm y uno de los catetos mide 45 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 51\\text{ cm}, b = 45\\text{ cm}, a = ?\\)",
+    "answer": "24",
+    "answer_display": "24 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(51² − 45²) = √(2601 − 2025) = √(576) = 24 cm.",
+    "choices": [
+      {
+        "text": "12",
+        "correct": false
+      },
+      {
+        "text": "71/3",
+        "correct": false
+      },
+      {
+        "text": "24",
+        "correct": true
+      },
+      {
+        "text": "97/4",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_PIT_01-87a9c14c6f8a6b1b"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 20,
+      "b": 48,
+      "c": 52,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "047a6b3e45d0d5a5",
+    "question": "En un triángulo rectángulo, los catetos miden 20 cm y 48 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 20\\text{ cm}, b = 48\\text{ cm}, c = ?\\)",
+    "answer": "52",
+    "answer_display": "52 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(20² + 48²) = √(400 + 2304) = √(2704) = 52 cm.",
+    "choices": [
+      {
+        "text": "209/4",
+        "correct": false
+      },
+      {
+        "text": "52",
+        "correct": true
+      },
+      {
+        "text": "104",
+        "correct": false
+      },
+      {
+        "text": "54",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_PIT_01-047a6b3e45d0d5a5"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 30,
+      "b": 40,
+      "c": 50,
+      "modo": "cateto"
+    },
+    "content_hash": "221a65cbb006fa6d",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 50 cm y uno de los catetos mide 40 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 50\\text{ cm}, b = 40\\text{ cm}, a = ?\\)",
+    "answer": "30",
+    "answer_display": "30 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(50² − 40²) = √(2500 − 1600) = √(900) = 30 cm.",
+    "choices": [
+      {
+        "text": "121/4",
+        "correct": false
+      },
+      {
+        "text": "63/2",
+        "correct": false
+      },
+      {
+        "text": "90",
+        "correct": false
+      },
+      {
+        "text": "30",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_PIT_01-221a65cbb006fa6d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 24,
+      "b": 32,
+      "c": 40,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "34c3906a04e0127f",
+    "question": "En un triángulo rectángulo, los catetos miden 24 cm y 32 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 24\\text{ cm}, b = 32\\text{ cm}, c = ?\\)",
+    "answer": "40",
+    "answer_display": "40 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(24² + 32²) = √(576 + 1024) = √(1600) = 40 cm.",
+    "choices": [
+      {
+        "text": "38",
+        "correct": false
+      },
+      {
+        "text": "40",
+        "correct": true
+      },
+      {
+        "text": "41",
+        "correct": false
+      },
+      {
+        "text": "81/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_PIT_01-34c3906a04e0127f"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 5,
+      "b": 12,
+      "c": 13,
+      "modo": "cateto"
+    },
+    "content_hash": "d1573df6162ae26f",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 13 cm y uno de los catetos mide 12 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 13\\text{ cm}, b = 12\\text{ cm}, a = ?\\)",
+    "answer": "5",
+    "answer_display": "5 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(13² − 12²) = √(169 − 144) = √(25) = 5 cm.",
+    "choices": [
+      {
+        "text": "5",
+        "correct": true
+      },
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "15",
+        "correct": false
+      },
+      {
+        "text": "50",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_PIT_01-d1573df6162ae26f"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 15,
+      "b": 20,
+      "c": 25,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "e634af7d387a235c",
+    "question": "En un triángulo rectángulo, los catetos miden 15 cm y 20 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 15\\text{ cm}, b = 20\\text{ cm}, c = ?\\)",
+    "answer": "25",
+    "answer_display": "25 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(15² + 20²) = √(225 + 400) = √(625) = 25 cm.",
+    "choices": [
+      {
+        "text": "-25",
+        "correct": false
+      },
+      {
+        "text": "24",
+        "correct": false
+      },
+      {
+        "text": "25",
+        "correct": true
+      },
+      {
+        "text": "74/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_PIT_01-e634af7d387a235c"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 6,
+      "b": 8,
+      "c": 10,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "ce755b545822aff7",
+    "question": "En un triángulo rectángulo, los catetos miden 6 cm y 8 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 6\\text{ cm}, b = 8\\text{ cm}, c = ?\\)",
+    "answer": "10",
+    "answer_display": "10 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(6² + 8²) = √(36 + 64) = √(100) = 10 cm.",
+    "choices": [
+      {
+        "text": "10",
+        "correct": true
+      },
+      {
+        "text": "8",
+        "correct": false
+      },
+      {
+        "text": "11",
+        "correct": false
+      },
+      {
+        "text": "29/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_PIT_01-ce755b545822aff7"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 30,
+      "b": 72,
+      "c": 78,
+      "modo": "cateto"
+    },
+    "content_hash": "238ca82379574aca",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 78 cm y uno de los catetos mide 72 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 78\\text{ cm}, b = 72\\text{ cm}, a = ?\\)",
+    "answer": "30",
+    "answer_display": "30 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(78² − 72²) = √(6084 − 5184) = √(900) = 30 cm.",
+    "choices": [
+      {
+        "text": "40",
+        "correct": false
+      },
+      {
+        "text": "30",
+        "correct": true
+      },
+      {
+        "text": "60",
+        "correct": false
+      },
+      {
+        "text": "90",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_PIT_01-238ca82379574aca"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 12,
+      "b": 16,
+      "c": 20,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "e71c0c00a9a43334",
+    "question": "En un triángulo rectángulo, los catetos miden 12 cm y 16 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 12\\text{ cm}, b = 16\\text{ cm}, c = ?\\)",
+    "answer": "20",
+    "answer_display": "20 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(12² + 16²) = √(144 + 256) = √(400) = 20 cm.",
+    "choices": [
+      {
+        "text": "21",
+        "correct": false
+      },
+      {
+        "text": "20",
+        "correct": true
+      },
+      {
+        "text": "22",
+        "correct": false
+      },
+      {
+        "text": "200",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_PIT_01-e71c0c00a9a43334"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 12,
+      "b": 16,
+      "c": 20,
+      "modo": "cateto"
+    },
+    "content_hash": "865e94f285ce91b4",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 20 cm y uno de los catetos mide 16 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 20\\text{ cm}, b = 16\\text{ cm}, a = ?\\)",
+    "answer": "12",
+    "answer_display": "12 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(20² − 16²) = √(400 − 256) = √(144) = 12 cm.",
+    "choices": [
+      {
+        "text": "14",
+        "correct": false
+      },
+      {
+        "text": "49/4",
+        "correct": false
+      },
+      {
+        "text": "-12",
+        "correct": false
+      },
+      {
+        "text": "12",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_PIT_01-865e94f285ce91b4"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 20,
+      "b": 48,
+      "c": 52,
+      "modo": "cateto"
+    },
+    "content_hash": "2cfe6343c2470168",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 52 cm y uno de los catetos mide 48 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 52\\text{ cm}, b = 48\\text{ cm}, a = ?\\)",
+    "answer": "20",
+    "answer_display": "20 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(52² − 48²) = √(2704 − 2304) = √(400) = 20 cm.",
+    "choices": [
+      {
+        "text": "20",
+        "correct": true
+      },
+      {
+        "text": "200",
+        "correct": false
+      },
+      {
+        "text": "21",
+        "correct": false
+      },
+      {
+        "text": "43/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_PIT_01-2cfe6343c2470168"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 10,
+      "b": 24,
+      "c": 26,
+      "modo": "cateto"
+    },
+    "content_hash": "d5c21d87b50bfd05",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 26 cm y uno de los catetos mide 24 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 26\\text{ cm}, b = 24\\text{ cm}, a = ?\\)",
+    "answer": "10",
+    "answer_display": "10 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(26² − 24²) = √(676 − 576) = √(100) = 10 cm.",
+    "choices": [
+      {
+        "text": "10",
+        "correct": true
+      },
+      {
+        "text": "20",
+        "correct": false
+      },
+      {
+        "text": "50",
+        "correct": false
+      },
+      {
+        "text": "29/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_PIT_01-d5c21d87b50bfd05"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 8,
+      "b": 15,
+      "c": 17,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "3a773f6890fc2851",
+    "question": "En un triángulo rectángulo, los catetos miden 8 cm y 15 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 8\\text{ cm}, b = 15\\text{ cm}, c = ?\\)",
+    "answer": "17",
+    "answer_display": "17 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(8² + 15²) = √(64 + 225) = √(289) = 17 cm.",
+    "choices": [
+      {
+        "text": "170",
+        "correct": false
+      },
+      {
+        "text": "17/2",
+        "correct": false
+      },
+      {
+        "text": "35/2",
+        "correct": false
+      },
+      {
+        "text": "17",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_PIT_01-3a773f6890fc2851"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 45,
+      "b": 60,
+      "c": 75,
+      "modo": "cateto"
+    },
+    "content_hash": "aea409af10af9429",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 75 cm y uno de los catetos mide 60 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 75\\text{ cm}, b = 60\\text{ cm}, a = ?\\)",
+    "answer": "45",
+    "answer_display": "45 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(75² − 60²) = √(5625 − 3600) = √(2025) = 45 cm.",
+    "choices": [
+      {
+        "text": "45",
+        "correct": true
+      },
+      {
+        "text": "43",
+        "correct": false
+      },
+      {
+        "text": "90",
+        "correct": false
+      },
+      {
+        "text": "93/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_PIT_01-aea409af10af9429"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 27,
+      "b": 36,
+      "c": 45,
+      "modo": "cateto"
+    },
+    "content_hash": "112cae3e33bd0234",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 45 cm y uno de los catetos mide 36 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 45\\text{ cm}, b = 36\\text{ cm}, a = ?\\)",
+    "answer": "27",
+    "answer_display": "27 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(45² − 36²) = √(2025 − 1296) = √(729) = 27 cm.",
+    "choices": [
+      {
+        "text": "109/4",
+        "correct": false
+      },
+      {
+        "text": "37",
+        "correct": false
+      },
+      {
+        "text": "27/2",
+        "correct": false
+      },
+      {
+        "text": "27",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_PIT_01-112cae3e33bd0234"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 3,
+      "b": 4,
+      "c": 5,
+      "modo": "cateto"
+    },
+    "content_hash": "7d4b31e6ae79442f",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 5 cm y uno de los catetos mide 4 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 5\\text{ cm}, b = 4\\text{ cm}, a = ?\\)",
+    "answer": "3",
+    "answer_display": "3 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(5² − 4²) = √(25 − 16) = √(9) = 3 cm.",
+    "choices": [
+      {
+        "text": "3",
+        "correct": true
+      },
+      {
+        "text": "8/3",
+        "correct": false
+      },
+      {
+        "text": "3/2",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_PIT_01-7d4b31e6ae79442f"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 5,
+      "b": 12,
+      "c": 13,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "f24f3fcc2c973700",
+    "question": "En un triángulo rectángulo, los catetos miden 5 cm y 12 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 5\\text{ cm}, b = 12\\text{ cm}, c = ?\\)",
+    "answer": "13",
+    "answer_display": "13 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(5² + 12²) = √(25 + 144) = √(169) = 13 cm.",
+    "choices": [
+      {
+        "text": "13/2",
+        "correct": false
+      },
+      {
+        "text": "130",
+        "correct": false
+      },
+      {
+        "text": "13",
+        "correct": true
+      },
+      {
+        "text": "11",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_PIT_01-f24f3fcc2c973700"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 45,
+      "b": 60,
+      "c": 75,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "827859ce3345ac07",
+    "question": "En un triángulo rectángulo, los catetos miden 45 cm y 60 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 45\\text{ cm}, b = 60\\text{ cm}, c = ?\\)",
+    "answer": "75",
+    "answer_display": "75 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(45² + 60²) = √(2025 + 3600) = √(5625) = 75 cm.",
+    "choices": [
+      {
+        "text": "150",
+        "correct": false
+      },
+      {
+        "text": "75",
+        "correct": true
+      },
+      {
+        "text": "224/3",
+        "correct": false
+      },
+      {
+        "text": "65",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_PIT_01-827859ce3345ac07"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 9,
+      "b": 12,
+      "c": 15,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "b18ab1e5dfb1919d",
+    "question": "En un triángulo rectángulo, los catetos miden 9 cm y 12 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 9\\text{ cm}, b = 12\\text{ cm}, c = ?\\)",
+    "answer": "15",
+    "answer_display": "15 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(9² + 12²) = √(81 + 144) = √(225) = 15 cm.",
+    "choices": [
+      {
+        "text": "15",
+        "correct": true
+      },
+      {
+        "text": "25",
+        "correct": false
+      },
+      {
+        "text": "31/2",
+        "correct": false
+      },
+      {
+        "text": "14",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_PIT_01-b18ab1e5dfb1919d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 36,
+      "b": 48,
+      "c": 60,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "de2aa23f51f82ff6",
+    "question": "En un triángulo rectángulo, los catetos miden 36 cm y 48 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 36\\text{ cm}, b = 48\\text{ cm}, c = ?\\)",
+    "answer": "60",
+    "answer_display": "60 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(36² + 48²) = √(1296 + 2304) = √(3600) = 60 cm.",
+    "choices": [
+      {
+        "text": "179/3",
+        "correct": false
+      },
+      {
+        "text": "-60",
+        "correct": false
+      },
+      {
+        "text": "60",
+        "correct": true
+      },
+      {
+        "text": "241/4",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_PIT_01-de2aa23f51f82ff6"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 3,
+      "b": 4,
+      "c": 5,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "d35c44db0444543c",
+    "question": "En un triángulo rectángulo, los catetos miden 3 cm y 4 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 3\\text{ cm}, b = 4\\text{ cm}, c = ?\\)",
+    "answer": "5",
+    "answer_display": "5 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(3² + 4²) = √(9 + 16) = √(25) = 5 cm.",
+    "choices": [
+      {
+        "text": "13/2",
+        "correct": false
+      },
+      {
+        "text": "21/4",
+        "correct": false
+      },
+      {
+        "text": "50",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_PIT_01-d35c44db0444543c"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 27,
+      "b": 36,
+      "c": 45,
+      "modo": "hipotenusa"
+    },
+    "content_hash": "3d140f92d3c04982",
+    "question": "En un triángulo rectángulo, los catetos miden 27 cm y 36 cm. ¿Cuánto mide la hipotenusa?",
+    "question_latex": "\\(a = 27\\text{ cm}, b = 36\\text{ cm}, c = ?\\)",
+    "answer": "45",
+    "answer_display": "45 cm",
+    "explanation": "Por el Teorema de Pitágoras: c = √(27² + 36²) = √(729 + 1296) = √(2025) = 45 cm.",
+    "choices": [
+      {
+        "text": "225",
+        "correct": false
+      },
+      {
+        "text": "47",
+        "correct": false
+      },
+      {
+        "text": "45",
+        "correct": true
+      },
+      {
+        "text": "134/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_PIT_01-3d140f92d3c04982"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "pitagoras",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "pitagoras",
+      "triangulos"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_PIT_01",
+    "variant_params": {
+      "a": 15,
+      "b": 20,
+      "c": 25,
+      "modo": "cateto"
+    },
+    "content_hash": "45bdfb479f5d61a6",
+    "question": "En un triángulo rectángulo, la hipotenusa mide 25 cm y uno de los catetos mide 20 cm. ¿Cuánto mide el otro cateto?",
+    "question_latex": "\\(c = 25\\text{ cm}, b = 20\\text{ cm}, a = ?\\)",
+    "answer": "15",
+    "answer_display": "15 cm",
+    "explanation": "Por el Teorema de Pitágoras: a = √(25² − 20²) = √(625 − 400) = √(225) = 15 cm.",
+    "choices": [
+      {
+        "text": "15/2",
+        "correct": false
+      },
+      {
+        "text": "13",
+        "correct": false
+      },
+      {
+        "text": "30",
+        "correct": false
+      },
+      {
+        "text": "15",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_PIT_01-45bdfb479f5d61a6"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 5,
+      "ca": 12,
+      "h": 13,
+      "func": "tan"
+    },
+    "content_hash": "24d4dd13f36993b4",
+    "question": "En un triángulo rectángulo, el cateto opuesto mide 5 y el cateto adyacente mide 12. Hallar tan(θ).",
+    "question_latex": "\\(\\tan(\\theta) = \\dfrac{\\text{opuesto}}{\\text{adyacente}}\\)",
+    "answer": "5/12",
+    "answer_display": "5/12",
+    "explanation": "tan(θ) = Cateto Opuesto / Cateto Adyacente = 5/12.",
+    "choices": [
+      {
+        "text": "5/12",
+        "correct": true
+      },
+      {
+        "text": "5/6",
+        "correct": false
+      },
+      {
+        "text": "11/12",
+        "correct": false
+      },
+      {
+        "text": "29/12",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-24d4dd13f36993b4"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 6,
+      "ca": 8,
+      "h": 10,
+      "func": "cos"
+    },
+    "content_hash": "fcaa9720913a4fc7",
+    "question": "En un triángulo rectángulo, el cateto adyacente al ángulo θ mide 8 y la hipotenusa mide 10. Hallar cos(θ).",
+    "question_latex": "\\(\\cos(\\theta) = \\dfrac{\\text{adyacente}}{\\text{hipotenusa}}\\)",
+    "answer": "4/5",
+    "answer_display": "4/5",
+    "explanation": "cos(θ) = Cateto Adyacente / Hipotenusa = 8/10 = 4/5.",
+    "choices": [
+      {
+        "text": "4/5",
+        "correct": true
+      },
+      {
+        "text": "2/5",
+        "correct": false
+      },
+      {
+        "text": "21/20",
+        "correct": false
+      },
+      {
+        "text": "-1/5",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-fcaa9720913a4fc7"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 8,
+      "ca": 15,
+      "h": 17,
+      "func": "tan"
+    },
+    "content_hash": "3eb82fca70d536a9",
+    "question": "En un triángulo rectángulo, el cateto opuesto mide 8 y el cateto adyacente mide 15. Hallar tan(θ).",
+    "question_latex": "\\(\\tan(\\theta) = \\dfrac{\\text{opuesto}}{\\text{adyacente}}\\)",
+    "answer": "8/15",
+    "answer_display": "8/15",
+    "explanation": "tan(θ) = Cateto Opuesto / Cateto Adyacente = 8/15.",
+    "choices": [
+      {
+        "text": "47/60",
+        "correct": false
+      },
+      {
+        "text": "8/15",
+        "correct": true
+      },
+      {
+        "text": "158/15",
+        "correct": false
+      },
+      {
+        "text": "23/15",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-3eb82fca70d536a9"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 6,
+      "ca": 8,
+      "h": 10,
+      "func": "tan"
+    },
+    "content_hash": "3f7efe65ee90f8fb",
+    "question": "En un triángulo rectángulo, el cateto opuesto mide 6 y el cateto adyacente mide 8. Hallar tan(θ).",
+    "question_latex": "\\(\\tan(\\theta) = \\dfrac{\\text{opuesto}}{\\text{adyacente}}\\)",
+    "answer": "3/4",
+    "answer_display": "3/4",
+    "explanation": "tan(θ) = Cateto Opuesto / Cateto Adyacente = 6/8 = 3/4.",
+    "choices": [
+      {
+        "text": "5/12",
+        "correct": false
+      },
+      {
+        "text": "9/4",
+        "correct": false
+      },
+      {
+        "text": "-1/4",
+        "correct": false
+      },
+      {
+        "text": "3/4",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-3f7efe65ee90f8fb"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 9,
+      "ca": 12,
+      "h": 15,
+      "func": "cos"
+    },
+    "content_hash": "8056bd3e6ffe97bf",
+    "question": "En un triángulo rectángulo, el cateto adyacente al ángulo θ mide 12 y la hipotenusa mide 15. Hallar cos(θ).",
+    "question_latex": "\\(\\cos(\\theta) = \\dfrac{\\text{adyacente}}{\\text{hipotenusa}}\\)",
+    "answer": "4/5",
+    "answer_display": "4/5",
+    "explanation": "cos(θ) = Cateto Adyacente / Hipotenusa = 12/15 = 4/5.",
+    "choices": [
+      {
+        "text": "-6/5",
+        "correct": false
+      },
+      {
+        "text": "2/5",
+        "correct": false
+      },
+      {
+        "text": "4/5",
+        "correct": true
+      },
+      {
+        "text": "-4/5",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-8056bd3e6ffe97bf"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 5,
+      "ca": 12,
+      "h": 13,
+      "func": "cos"
+    },
+    "content_hash": "cde95ddccb69a36f",
+    "question": "En un triángulo rectángulo, el cateto adyacente al ángulo θ mide 12 y la hipotenusa mide 13. Hallar cos(θ).",
+    "question_latex": "\\(\\cos(\\theta) = \\dfrac{\\text{adyacente}}{\\text{hipotenusa}}\\)",
+    "answer": "12/13",
+    "answer_display": "12/13",
+    "explanation": "cos(θ) = Cateto Adyacente / Hipotenusa = 12/13.",
+    "choices": [
+      {
+        "text": "6/13",
+        "correct": false
+      },
+      {
+        "text": "25/13",
+        "correct": false
+      },
+      {
+        "text": "12/13",
+        "correct": true
+      },
+      {
+        "text": "-1/13",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-cde95ddccb69a36f"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 6,
+      "ca": 8,
+      "h": 10,
+      "func": "sin"
+    },
+    "content_hash": "fc1d857faf6898a6",
+    "question": "En un triángulo rectángulo, el cateto opuesto al ángulo θ mide 6 y la hipotenusa mide 10. Hallar sen(θ).",
+    "question_latex": "\\(\\sin(\\theta) = \\dfrac{\\text{opuesto}}{\\text{hipotenusa}}\\)",
+    "answer": "3/5",
+    "answer_display": "3/5",
+    "explanation": "sen(θ) = Cateto Opuesto / Hipotenusa = 6/10 = 3/5.",
+    "choices": [
+      {
+        "text": "8/5",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "3/5",
+        "correct": true
+      },
+      {
+        "text": "4/15",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-fc1d857faf6898a6"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 9,
+      "ca": 12,
+      "h": 15,
+      "func": "sin"
+    },
+    "content_hash": "e8ed2eb7ad58a5c0",
+    "question": "En un triángulo rectángulo, el cateto opuesto al ángulo θ mide 9 y la hipotenusa mide 15. Hallar sen(θ).",
+    "question_latex": "\\(\\sin(\\theta) = \\dfrac{\\text{opuesto}}{\\text{hipotenusa}}\\)",
+    "answer": "3/5",
+    "answer_display": "3/5",
+    "explanation": "sen(θ) = Cateto Opuesto / Hipotenusa = 9/15 = 3/5.",
+    "choices": [
+      {
+        "text": "3/5",
+        "correct": true
+      },
+      {
+        "text": "-2/5",
+        "correct": false
+      },
+      {
+        "text": "-7/5",
+        "correct": false
+      },
+      {
+        "text": "53/5",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-e8ed2eb7ad58a5c0"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 3,
+      "ca": 4,
+      "h": 5,
+      "func": "cos"
+    },
+    "content_hash": "01bbcc07e8e377b8",
+    "question": "En un triángulo rectángulo, el cateto adyacente al ángulo θ mide 4 y la hipotenusa mide 5. Hallar cos(θ).",
+    "question_latex": "\\(\\cos(\\theta) = \\dfrac{\\text{adyacente}}{\\text{hipotenusa}}\\)",
+    "answer": "4/5",
+    "answer_display": "4/5",
+    "explanation": "cos(θ) = Cateto Adyacente / Hipotenusa = 4/5.",
+    "choices": [
+      {
+        "text": "4/5",
+        "correct": true
+      },
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "12/5",
+        "correct": false
+      },
+      {
+        "text": "14/5",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-01bbcc07e8e377b8"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 8,
+      "ca": 15,
+      "h": 17,
+      "func": "sin"
+    },
+    "content_hash": "520cfed67a873c3e",
+    "question": "En un triángulo rectángulo, el cateto opuesto al ángulo θ mide 8 y la hipotenusa mide 17. Hallar sen(θ).",
+    "question_latex": "\\(\\sin(\\theta) = \\dfrac{\\text{opuesto}}{\\text{hipotenusa}}\\)",
+    "answer": "8/17",
+    "answer_display": "8/17",
+    "explanation": "sen(θ) = Cateto Opuesto / Hipotenusa = 8/17.",
+    "choices": [
+      {
+        "text": "7/51",
+        "correct": false
+      },
+      {
+        "text": "8/17",
+        "correct": true
+      },
+      {
+        "text": "40/17",
+        "correct": false
+      },
+      {
+        "text": "-9/17",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-520cfed67a873c3e"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 3,
+      "ca": 4,
+      "h": 5,
+      "func": "tan"
+    },
+    "content_hash": "d438adeca28673fd",
+    "question": "En un triángulo rectángulo, el cateto opuesto mide 3 y el cateto adyacente mide 4. Hallar tan(θ).",
+    "question_latex": "\\(\\tan(\\theta) = \\dfrac{\\text{opuesto}}{\\text{adyacente}}\\)",
+    "answer": "3/4",
+    "answer_display": "3/4",
+    "explanation": "tan(θ) = Cateto Opuesto / Cateto Adyacente = 3/4.",
+    "choices": [
+      {
+        "text": "3/4",
+        "correct": true
+      },
+      {
+        "text": "11/4",
+        "correct": false
+      },
+      {
+        "text": "5/4",
+        "correct": false
+      },
+      {
+        "text": "3/8",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-d438adeca28673fd"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 5,
+      "ca": 12,
+      "h": 13,
+      "func": "sin"
+    },
+    "content_hash": "20f6414d0e8e8173",
+    "question": "En un triángulo rectángulo, el cateto opuesto al ángulo θ mide 5 y la hipotenusa mide 13. Hallar sen(θ).",
+    "question_latex": "\\(\\sin(\\theta) = \\dfrac{\\text{opuesto}}{\\text{hipotenusa}}\\)",
+    "answer": "5/13",
+    "answer_display": "5/13",
+    "explanation": "sen(θ) = Cateto Opuesto / Hipotenusa = 5/13.",
+    "choices": [
+      {
+        "text": "31/13",
+        "correct": false
+      },
+      {
+        "text": "5/13",
+        "correct": true
+      },
+      {
+        "text": "33/52",
+        "correct": false
+      },
+      {
+        "text": "49/26",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-20f6414d0e8e8173"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 3,
+      "ca": 4,
+      "h": 5,
+      "func": "sin"
+    },
+    "content_hash": "45ef2dadce6bd2e0",
+    "question": "En un triángulo rectángulo, el cateto opuesto al ángulo θ mide 3 y la hipotenusa mide 5. Hallar sen(θ).",
+    "question_latex": "\\(\\sin(\\theta) = \\dfrac{\\text{opuesto}}{\\text{hipotenusa}}\\)",
+    "answer": "3/5",
+    "answer_display": "3/5",
+    "explanation": "sen(θ) = Cateto Opuesto / Hipotenusa = 3/5.",
+    "choices": [
+      {
+        "text": "-2/5",
+        "correct": false
+      },
+      {
+        "text": "-47/5",
+        "correct": false
+      },
+      {
+        "text": "3/5",
+        "correct": true
+      },
+      {
+        "text": "53/5",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-45ef2dadce6bd2e0"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 8,
+      "ca": 15,
+      "h": 17,
+      "func": "cos"
+    },
+    "content_hash": "06c68e6180f9a1fb",
+    "question": "En un triángulo rectángulo, el cateto adyacente al ángulo θ mide 15 y la hipotenusa mide 17. Hallar cos(θ).",
+    "question_latex": "\\(\\cos(\\theta) = \\dfrac{\\text{adyacente}}{\\text{hipotenusa}}\\)",
+    "answer": "15/17",
+    "answer_display": "15/17",
+    "explanation": "cos(θ) = Cateto Adyacente / Hipotenusa = 15/17.",
+    "choices": [
+      {
+        "text": "49/17",
+        "correct": false
+      },
+      {
+        "text": "77/68",
+        "correct": false
+      },
+      {
+        "text": "30/17",
+        "correct": false
+      },
+      {
+        "text": "15/17",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-06c68e6180f9a1fb"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "trigonometria",
+    "difficulty": 4.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "trigonometria",
+      "razones_trigonométricas"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "TRIG_RATIO_01",
+    "variant_params": {
+      "co": 9,
+      "ca": 12,
+      "h": 15,
+      "func": "tan"
+    },
+    "content_hash": "a23c30edce0d1aa6",
+    "question": "En un triángulo rectángulo, el cateto opuesto mide 9 y el cateto adyacente mide 12. Hallar tan(θ).",
+    "question_latex": "\\(\\tan(\\theta) = \\dfrac{\\text{opuesto}}{\\text{adyacente}}\\)",
+    "answer": "3/4",
+    "answer_display": "3/4",
+    "explanation": "tan(θ) = Cateto Opuesto / Cateto Adyacente = 9/12 = 3/4.",
+    "choices": [
+      {
+        "text": "3/2",
+        "correct": false
+      },
+      {
+        "text": "3/4",
+        "correct": true
+      },
+      {
+        "text": "1",
+        "correct": false
+      },
+      {
+        "text": "-5/4",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-TRIG_RATIO_01-a23c30edce0d1aa6"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 14,
+      "b": 6,
+      "h": 8,
+      "figura": "trapecio"
+    },
+    "content_hash": "4678d05273128c5a",
+    "question": "Un trapecio tiene base mayor B = 14 cm, base menor b = 6 cm y altura h = 8 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "80",
+    "answer_display": "80 cm²",
+    "explanation": "Área del trapecio = ((14 + 6) × 8) / 2 = (20 × 8) / 2 = 80 cm².",
+    "choices": [
+      {
+        "text": "400",
+        "correct": false
+      },
+      {
+        "text": "-80",
+        "correct": false
+      },
+      {
+        "text": "80",
+        "correct": true
+      },
+      {
+        "text": "163/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-4678d05273128c5a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 4,
+      "h": 13,
+      "figura": "triangulo"
+    },
+    "content_hash": "a2bd61dc1bad01eb",
+    "question": "Calcula el área de un triángulo con base b = 4 cm y altura h = 13 cm.",
+    "question_latex": "\\(A = \\dfrac{b \\cdot h}{2}\\)",
+    "answer": "26",
+    "answer_display": "26 cm²",
+    "explanation": "Área del triángulo = (base × altura) / 2 = (4 × 13) / 2 = 26 cm².",
+    "choices": [
+      {
+        "text": "25",
+        "correct": false
+      },
+      {
+        "text": "105/4",
+        "correct": false
+      },
+      {
+        "text": "26",
+        "correct": true
+      },
+      {
+        "text": "52",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-a2bd61dc1bad01eb"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 8,
+      "h": 13,
+      "figura": "triangulo"
+    },
+    "content_hash": "e4634ea6b9b66754",
+    "question": "Calcula el área de un triángulo con base b = 8 cm y altura h = 13 cm.",
+    "question_latex": "\\(A = \\dfrac{b \\cdot h}{2}\\)",
+    "answer": "52",
+    "answer_display": "52 cm²",
+    "explanation": "Área del triángulo = (base × altura) / 2 = (8 × 13) / 2 = 52 cm².",
+    "choices": [
+      {
+        "text": "52",
+        "correct": true
+      },
+      {
+        "text": "107/2",
+        "correct": false
+      },
+      {
+        "text": "-52",
+        "correct": false
+      },
+      {
+        "text": "54",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_AREA_01-e4634ea6b9b66754"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 12,
+      "b": 6,
+      "h": 8,
+      "figura": "trapecio"
+    },
+    "content_hash": "a96890c0185985a4",
+    "question": "Un trapecio tiene base mayor B = 12 cm, base menor b = 6 cm y altura h = 8 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "72",
+    "answer_display": "72 cm²",
+    "explanation": "Área del trapecio = ((12 + 6) × 8) / 2 = (18 × 8) / 2 = 72 cm².",
+    "choices": [
+      {
+        "text": "145/2",
+        "correct": false
+      },
+      {
+        "text": "147/2",
+        "correct": false
+      },
+      {
+        "text": "216",
+        "correct": false
+      },
+      {
+        "text": "72",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_AREA_01-a96890c0185985a4"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 6,
+      "h": 13,
+      "figura": "triangulo"
+    },
+    "content_hash": "377eb35a3fae0b84",
+    "question": "Calcula el área de un triángulo con base b = 6 cm y altura h = 13 cm.",
+    "question_latex": "\\(A = \\dfrac{b \\cdot h}{2}\\)",
+    "answer": "39",
+    "answer_display": "39 cm²",
+    "explanation": "Área del triángulo = (base × altura) / 2 = (6 × 13) / 2 = 39 cm².",
+    "choices": [
+      {
+        "text": "390",
+        "correct": false
+      },
+      {
+        "text": "39",
+        "correct": true
+      },
+      {
+        "text": "37",
+        "correct": false
+      },
+      {
+        "text": "116/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_AREA_01-377eb35a3fae0b84"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 14,
+      "b": 8,
+      "h": 4,
+      "figura": "trapecio"
+    },
+    "content_hash": "46a70b05233c7527",
+    "question": "Un trapecio tiene base mayor B = 14 cm, base menor b = 8 cm y altura h = 4 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "44",
+    "answer_display": "44 cm²",
+    "explanation": "Área del trapecio = ((14 + 8) × 4) / 2 = (22 × 4) / 2 = 44 cm².",
+    "choices": [
+      {
+        "text": "45",
+        "correct": false
+      },
+      {
+        "text": "44",
+        "correct": true
+      },
+      {
+        "text": "91/2",
+        "correct": false
+      },
+      {
+        "text": "132",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_AREA_01-46a70b05233c7527"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 6,
+      "h": 11,
+      "figura": "rectangulo"
+    },
+    "content_hash": "934b5abfb97e85ba",
+    "question": "Calcula el área de un rectángulo de base 6 m y altura 11 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "66",
+    "answer_display": "66 m²",
+    "explanation": "Área del rectángulo = base × altura = 6 × 11 = 66 m².",
+    "choices": [
+      {
+        "text": "133/2",
+        "correct": false
+      },
+      {
+        "text": "660",
+        "correct": false
+      },
+      {
+        "text": "66",
+        "correct": true
+      },
+      {
+        "text": "76",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-934b5abfb97e85ba"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 14,
+      "h": 7,
+      "figura": "triangulo"
+    },
+    "content_hash": "423453c1c81cf2fc",
+    "question": "Calcula el área de un triángulo con base b = 14 cm y altura h = 7 cm.",
+    "question_latex": "\\(A = \\dfrac{b \\cdot h}{2}\\)",
+    "answer": "49",
+    "answer_display": "49 cm²",
+    "explanation": "Área del triángulo = (base × altura) / 2 = (14 × 7) / 2 = 49 cm².",
+    "choices": [
+      {
+        "text": "-49",
+        "correct": false
+      },
+      {
+        "text": "59",
+        "correct": false
+      },
+      {
+        "text": "49",
+        "correct": true
+      },
+      {
+        "text": "50",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-423453c1c81cf2fc"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 17,
+      "h": 12,
+      "figura": "rectangulo"
+    },
+    "content_hash": "2c21ec5bc953ed2a",
+    "question": "Calcula el área de un rectángulo de base 17 m y altura 12 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "204",
+    "answer_display": "204 m²",
+    "explanation": "Área del rectángulo = base × altura = 17 × 12 = 204 m².",
+    "choices": [
+      {
+        "text": "204",
+        "correct": true
+      },
+      {
+        "text": "214",
+        "correct": false
+      },
+      {
+        "text": "411/2",
+        "correct": false
+      },
+      {
+        "text": "205",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_AREA_01-2c21ec5bc953ed2a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 10,
+      "b": 6,
+      "h": 6,
+      "figura": "trapecio"
+    },
+    "content_hash": "b83b8f197e7d60df",
+    "question": "Un trapecio tiene base mayor B = 10 cm, base menor b = 6 cm y altura h = 6 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "48",
+    "answer_display": "48 cm²",
+    "explanation": "Área del trapecio = ((10 + 6) × 6) / 2 = (16 × 6) / 2 = 48 cm².",
+    "choices": [
+      {
+        "text": "144",
+        "correct": false
+      },
+      {
+        "text": "480",
+        "correct": false
+      },
+      {
+        "text": "48",
+        "correct": true
+      },
+      {
+        "text": "240",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-b83b8f197e7d60df"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 9,
+      "h": 13,
+      "figura": "rectangulo"
+    },
+    "content_hash": "c43a548b3fb29678",
+    "question": "Calcula el área de un rectángulo de base 9 m y altura 13 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "117",
+    "answer_display": "117 m²",
+    "explanation": "Área del rectángulo = base × altura = 9 × 13 = 117 m².",
+    "choices": [
+      {
+        "text": "1170",
+        "correct": false
+      },
+      {
+        "text": "351",
+        "correct": false
+      },
+      {
+        "text": "117",
+        "correct": true
+      },
+      {
+        "text": "235/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-c43a548b3fb29678"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 16,
+      "b": 8,
+      "h": 8,
+      "figura": "trapecio"
+    },
+    "content_hash": "5783c645c25a9a53",
+    "question": "Un trapecio tiene base mayor B = 16 cm, base menor b = 8 cm y altura h = 8 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "96",
+    "answer_display": "96 cm²",
+    "explanation": "Área del trapecio = ((16 + 8) × 8) / 2 = (24 × 8) / 2 = 96 cm².",
+    "choices": [
+      {
+        "text": "96",
+        "correct": true
+      },
+      {
+        "text": "288",
+        "correct": false
+      },
+      {
+        "text": "48",
+        "correct": false
+      },
+      {
+        "text": "195/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_AREA_01-5783c645c25a9a53"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 5,
+      "h": 10,
+      "figura": "rectangulo"
+    },
+    "content_hash": "c71a7a22c58bedd5",
+    "question": "Calcula el área de un rectángulo de base 5 m y altura 10 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "50",
+    "answer_display": "50 m²",
+    "explanation": "Área del rectángulo = base × altura = 5 × 10 = 50 m².",
+    "choices": [
+      {
+        "text": "49",
+        "correct": false
+      },
+      {
+        "text": "51",
+        "correct": false
+      },
+      {
+        "text": "250",
+        "correct": false
+      },
+      {
+        "text": "50",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_AREA_01-c71a7a22c58bedd5"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 16,
+      "h": 7,
+      "figura": "rectangulo"
+    },
+    "content_hash": "5d338ec25db2c650",
+    "question": "Calcula el área de un rectángulo de base 16 m y altura 7 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "112",
+    "answer_display": "112 m²",
+    "explanation": "Área del rectángulo = base × altura = 16 × 7 = 112 m².",
+    "choices": [
+      {
+        "text": "227/2",
+        "correct": false
+      },
+      {
+        "text": "449/4",
+        "correct": false
+      },
+      {
+        "text": "112",
+        "correct": true
+      },
+      {
+        "text": "114",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-5d338ec25db2c650"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 14,
+      "h": 15,
+      "figura": "rectangulo"
+    },
+    "content_hash": "f890fd4ee19efbb4",
+    "question": "Calcula el área de un rectángulo de base 14 m y altura 15 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "210",
+    "answer_display": "210 m²",
+    "explanation": "Área del rectángulo = base × altura = 14 × 15 = 210 m².",
+    "choices": [
+      {
+        "text": "-210",
+        "correct": false
+      },
+      {
+        "text": "630",
+        "correct": false
+      },
+      {
+        "text": "1050",
+        "correct": false
+      },
+      {
+        "text": "210",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_AREA_01-f890fd4ee19efbb4"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 10,
+      "b": 8,
+      "h": 10,
+      "figura": "trapecio"
+    },
+    "content_hash": "bf7617b8cedc6ca9",
+    "question": "Un trapecio tiene base mayor B = 10 cm, base menor b = 8 cm y altura h = 10 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "90",
+    "answer_display": "90 cm²",
+    "explanation": "Área del trapecio = ((10 + 8) × 10) / 2 = (18 × 10) / 2 = 90 cm².",
+    "choices": [
+      {
+        "text": "361/4",
+        "correct": false
+      },
+      {
+        "text": "90",
+        "correct": true
+      },
+      {
+        "text": "88",
+        "correct": false
+      },
+      {
+        "text": "270",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_AREA_01-bf7617b8cedc6ca9"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 4,
+      "h": 11,
+      "figura": "triangulo"
+    },
+    "content_hash": "bec89209b41fbde7",
+    "question": "Calcula el área de un triángulo con base b = 4 cm y altura h = 11 cm.",
+    "question_latex": "\\(A = \\dfrac{b \\cdot h}{2}\\)",
+    "answer": "22",
+    "answer_display": "22 cm²",
+    "explanation": "Área del triángulo = (base × altura) / 2 = (4 × 11) / 2 = 22 cm².",
+    "choices": [
+      {
+        "text": "89/4",
+        "correct": false
+      },
+      {
+        "text": "66",
+        "correct": false
+      },
+      {
+        "text": "22",
+        "correct": true
+      },
+      {
+        "text": "24",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-bec89209b41fbde7"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 14,
+      "h": 11,
+      "figura": "triangulo"
+    },
+    "content_hash": "22670fbe6343fca0",
+    "question": "Calcula el área de un triángulo con base b = 14 cm y altura h = 11 cm.",
+    "question_latex": "\\(A = \\dfrac{b \\cdot h}{2}\\)",
+    "answer": "77",
+    "answer_display": "77 cm²",
+    "explanation": "Área del triángulo = (base × altura) / 2 = (14 × 11) / 2 = 77 cm².",
+    "choices": [
+      {
+        "text": "78",
+        "correct": false
+      },
+      {
+        "text": "77",
+        "correct": true
+      },
+      {
+        "text": "87",
+        "correct": false
+      },
+      {
+        "text": "75",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_AREA_01-22670fbe6343fca0"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 10,
+      "h": 9,
+      "figura": "rectangulo"
+    },
+    "content_hash": "b8372bf665dddbfb",
+    "question": "Calcula el área de un rectángulo de base 10 m y altura 9 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "90",
+    "answer_display": "90 m²",
+    "explanation": "Área del rectángulo = base × altura = 10 × 9 = 90 m².",
+    "choices": [
+      {
+        "text": "90",
+        "correct": true
+      },
+      {
+        "text": "89",
+        "correct": false
+      },
+      {
+        "text": "88",
+        "correct": false
+      },
+      {
+        "text": "-90",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_AREA_01-b8372bf665dddbfb"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 12,
+      "b": 4,
+      "h": 4,
+      "figura": "trapecio"
+    },
+    "content_hash": "82ca6deed5864e7d",
+    "question": "Un trapecio tiene base mayor B = 12 cm, base menor b = 4 cm y altura h = 4 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "32",
+    "answer_display": "32 cm²",
+    "explanation": "Área del trapecio = ((12 + 4) × 4) / 2 = (16 × 4) / 2 = 32 cm².",
+    "choices": [
+      {
+        "text": "95/3",
+        "correct": false
+      },
+      {
+        "text": "30",
+        "correct": false
+      },
+      {
+        "text": "32",
+        "correct": true
+      },
+      {
+        "text": "33",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-82ca6deed5864e7d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 12,
+      "h": 14,
+      "figura": "rectangulo"
+    },
+    "content_hash": "6175b5d70519c097",
+    "question": "Calcula el área de un rectángulo de base 12 m y altura 14 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "168",
+    "answer_display": "168 m²",
+    "explanation": "Área del rectángulo = base × altura = 12 × 14 = 168 m².",
+    "choices": [
+      {
+        "text": "169",
+        "correct": false
+      },
+      {
+        "text": "178",
+        "correct": false
+      },
+      {
+        "text": "1680",
+        "correct": false
+      },
+      {
+        "text": "168",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_AREA_01-6175b5d70519c097"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 6,
+      "h": 5,
+      "figura": "triangulo"
+    },
+    "content_hash": "17849c415d223334",
+    "question": "Calcula el área de un triángulo con base b = 6 cm y altura h = 5 cm.",
+    "question_latex": "\\(A = \\dfrac{b \\cdot h}{2}\\)",
+    "answer": "15",
+    "answer_display": "15 cm²",
+    "explanation": "Área del triángulo = (base × altura) / 2 = (6 × 5) / 2 = 15 cm².",
+    "choices": [
+      {
+        "text": "33/2",
+        "correct": false
+      },
+      {
+        "text": "150",
+        "correct": false
+      },
+      {
+        "text": "61/4",
+        "correct": false
+      },
+      {
+        "text": "15",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_AREA_01-17849c415d223334"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 8,
+      "h": 3,
+      "figura": "triangulo"
+    },
+    "content_hash": "04e60a99e9cae245",
+    "question": "Calcula el área de un triángulo con base b = 8 cm y altura h = 3 cm.",
+    "question_latex": "\\(A = \\dfrac{b \\cdot h}{2}\\)",
+    "answer": "12",
+    "answer_display": "12 cm²",
+    "explanation": "Área del triángulo = (base × altura) / 2 = (8 × 3) / 2 = 12 cm².",
+    "choices": [
+      {
+        "text": "14",
+        "correct": false
+      },
+      {
+        "text": "12",
+        "correct": true
+      },
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "25/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_AREA_01-04e60a99e9cae245"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 4,
+      "h": 7,
+      "figura": "rectangulo"
+    },
+    "content_hash": "5d02d6274a3ae266",
+    "question": "Calcula el área de un rectángulo de base 4 m y altura 7 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "28",
+    "answer_display": "28 m²",
+    "explanation": "Área del rectángulo = base × altura = 4 × 7 = 28 m².",
+    "choices": [
+      {
+        "text": "57/2",
+        "correct": false
+      },
+      {
+        "text": "18",
+        "correct": false
+      },
+      {
+        "text": "84",
+        "correct": false
+      },
+      {
+        "text": "28",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_AREA_01-5d02d6274a3ae266"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 16,
+      "b": 6,
+      "h": 8,
+      "figura": "trapecio"
+    },
+    "content_hash": "ce9a097389f04fdf",
+    "question": "Un trapecio tiene base mayor B = 16 cm, base menor b = 6 cm y altura h = 8 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "88",
+    "answer_display": "88 cm²",
+    "explanation": "Área del trapecio = ((16 + 6) × 8) / 2 = (22 × 8) / 2 = 88 cm².",
+    "choices": [
+      {
+        "text": "-88",
+        "correct": false
+      },
+      {
+        "text": "177/2",
+        "correct": false
+      },
+      {
+        "text": "88",
+        "correct": true
+      },
+      {
+        "text": "263/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-ce9a097389f04fdf"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 4,
+      "h": 5,
+      "figura": "triangulo"
+    },
+    "content_hash": "d7ff7bd2485fc179",
+    "question": "Calcula el área de un triángulo con base b = 4 cm y altura h = 5 cm.",
+    "question_latex": "\\(A = \\dfrac{b \\cdot h}{2}\\)",
+    "answer": "10",
+    "answer_display": "10 cm²",
+    "explanation": "Área del triángulo = (base × altura) / 2 = (4 × 5) / 2 = 10 cm².",
+    "choices": [
+      {
+        "text": "30",
+        "correct": false
+      },
+      {
+        "text": "10",
+        "correct": true
+      },
+      {
+        "text": "12",
+        "correct": false
+      },
+      {
+        "text": "11",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_AREA_01-d7ff7bd2485fc179"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 18,
+      "h": 9,
+      "figura": "rectangulo"
+    },
+    "content_hash": "a3e037e6f8299215",
+    "question": "Calcula el área de un rectángulo de base 18 m y altura 9 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "162",
+    "answer_display": "162 m²",
+    "explanation": "Área del rectángulo = base × altura = 18 × 9 = 162 m².",
+    "choices": [
+      {
+        "text": "172",
+        "correct": false
+      },
+      {
+        "text": "162",
+        "correct": true
+      },
+      {
+        "text": "810",
+        "correct": false
+      },
+      {
+        "text": "324",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_AREA_01-a3e037e6f8299215"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 12,
+      "h": 8,
+      "figura": "rectangulo"
+    },
+    "content_hash": "6ccfd89aa889b192",
+    "question": "Calcula el área de un rectángulo de base 12 m y altura 8 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "96",
+    "answer_display": "96 m²",
+    "explanation": "Área del rectángulo = base × altura = 12 × 8 = 96 m².",
+    "choices": [
+      {
+        "text": "96",
+        "correct": true
+      },
+      {
+        "text": "98",
+        "correct": false
+      },
+      {
+        "text": "106",
+        "correct": false
+      },
+      {
+        "text": "287/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_AREA_01-6ccfd89aa889b192"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 14,
+      "b": 8,
+      "h": 8,
+      "figura": "trapecio"
+    },
+    "content_hash": "8ee73d19881b8c1d",
+    "question": "Un trapecio tiene base mayor B = 14 cm, base menor b = 8 cm y altura h = 8 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "88",
+    "answer_display": "88 cm²",
+    "explanation": "Área del trapecio = ((14 + 8) × 8) / 2 = (22 × 8) / 2 = 88 cm².",
+    "choices": [
+      {
+        "text": "88",
+        "correct": true
+      },
+      {
+        "text": "177/2",
+        "correct": false
+      },
+      {
+        "text": "353/4",
+        "correct": false
+      },
+      {
+        "text": "264",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_AREA_01-8ee73d19881b8c1d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 16,
+      "h": 13,
+      "figura": "rectangulo"
+    },
+    "content_hash": "52ea244b5ede5878",
+    "question": "Calcula el área de un rectángulo de base 16 m y altura 13 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "208",
+    "answer_display": "208 m²",
+    "explanation": "Área del rectángulo = base × altura = 16 × 13 = 208 m².",
+    "choices": [
+      {
+        "text": "624",
+        "correct": false
+      },
+      {
+        "text": "-208",
+        "correct": false
+      },
+      {
+        "text": "208",
+        "correct": true
+      },
+      {
+        "text": "416",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-52ea244b5ede5878"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 8,
+      "h": 13,
+      "figura": "rectangulo"
+    },
+    "content_hash": "c058dfd6d25d3237",
+    "question": "Calcula el área de un rectángulo de base 8 m y altura 13 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "104",
+    "answer_display": "104 m²",
+    "explanation": "Área del rectángulo = base × altura = 8 × 13 = 104 m².",
+    "choices": [
+      {
+        "text": "1040",
+        "correct": false
+      },
+      {
+        "text": "417/4",
+        "correct": false
+      },
+      {
+        "text": "312",
+        "correct": false
+      },
+      {
+        "text": "104",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_AREA_01-c058dfd6d25d3237"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 8,
+      "h": 11,
+      "figura": "triangulo"
+    },
+    "content_hash": "73d220f3a4a44cb4",
+    "question": "Calcula el área de un triángulo con base b = 8 cm y altura h = 11 cm.",
+    "question_latex": "\\(A = \\dfrac{b \\cdot h}{2}\\)",
+    "answer": "44",
+    "answer_display": "44 cm²",
+    "explanation": "Área del triángulo = (base × altura) / 2 = (8 × 11) / 2 = 44 cm².",
+    "choices": [
+      {
+        "text": "44",
+        "correct": true
+      },
+      {
+        "text": "54",
+        "correct": false
+      },
+      {
+        "text": "88",
+        "correct": false
+      },
+      {
+        "text": "91/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_AREA_01-73d220f3a4a44cb4"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 14,
+      "h": 3,
+      "figura": "triangulo"
+    },
+    "content_hash": "97ec3b8fff583760",
+    "question": "Calcula el área de un triángulo con base b = 14 cm y altura h = 3 cm.",
+    "question_latex": "\\(A = \\dfrac{b \\cdot h}{2}\\)",
+    "answer": "21",
+    "answer_display": "21 cm²",
+    "explanation": "Área del triángulo = (base × altura) / 2 = (14 × 3) / 2 = 21 cm².",
+    "choices": [
+      {
+        "text": "11",
+        "correct": false
+      },
+      {
+        "text": "22",
+        "correct": false
+      },
+      {
+        "text": "45/2",
+        "correct": false
+      },
+      {
+        "text": "21",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_AREA_01-97ec3b8fff583760"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 10,
+      "b": 6,
+      "h": 8,
+      "figura": "trapecio"
+    },
+    "content_hash": "e98a494a95ad1cda",
+    "question": "Un trapecio tiene base mayor B = 10 cm, base menor b = 6 cm y altura h = 8 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "64",
+    "answer_display": "64 cm²",
+    "explanation": "Área del trapecio = ((10 + 6) × 8) / 2 = (16 × 8) / 2 = 64 cm².",
+    "choices": [
+      {
+        "text": "65",
+        "correct": false
+      },
+      {
+        "text": "63",
+        "correct": false
+      },
+      {
+        "text": "64",
+        "correct": true
+      },
+      {
+        "text": "192",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-e98a494a95ad1cda"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 6,
+      "h": 13,
+      "figura": "rectangulo"
+    },
+    "content_hash": "c4611451242c3314",
+    "question": "Calcula el área de un rectángulo de base 6 m y altura 13 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "78",
+    "answer_display": "78 m²",
+    "explanation": "Área del rectángulo = base × altura = 6 × 13 = 78 m².",
+    "choices": [
+      {
+        "text": "390",
+        "correct": false
+      },
+      {
+        "text": "78",
+        "correct": true
+      },
+      {
+        "text": "313/4",
+        "correct": false
+      },
+      {
+        "text": "159/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_AREA_01-c4611451242c3314"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 16,
+      "h": 11,
+      "figura": "triangulo"
+    },
+    "content_hash": "89b0b657e3581dc3",
+    "question": "Calcula el área de un triángulo con base b = 16 cm y altura h = 11 cm.",
+    "question_latex": "\\(A = \\dfrac{b \\cdot h}{2}\\)",
+    "answer": "88",
+    "answer_display": "88 cm²",
+    "explanation": "Área del triángulo = (base × altura) / 2 = (16 × 11) / 2 = 88 cm².",
+    "choices": [
+      {
+        "text": "89",
+        "correct": false
+      },
+      {
+        "text": "88",
+        "correct": true
+      },
+      {
+        "text": "98",
+        "correct": false
+      },
+      {
+        "text": "353/4",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_AREA_01-89b0b657e3581dc3"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 8,
+      "b": 6,
+      "h": 10,
+      "figura": "trapecio"
+    },
+    "content_hash": "793fdc7fd02746ea",
+    "question": "Un trapecio tiene base mayor B = 8 cm, base menor b = 6 cm y altura h = 10 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "70",
+    "answer_display": "70 cm²",
+    "explanation": "Área del trapecio = ((8 + 6) × 10) / 2 = (14 × 10) / 2 = 70 cm².",
+    "choices": [
+      {
+        "text": "70",
+        "correct": true
+      },
+      {
+        "text": "-70",
+        "correct": false
+      },
+      {
+        "text": "143/2",
+        "correct": false
+      },
+      {
+        "text": "35",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_AREA_01-793fdc7fd02746ea"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 14,
+      "b": 6,
+      "h": 6,
+      "figura": "trapecio"
+    },
+    "content_hash": "2d457daa7c8bda69",
+    "question": "Un trapecio tiene base mayor B = 14 cm, base menor b = 6 cm y altura h = 6 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "60",
+    "answer_display": "60 cm²",
+    "explanation": "Área del trapecio = ((14 + 6) × 6) / 2 = (20 × 6) / 2 = 60 cm².",
+    "choices": [
+      {
+        "text": "300",
+        "correct": false
+      },
+      {
+        "text": "180",
+        "correct": false
+      },
+      {
+        "text": "30",
+        "correct": false
+      },
+      {
+        "text": "60",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-GEOM_AREA_01-2d457daa7c8bda69"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 9,
+      "h": 9,
+      "figura": "rectangulo"
+    },
+    "content_hash": "57b10f2979fcced2",
+    "question": "Calcula el área de un rectángulo de base 9 m y altura 9 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "81",
+    "answer_display": "81 m²",
+    "explanation": "Área del rectángulo = base × altura = 9 × 9 = 81 m².",
+    "choices": [
+      {
+        "text": "163/2",
+        "correct": false
+      },
+      {
+        "text": "325/4",
+        "correct": false
+      },
+      {
+        "text": "81",
+        "correct": true
+      },
+      {
+        "text": "165/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-57b10f2979fcced2"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 16,
+      "b": 4,
+      "h": 10,
+      "figura": "trapecio"
+    },
+    "content_hash": "9b866a9b71bd04c3",
+    "question": "Un trapecio tiene base mayor B = 16 cm, base menor b = 4 cm y altura h = 10 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "100",
+    "answer_display": "100 cm²",
+    "explanation": "Área del trapecio = ((16 + 4) × 10) / 2 = (20 × 10) / 2 = 100 cm².",
+    "choices": [
+      {
+        "text": "50",
+        "correct": false
+      },
+      {
+        "text": "100",
+        "correct": true
+      },
+      {
+        "text": "401/4",
+        "correct": false
+      },
+      {
+        "text": "200",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_AREA_01-9b866a9b71bd04c3"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 16,
+      "b": 6,
+      "h": 6,
+      "figura": "trapecio"
+    },
+    "content_hash": "6a6135e890459c5c",
+    "question": "Un trapecio tiene base mayor B = 16 cm, base menor b = 6 cm y altura h = 6 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "66",
+    "answer_display": "66 cm²",
+    "explanation": "Área del trapecio = ((16 + 6) × 6) / 2 = (22 × 6) / 2 = 66 cm².",
+    "choices": [
+      {
+        "text": "66",
+        "correct": true
+      },
+      {
+        "text": "265/4",
+        "correct": false
+      },
+      {
+        "text": "64",
+        "correct": false
+      },
+      {
+        "text": "133/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_AREA_01-6a6135e890459c5c"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 16,
+      "b": 4,
+      "h": 8,
+      "figura": "trapecio"
+    },
+    "content_hash": "303c7acf0f62c3b7",
+    "question": "Un trapecio tiene base mayor B = 16 cm, base menor b = 4 cm y altura h = 8 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "80",
+    "answer_display": "80 cm²",
+    "explanation": "Área del trapecio = ((16 + 4) × 8) / 2 = (20 × 8) / 2 = 80 cm².",
+    "choices": [
+      {
+        "text": "80",
+        "correct": true
+      },
+      {
+        "text": "161/2",
+        "correct": false
+      },
+      {
+        "text": "163/2",
+        "correct": false
+      },
+      {
+        "text": "82",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_AREA_01-303c7acf0f62c3b7"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 14,
+      "b": 6,
+      "h": 10,
+      "figura": "trapecio"
+    },
+    "content_hash": "ed1505e08fa707a8",
+    "question": "Un trapecio tiene base mayor B = 14 cm, base menor b = 6 cm y altura h = 10 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "100",
+    "answer_display": "100 cm²",
+    "explanation": "Área del trapecio = ((14 + 6) × 10) / 2 = (20 × 10) / 2 = 100 cm².",
+    "choices": [
+      {
+        "text": "200",
+        "correct": false
+      },
+      {
+        "text": "100",
+        "correct": true
+      },
+      {
+        "text": "99",
+        "correct": false
+      },
+      {
+        "text": "110",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_AREA_01-ed1505e08fa707a8"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "B": 10,
+      "b": 8,
+      "h": 8,
+      "figura": "trapecio"
+    },
+    "content_hash": "bfd3e9575b92faf8",
+    "question": "Un trapecio tiene base mayor B = 10 cm, base menor b = 8 cm y altura h = 8 cm. ¿Cuál es su área?",
+    "question_latex": "\\(A = \\dfrac{(B + b) \\cdot h}{2}\\)",
+    "answer": "72",
+    "answer_display": "72 cm²",
+    "explanation": "Área del trapecio = ((10 + 8) × 8) / 2 = (18 × 8) / 2 = 72 cm².",
+    "choices": [
+      {
+        "text": "72",
+        "correct": true
+      },
+      {
+        "text": "360",
+        "correct": false
+      },
+      {
+        "text": "62",
+        "correct": false
+      },
+      {
+        "text": "147/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_AREA_01-bfd3e9575b92faf8"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 16,
+      "h": 5,
+      "figura": "triangulo"
+    },
+    "content_hash": "f603d013d17e1675",
+    "question": "Calcula el área de un triángulo con base b = 16 cm y altura h = 5 cm.",
+    "question_latex": "\\(A = \\dfrac{b \\cdot h}{2}\\)",
+    "answer": "40",
+    "answer_display": "40 cm²",
+    "explanation": "Área del triángulo = (base × altura) / 2 = (16 × 5) / 2 = 40 cm².",
+    "choices": [
+      {
+        "text": "40",
+        "correct": true
+      },
+      {
+        "text": "50",
+        "correct": false
+      },
+      {
+        "text": "119/3",
+        "correct": false
+      },
+      {
+        "text": "42",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-GEOM_AREA_01-f603d013d17e1675"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 16,
+      "h": 10,
+      "figura": "rectangulo"
+    },
+    "content_hash": "08e0e6f8f73b7f1e",
+    "question": "Calcula el área de un rectángulo de base 16 m y altura 10 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "160",
+    "answer_display": "160 m²",
+    "explanation": "Área del rectángulo = base × altura = 16 × 10 = 160 m².",
+    "choices": [
+      {
+        "text": "159",
+        "correct": false
+      },
+      {
+        "text": "320",
+        "correct": false
+      },
+      {
+        "text": "160",
+        "correct": true
+      },
+      {
+        "text": "323/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-08e0e6f8f73b7f1e"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 5,
+      "h": 13,
+      "figura": "rectangulo"
+    },
+    "content_hash": "afe56dca86e3cf0a",
+    "question": "Calcula el área de un rectángulo de base 5 m y altura 13 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "65",
+    "answer_display": "65 m²",
+    "explanation": "Área del rectángulo = base × altura = 5 × 13 = 65 m².",
+    "choices": [
+      {
+        "text": "63",
+        "correct": false
+      },
+      {
+        "text": "65",
+        "correct": true
+      },
+      {
+        "text": "55",
+        "correct": false
+      },
+      {
+        "text": "130",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-GEOM_AREA_01-afe56dca86e3cf0a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "geometria_trigonometria",
+    "subtopic": "areas",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "geometria",
+      "areas",
+      "geometria_plana"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "GEOM_AREA_01",
+    "variant_params": {
+      "b": 18,
+      "h": 11,
+      "figura": "rectangulo"
+    },
+    "content_hash": "de0b58e85945373d",
+    "question": "Calcula el área de un rectángulo de base 18 m y altura 11 m.",
+    "question_latex": "\\(A = b \\cdot h\\)",
+    "answer": "198",
+    "answer_display": "198 m²",
+    "explanation": "Área del rectángulo = base × altura = 18 × 11 = 198 m².",
+    "choices": [
+      {
+        "text": "188",
+        "correct": false
+      },
+      {
+        "text": "200",
+        "correct": false
+      },
+      {
+        "text": "198",
+        "correct": true
+      },
+      {
+        "text": "208",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-GEOM_AREA_01-de0b58e85945373d"
+  }
+]

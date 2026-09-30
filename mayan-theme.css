@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --mayan-emerald: #065f46; /* emerald-800 */
+  --mayan-amber: #b45309;   /* amber-700 */
+  --mayan-gold: #fbbf24;    /* amber-400 */
+  --mayan-jade: #0d9488;    /* teal-600 */
+  --mayan-bg: #FDF8F0;      /* Crema suave */
+  --mayan-card: #ffffff;
+  --mayan-text: #374151;
+  --mayan-border: #fde68a; /* amber-200 */
+}
+
+html.dark, body.dark, [data-theme="dark"] {
+  --mayan-bg: #0b1310;
+  --mayan-card: #141f1a;
+  --mayan-text: #e7f0eb;
+  --mayan-border: #054f3b;
+}
+
+/* Modos de Edad / Tema Adaptativo */
+.theme-playful {
+  --mayan-bg: #fffbeb;
+  --mayan-card: #ffffff;
+  --mayan-border: #fef08a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.theme-pro {
+  --mayan-bg: #090f0d;
+  --mayan-card: #111a16;
+  --mayan-border: #065f46;
+}
+
+.bg-mayan-gradient {
+  background: linear-gradient(135deg, #059669 0%, #0d9488 50%, #d97706 100%);
+}
+
+.bg-matific-card {
+  background: linear-gradient(145deg, #ffffff 0%, #fef3c7 100%);
+}
+
+.dark .bg-matific-card {
+  background: linear-gradient(145deg, #162620 0%, #1c2d26 100%);
+}
+
+.border-mayan {
+  border-color: var(--mayan-border);
+}
+
+body {
+  background-color: var(--mayan-bg);
+  color: var(--mayan-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Matific 3D Button and Card Effects */
+.btn-3d-emerald {
+  box-shadow: 0 5px 0 #047857, 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+  transition: all 0.1s ease;
+}
+.btn-3d-emerald:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 #047857, 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-3d-amber {
+  box-shadow: 0 5px 0 #d97706, 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+  transition: all 0.1s ease;
+}
+.btn-3d-amber:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 #d97706, 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+.card-matific {
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card-matific:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 30px -10px rgba(16, 185, 129, 0.15);
+}
+
+/* Khan Mastery Badges */
+.badge-mastery-unattempted { background-color: #f3f4f6; color: #4b5563; }
+.badge-mastery-familiar { background-color: #dbeafe; color: #1d4ed8; }
+.badge-mastery-proficient { background-color: #d1fae5; color: #047857; }
+.badge-mastery-mastered { background-color: #fef3c7; color: #b45309; font-weight: 700; }
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+
+@keyframes floatAnim {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-float {
+  animation: floatAnim 3s ease-in-out infinite;
+}
+
+@keyframes staggerIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-stagger-in {
+  animation: staggerIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

@@ -1,0 +1,6734 @@
+[
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 6,
+      "b": -1,
+      "x0": 1
+    },
+    "content_hash": "4c147f438eead2a8",
+    "question": "Resuelve para x:  6x −  = 5",
+    "question_latex": "Resuelve: \\(6 x - 1 = 5\\)",
+    "answer": "1",
+    "answer_display": "x = 1",
+    "explanation": "Pasamos 1 al otro lado (sumando): 6x = 6. Dividimos entre 6: x = 1.",
+    "choices": [
+      {
+        "text": "10",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": true
+      },
+      {
+        "text": "11",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-LIN_EQ_01-4c147f438eead2a8"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 6,
+      "b": 10,
+      "x0": 2
+    },
+    "content_hash": "9578c0a70477daaa",
+    "question": "Resuelve para x:  6x + 10 = 22",
+    "question_latex": "Resuelve: \\(6 x + 10 = 22\\)",
+    "answer": "2",
+    "answer_display": "x = 2",
+    "explanation": "Pasamos 10 al otro lado (restando): 6x = 12. Dividimos entre 6: x = 2.",
+    "choices": [
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "6",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-9578c0a70477daaa"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 5,
+      "b": -11,
+      "x0": 5
+    },
+    "content_hash": "e3a6d76aa7392a6f",
+    "question": "Resuelve para x:  5x − 11 = 14",
+    "question_latex": "Resuelve: \\(5 x - 11 = 14\\)",
+    "answer": "5",
+    "answer_display": "x = 5",
+    "explanation": "Pasamos 11 al otro lado (sumando): 5x = 25. Dividimos entre 5: x = 5.",
+    "choices": [
+      {
+        "text": "5",
+        "correct": true
+      },
+      {
+        "text": "11/2",
+        "correct": false
+      },
+      {
+        "text": "5/2",
+        "correct": false
+      },
+      {
+        "text": "21/4",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-e3a6d76aa7392a6f"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 6,
+      "b": -15,
+      "x0": -2
+    },
+    "content_hash": "6765da9bb18803f0",
+    "question": "Resuelve para x:  6x − 15 = -27",
+    "question_latex": "Resuelve: \\(6 x - 15 = -27\\)",
+    "answer": "-2",
+    "answer_display": "x = -2",
+    "explanation": "Pasamos 15 al otro lado (sumando): 6x = -12. Dividimos entre 6: x = -2.",
+    "choices": [
+      {
+        "text": "-6",
+        "correct": false
+      },
+      {
+        "text": "-1/2",
+        "correct": false
+      },
+      {
+        "text": "-2",
+        "correct": true
+      },
+      {
+        "text": "-10",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-6765da9bb18803f0"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 1,
+      "b": 16,
+      "x0": 8
+    },
+    "content_hash": "a37111c713563d4d",
+    "question": "Resuelve para x:  x + 16 = 24",
+    "question_latex": "Resuelve: \\(x + 16 = 24\\)",
+    "answer": "8",
+    "answer_display": "x = 8",
+    "explanation": "Pasamos 16 al otro lado (restando): 1x = 8. x = 8.",
+    "choices": [
+      {
+        "text": "80",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": true
+      },
+      {
+        "text": "9",
+        "correct": false
+      },
+      {
+        "text": "33/4",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-LIN_EQ_01-a37111c713563d4d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -2,
+      "b": 14,
+      "x0": 6
+    },
+    "content_hash": "7de69c6344c5da86",
+    "question": "Resuelve para x:  −2x + 14 = 2",
+    "question_latex": "Resuelve: \\(14 - 2 x = 2\\)",
+    "answer": "6",
+    "answer_display": "x = 6",
+    "explanation": "Pasamos 14 al otro lado (restando): -2x = -12. Dividimos entre -2: x = 6.",
+    "choices": [
+      {
+        "text": "6",
+        "correct": true
+      },
+      {
+        "text": "-6",
+        "correct": false
+      },
+      {
+        "text": "18",
+        "correct": false
+      },
+      {
+        "text": "16",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-7de69c6344c5da86"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -6,
+      "b": 5,
+      "x0": 1
+    },
+    "content_hash": "fc896ea40d8a0158",
+    "question": "Resuelve para x:  −6x + 5 = -1",
+    "question_latex": "Resuelve: \\(5 - 6 x = -1\\)",
+    "answer": "1",
+    "answer_display": "x = 1",
+    "explanation": "Pasamos 5 al otro lado (restando): -6x = -6. Dividimos entre -6: x = 1.",
+    "choices": [
+      {
+        "text": "-1",
+        "correct": false
+      },
+      {
+        "text": "-9",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-fc896ea40d8a0158"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 2,
+      "b": -18,
+      "x0": 1
+    },
+    "content_hash": "a542549b3b43bdc5",
+    "question": "Resuelve para x:  2x − 18 = -16",
+    "question_latex": "Resuelve: \\(2 x - 18 = -16\\)",
+    "answer": "1",
+    "answer_display": "x = 1",
+    "explanation": "Pasamos 18 al otro lado (sumando): 2x = 2. Dividimos entre 2: x = 1.",
+    "choices": [
+      {
+        "text": "1",
+        "correct": true
+      },
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-a542549b3b43bdc5"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 2,
+      "b": -16,
+      "x0": -6
+    },
+    "content_hash": "d297c928a5903bf3",
+    "question": "Resuelve para x:  2x − 16 = -28",
+    "question_latex": "Resuelve: \\(2 x - 16 = -28\\)",
+    "answer": "-6",
+    "answer_display": "x = -6",
+    "explanation": "Pasamos 16 al otro lado (sumando): 2x = -12. Dividimos entre 2: x = -6.",
+    "choices": [
+      {
+        "text": "-6",
+        "correct": true
+      },
+      {
+        "text": "-3",
+        "correct": false
+      },
+      {
+        "text": "-9/2",
+        "correct": false
+      },
+      {
+        "text": "-19/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-d297c928a5903bf3"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 5,
+      "b": 3,
+      "x0": 4
+    },
+    "content_hash": "3a5c46fee340b8a3",
+    "question": "Resuelve para x:  5x + 3 = 23",
+    "question_latex": "Resuelve: \\(5 x + 3 = 23\\)",
+    "answer": "4",
+    "answer_display": "x = 4",
+    "explanation": "Pasamos 3 al otro lado (restando): 5x = 20. Dividimos entre 5: x = 4.",
+    "choices": [
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "20",
+        "correct": false
+      },
+      {
+        "text": "17/4",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-3a5c46fee340b8a3"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -5,
+      "b": -14,
+      "x0": 7
+    },
+    "content_hash": "c638f4d7d80708f4",
+    "question": "Resuelve para x:  −5x − 14 = -49",
+    "question_latex": "Resuelve: \\(- 5 x - 14 = -49\\)",
+    "answer": "7",
+    "answer_display": "x = 7",
+    "explanation": "Pasamos 14 al otro lado (sumando): -5x = -35. Dividimos entre -5: x = 7.",
+    "choices": [
+      {
+        "text": "6",
+        "correct": false
+      },
+      {
+        "text": "17",
+        "correct": false
+      },
+      {
+        "text": "7",
+        "correct": true
+      },
+      {
+        "text": "29/4",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-c638f4d7d80708f4"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -3,
+      "b": 3,
+      "x0": 6
+    },
+    "content_hash": "a582aa5c7b9806dc",
+    "question": "Resuelve para x:  −3x + 3 = -15",
+    "question_latex": "Resuelve: \\(3 - 3 x = -15\\)",
+    "answer": "6",
+    "answer_display": "x = 6",
+    "explanation": "Pasamos 3 al otro lado (restando): -3x = -18. Dividimos entre -3: x = 6.",
+    "choices": [
+      {
+        "text": "17/3",
+        "correct": false
+      },
+      {
+        "text": "-6",
+        "correct": false
+      },
+      {
+        "text": "-4",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-a582aa5c7b9806dc"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 4,
+      "b": -7,
+      "x0": -5
+    },
+    "content_hash": "d725c1fad318f754",
+    "question": "Resuelve para x:  4x − 7 = -27",
+    "question_latex": "Resuelve: \\(4 x - 7 = -27\\)",
+    "answer": "-5",
+    "answer_display": "x = -5",
+    "explanation": "Pasamos 7 al otro lado (sumando): 4x = -20. Dividimos entre 4: x = -5.",
+    "choices": [
+      {
+        "text": "-9/2",
+        "correct": false
+      },
+      {
+        "text": "-15",
+        "correct": false
+      },
+      {
+        "text": "-50",
+        "correct": false
+      },
+      {
+        "text": "-5",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-d725c1fad318f754"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -3,
+      "b": 17,
+      "x0": 3
+    },
+    "content_hash": "a6c160854068d8ce",
+    "question": "Resuelve para x:  −3x + 17 = 8",
+    "question_latex": "Resuelve: \\(17 - 3 x = 8\\)",
+    "answer": "3",
+    "answer_display": "x = 3",
+    "explanation": "Pasamos 17 al otro lado (restando): -3x = -9. Dividimos entre -3: x = 3.",
+    "choices": [
+      {
+        "text": "7/2",
+        "correct": false
+      },
+      {
+        "text": "15",
+        "correct": false
+      },
+      {
+        "text": "9/2",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-a6c160854068d8ce"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 5,
+      "b": -19,
+      "x0": 6
+    },
+    "content_hash": "3f55d82448316e82",
+    "question": "Resuelve para x:  5x − 19 = 11",
+    "question_latex": "Resuelve: \\(5 x - 19 = 11\\)",
+    "answer": "6",
+    "answer_display": "x = 6",
+    "explanation": "Pasamos 19 al otro lado (sumando): 5x = 30. Dividimos entre 5: x = 6.",
+    "choices": [
+      {
+        "text": "6",
+        "correct": true
+      },
+      {
+        "text": "12",
+        "correct": false
+      },
+      {
+        "text": "-4",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-3f55d82448316e82"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 4,
+      "b": 13,
+      "x0": 4
+    },
+    "content_hash": "d9616a8d4dba2392",
+    "question": "Resuelve para x:  4x + 13 = 29",
+    "question_latex": "Resuelve: \\(4 x + 13 = 29\\)",
+    "answer": "4",
+    "answer_display": "x = 4",
+    "explanation": "Pasamos 13 al otro lado (restando): 4x = 16. Dividimos entre 4: x = 4.",
+    "choices": [
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-LIN_EQ_01-d9616a8d4dba2392"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 1,
+      "b": 0,
+      "x0": 2
+    },
+    "content_hash": "4c9bec64c06ed4ca",
+    "question": "Resuelve para x:  x = 2",
+    "question_latex": "Resuelve: \\(x = 2\\)",
+    "answer": "2",
+    "answer_display": "x = 2",
+    "explanation": "x = 2.",
+    "choices": [
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "1",
+        "correct": false
+      },
+      {
+        "text": "-8",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-LIN_EQ_01-4c9bec64c06ed4ca"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -1,
+      "b": 7,
+      "x0": 5
+    },
+    "content_hash": "b1fa4cf5d32ed965",
+    "question": "Resuelve para x:  −x + 7 = 2",
+    "question_latex": "Resuelve: \\(7 - x = 2\\)",
+    "answer": "5",
+    "answer_display": "x = 5",
+    "explanation": "Pasamos 7 al otro lado (restando): -1x = -5. Dividimos entre -1: x = 5.",
+    "choices": [
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "-5",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": true
+      },
+      {
+        "text": "6",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-b1fa4cf5d32ed965"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 1,
+      "b": 15,
+      "x0": -2
+    },
+    "content_hash": "6cf367c98299f5cf",
+    "question": "Resuelve para x:  x + 15 = 13",
+    "question_latex": "Resuelve: \\(x + 15 = 13\\)",
+    "answer": "-2",
+    "answer_display": "x = -2",
+    "explanation": "Pasamos 15 al otro lado (restando): 1x = -2. x = -2.",
+    "choices": [
+      {
+        "text": "0",
+        "correct": false
+      },
+      {
+        "text": "-4",
+        "correct": false
+      },
+      {
+        "text": "-3/2",
+        "correct": false
+      },
+      {
+        "text": "-2",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-6cf367c98299f5cf"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 6,
+      "b": 13,
+      "x0": -7
+    },
+    "content_hash": "47abdf0af470f727",
+    "question": "Resuelve para x:  6x + 13 = -29",
+    "question_latex": "Resuelve: \\(6 x + 13 = -29\\)",
+    "answer": "-7",
+    "answer_display": "x = -7",
+    "explanation": "Pasamos 13 al otro lado (restando): 6x = -42. Dividimos entre 6: x = -7.",
+    "choices": [
+      {
+        "text": "-7",
+        "correct": true
+      },
+      {
+        "text": "-17",
+        "correct": false
+      },
+      {
+        "text": "-22/3",
+        "correct": false
+      },
+      {
+        "text": "-14",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-47abdf0af470f727"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 4,
+      "b": 8,
+      "x0": 7
+    },
+    "content_hash": "6684aa98dcc4bd86",
+    "question": "Resuelve para x:  4x + 8 = 36",
+    "question_latex": "Resuelve: \\(4 x + 8 = 36\\)",
+    "answer": "7",
+    "answer_display": "x = 7",
+    "explanation": "Pasamos 8 al otro lado (restando): 4x = 28. Dividimos entre 4: x = 7.",
+    "choices": [
+      {
+        "text": "70",
+        "correct": false
+      },
+      {
+        "text": "20/3",
+        "correct": false
+      },
+      {
+        "text": "14",
+        "correct": false
+      },
+      {
+        "text": "7",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-6684aa98dcc4bd86"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -3,
+      "b": -12,
+      "x0": 1
+    },
+    "content_hash": "00c9078bcb6bd7f1",
+    "question": "Resuelve para x:  −3x − 12 = -15",
+    "question_latex": "Resuelve: \\(- 3 x - 12 = -15\\)",
+    "answer": "1",
+    "answer_display": "x = 1",
+    "explanation": "Pasamos 12 al otro lado (sumando): -3x = -3. Dividimos entre -3: x = 1.",
+    "choices": [
+      {
+        "text": "11",
+        "correct": false
+      },
+      {
+        "text": "-9",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-00c9078bcb6bd7f1"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -5,
+      "b": 0,
+      "x0": 6
+    },
+    "content_hash": "4a1f6d3fb7e1af30",
+    "question": "Resuelve para x:  −5x = -30",
+    "question_latex": "Resuelve: \\(- 5 x = -30\\)",
+    "answer": "6",
+    "answer_display": "x = 6",
+    "explanation": "Dividimos entre -5: x = 6.",
+    "choices": [
+      {
+        "text": "17/3",
+        "correct": false
+      },
+      {
+        "text": "13/2",
+        "correct": false
+      },
+      {
+        "text": "18",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-4a1f6d3fb7e1af30"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 3,
+      "b": -15,
+      "x0": 4
+    },
+    "content_hash": "d8d5e1a3143a0093",
+    "question": "Resuelve para x:  3x − 15 = -3",
+    "question_latex": "Resuelve: \\(3 x - 15 = -3\\)",
+    "answer": "4",
+    "answer_display": "x = 4",
+    "explanation": "Pasamos 15 al otro lado (sumando): 3x = 12. Dividimos entre 3: x = 4.",
+    "choices": [
+      {
+        "text": "20",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "-6",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-d8d5e1a3143a0093"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -3,
+      "b": -9,
+      "x0": -1
+    },
+    "content_hash": "c59fcee7950c9a35",
+    "question": "Resuelve para x:  −3x − 9 = -6",
+    "question_latex": "Resuelve: \\(- 3 x - 9 = -6\\)",
+    "answer": "-1",
+    "answer_display": "x = -1",
+    "explanation": "Pasamos 9 al otro lado (sumando): -3x = 3. Dividimos entre -3: x = -1.",
+    "choices": [
+      {
+        "text": "-1",
+        "correct": true
+      },
+      {
+        "text": "0",
+        "correct": false
+      },
+      {
+        "text": "-1/2",
+        "correct": false
+      },
+      {
+        "text": "-2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-c59fcee7950c9a35"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 4,
+      "b": -17,
+      "x0": -1
+    },
+    "content_hash": "032bc069dcc08af1",
+    "question": "Resuelve para x:  4x − 17 = -21",
+    "question_latex": "Resuelve: \\(4 x - 17 = -21\\)",
+    "answer": "-1",
+    "answer_display": "x = -1",
+    "explanation": "Pasamos 17 al otro lado (sumando): 4x = -4. Dividimos entre 4: x = -1.",
+    "choices": [
+      {
+        "text": "1/2",
+        "correct": false
+      },
+      {
+        "text": "-1",
+        "correct": true
+      },
+      {
+        "text": "-3",
+        "correct": false
+      },
+      {
+        "text": "-11",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-LIN_EQ_01-032bc069dcc08af1"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 4,
+      "b": 10,
+      "x0": 2
+    },
+    "content_hash": "f2c4660d58fab8a7",
+    "question": "Resuelve para x:  4x + 10 = 18",
+    "question_latex": "Resuelve: \\(4 x + 10 = 18\\)",
+    "answer": "2",
+    "answer_display": "x = 2",
+    "explanation": "Pasamos 10 al otro lado (restando): 4x = 8. Dividimos entre 4: x = 2.",
+    "choices": [
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "5/3",
+        "correct": false
+      },
+      {
+        "text": "0",
+        "correct": false
+      },
+      {
+        "text": "10",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-f2c4660d58fab8a7"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 1,
+      "b": 1,
+      "x0": 4
+    },
+    "content_hash": "384c0bef10182a0a",
+    "question": "Resuelve para x:  x +  = 5",
+    "question_latex": "Resuelve: \\(x + 1 = 5\\)",
+    "answer": "4",
+    "answer_display": "x = 4",
+    "explanation": "Pasamos 1 al otro lado (restando): 1x = 4. x = 4.",
+    "choices": [
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": false
+      },
+      {
+        "text": "11/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-384c0bef10182a0a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -4,
+      "b": 18,
+      "x0": 4
+    },
+    "content_hash": "e4e98b6794916831",
+    "question": "Resuelve para x:  −4x + 18 = 2",
+    "question_latex": "Resuelve: \\(18 - 4 x = 2\\)",
+    "answer": "4",
+    "answer_display": "x = 4",
+    "explanation": "Pasamos 18 al otro lado (restando): -4x = -16. Dividimos entre -4: x = 4.",
+    "choices": [
+      {
+        "text": "20",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "9/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-e4e98b6794916831"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 2,
+      "b": -8,
+      "x0": 2
+    },
+    "content_hash": "211cb309f7f5927a",
+    "question": "Resuelve para x:  2x − 8 = -4",
+    "question_latex": "Resuelve: \\(2 x - 8 = -4\\)",
+    "answer": "2",
+    "answer_display": "x = 2",
+    "explanation": "Pasamos 8 al otro lado (sumando): 2x = 4. Dividimos entre 2: x = 2.",
+    "choices": [
+      {
+        "text": "0",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "5/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-211cb309f7f5927a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 6,
+      "b": 8,
+      "x0": -4
+    },
+    "content_hash": "79c8e961df0793d4",
+    "question": "Resuelve para x:  6x + 8 = -16",
+    "question_latex": "Resuelve: \\(6 x + 8 = -16\\)",
+    "answer": "-4",
+    "answer_display": "x = -4",
+    "explanation": "Pasamos 8 al otro lado (restando): 6x = -24. Dividimos entre 6: x = -4.",
+    "choices": [
+      {
+        "text": "-4",
+        "correct": true
+      },
+      {
+        "text": "-2",
+        "correct": false
+      },
+      {
+        "text": "-6",
+        "correct": false
+      },
+      {
+        "text": "-3",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-79c8e961df0793d4"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 3,
+      "b": 13,
+      "x0": 4
+    },
+    "content_hash": "05e9a5e8ac3aa8e3",
+    "question": "Resuelve para x:  3x + 13 = 25",
+    "question_latex": "Resuelve: \\(3 x + 13 = 25\\)",
+    "answer": "4",
+    "answer_display": "x = 4",
+    "explanation": "Pasamos 13 al otro lado (restando): 3x = 12. Dividimos entre 3: x = 4.",
+    "choices": [
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "11/2",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "20",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-05e9a5e8ac3aa8e3"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 2,
+      "b": 12,
+      "x0": -1
+    },
+    "content_hash": "f76239331ff073b8",
+    "question": "Resuelve para x:  2x + 12 = 10",
+    "question_latex": "Resuelve: \\(2 x + 12 = 10\\)",
+    "answer": "-1",
+    "answer_display": "x = -1",
+    "explanation": "Pasamos 12 al otro lado (restando): 2x = -2. Dividimos entre 2: x = -1.",
+    "choices": [
+      {
+        "text": "-11",
+        "correct": false
+      },
+      {
+        "text": "-3",
+        "correct": false
+      },
+      {
+        "text": "-1",
+        "correct": true
+      },
+      {
+        "text": "9",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-f76239331ff073b8"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 6,
+      "b": 1,
+      "x0": -6
+    },
+    "content_hash": "44a158f0dd1869da",
+    "question": "Resuelve para x:  6x +  = -35",
+    "question_latex": "Resuelve: \\(6 x + 1 = -35\\)",
+    "answer": "-6",
+    "answer_display": "x = -6",
+    "explanation": "Pasamos 1 al otro lado (restando): 6x = -36. Dividimos entre 6: x = -6.",
+    "choices": [
+      {
+        "text": "-12",
+        "correct": false
+      },
+      {
+        "text": "-4",
+        "correct": false
+      },
+      {
+        "text": "-23/4",
+        "correct": false
+      },
+      {
+        "text": "-6",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-44a158f0dd1869da"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -5,
+      "b": -17,
+      "x0": 1
+    },
+    "content_hash": "bab5352b13fbed8b",
+    "question": "Resuelve para x:  −5x − 17 = -22",
+    "question_latex": "Resuelve: \\(- 5 x - 17 = -22\\)",
+    "answer": "1",
+    "answer_display": "x = 1",
+    "explanation": "Pasamos 17 al otro lado (sumando): -5x = -5. Dividimos entre -5: x = 1.",
+    "choices": [
+      {
+        "text": "1",
+        "correct": true
+      },
+      {
+        "text": "11",
+        "correct": false
+      },
+      {
+        "text": "-1",
+        "correct": false
+      },
+      {
+        "text": "1/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-bab5352b13fbed8b"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 5,
+      "b": -15,
+      "x0": -4
+    },
+    "content_hash": "0f33c1b0a8338c6a",
+    "question": "Resuelve para x:  5x − 15 = -35",
+    "question_latex": "Resuelve: \\(5 x - 15 = -35\\)",
+    "answer": "-4",
+    "answer_display": "x = -4",
+    "explanation": "Pasamos 15 al otro lado (sumando): 5x = -20. Dividimos entre 5: x = -4.",
+    "choices": [
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "-20",
+        "correct": false
+      },
+      {
+        "text": "-2",
+        "correct": false
+      },
+      {
+        "text": "-4",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-0f33c1b0a8338c6a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -3,
+      "b": 20,
+      "x0": 3
+    },
+    "content_hash": "314e5514227b0687",
+    "question": "Resuelve para x:  −3x + 20 = 11",
+    "question_latex": "Resuelve: \\(20 - 3 x = 11\\)",
+    "answer": "3",
+    "answer_display": "x = 3",
+    "explanation": "Pasamos 20 al otro lado (restando): -3x = -9. Dividimos entre -3: x = 3.",
+    "choices": [
+      {
+        "text": "3/2",
+        "correct": false
+      },
+      {
+        "text": "8/3",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-314e5514227b0687"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -3,
+      "b": -18,
+      "x0": -8
+    },
+    "content_hash": "abbad869cd15d564",
+    "question": "Resuelve para x:  −3x − 18 = 6",
+    "question_latex": "Resuelve: \\(- 3 x - 18 = 6\\)",
+    "answer": "-8",
+    "answer_display": "x = -8",
+    "explanation": "Pasamos 18 al otro lado (sumando): -3x = 24. Dividimos entre -3: x = -8.",
+    "choices": [
+      {
+        "text": "-8",
+        "correct": true
+      },
+      {
+        "text": "-9",
+        "correct": false
+      },
+      {
+        "text": "-18",
+        "correct": false
+      },
+      {
+        "text": "-6",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-abbad869cd15d564"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -1,
+      "b": -9,
+      "x0": 4
+    },
+    "content_hash": "8bb7d62e24f662db",
+    "question": "Resuelve para x:  −x − 9 = -13",
+    "question_latex": "Resuelve: \\(- x - 9 = -13\\)",
+    "answer": "4",
+    "answer_display": "x = 4",
+    "explanation": "Pasamos 9 al otro lado (sumando): -1x = -4. Dividimos entre -1: x = 4.",
+    "choices": [
+      {
+        "text": "20",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-8bb7d62e24f662db"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 2,
+      "b": 18,
+      "x0": 1
+    },
+    "content_hash": "3543b51439a6da19",
+    "question": "Resuelve para x:  2x + 18 = 20",
+    "question_latex": "Resuelve: \\(2 x + 18 = 20\\)",
+    "answer": "1",
+    "answer_display": "x = 1",
+    "explanation": "Pasamos 18 al otro lado (restando): 2x = 2. Dividimos entre 2: x = 1.",
+    "choices": [
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "-1",
+        "correct": false
+      },
+      {
+        "text": "0",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-3543b51439a6da19"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -4,
+      "b": -16,
+      "x0": -8
+    },
+    "content_hash": "30da5506c3e99e4a",
+    "question": "Resuelve para x:  −4x − 16 = 16",
+    "question_latex": "Resuelve: \\(- 4 x - 16 = 16\\)",
+    "answer": "-8",
+    "answer_display": "x = -8",
+    "explanation": "Pasamos 16 al otro lado (sumando): -4x = 32. Dividimos entre -4: x = -8.",
+    "choices": [
+      {
+        "text": "-8",
+        "correct": true
+      },
+      {
+        "text": "-24",
+        "correct": false
+      },
+      {
+        "text": "-4",
+        "correct": false
+      },
+      {
+        "text": "-31/4",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-30da5506c3e99e4a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -5,
+      "b": -19,
+      "x0": -2
+    },
+    "content_hash": "ca822a1f676650a7",
+    "question": "Resuelve para x:  −5x − 19 = -9",
+    "question_latex": "Resuelve: \\(- 5 x - 19 = -9\\)",
+    "answer": "-2",
+    "answer_display": "x = -2",
+    "explanation": "Pasamos 19 al otro lado (sumando): -5x = 10. Dividimos entre -5: x = -2.",
+    "choices": [
+      {
+        "text": "0",
+        "correct": false
+      },
+      {
+        "text": "-1",
+        "correct": false
+      },
+      {
+        "text": "-7/4",
+        "correct": false
+      },
+      {
+        "text": "-2",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-ca822a1f676650a7"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 3,
+      "b": -12,
+      "x0": 6
+    },
+    "content_hash": "22f8b0beb93be9cb",
+    "question": "Resuelve para x:  3x − 12 = 6",
+    "question_latex": "Resuelve: \\(3 x - 12 = 6\\)",
+    "answer": "6",
+    "answer_display": "x = 6",
+    "explanation": "Pasamos 12 al otro lado (sumando): 3x = 18. Dividimos entre 3: x = 6.",
+    "choices": [
+      {
+        "text": "6",
+        "correct": true
+      },
+      {
+        "text": "8",
+        "correct": false
+      },
+      {
+        "text": "15/2",
+        "correct": false
+      },
+      {
+        "text": "12",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-22f8b0beb93be9cb"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 3,
+      "b": 20,
+      "x0": -5
+    },
+    "content_hash": "456cfe783445f4b6",
+    "question": "Resuelve para x:  3x + 20 = 5",
+    "question_latex": "Resuelve: \\(3 x + 20 = 5\\)",
+    "answer": "-5",
+    "answer_display": "x = -5",
+    "explanation": "Pasamos 20 al otro lado (restando): 3x = -15. Dividimos entre 3: x = -5.",
+    "choices": [
+      {
+        "text": "-50",
+        "correct": false
+      },
+      {
+        "text": "-10",
+        "correct": false
+      },
+      {
+        "text": "-15",
+        "correct": false
+      },
+      {
+        "text": "-5",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-456cfe783445f4b6"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -2,
+      "b": -12,
+      "x0": 9
+    },
+    "content_hash": "9b5134289507e755",
+    "question": "Resuelve para x:  −2x − 12 = -30",
+    "question_latex": "Resuelve: \\(- 2 x - 12 = -30\\)",
+    "answer": "9",
+    "answer_display": "x = 9",
+    "explanation": "Pasamos 12 al otro lado (sumando): -2x = -18. Dividimos entre -2: x = 9.",
+    "choices": [
+      {
+        "text": "8",
+        "correct": false
+      },
+      {
+        "text": "9",
+        "correct": true
+      },
+      {
+        "text": "18",
+        "correct": false
+      },
+      {
+        "text": "45",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-LIN_EQ_01-9b5134289507e755"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 4,
+      "b": 20,
+      "x0": 5
+    },
+    "content_hash": "27c3e73334115e3a",
+    "question": "Resuelve para x:  4x + 20 = 40",
+    "question_latex": "Resuelve: \\(4 x + 20 = 40\\)",
+    "answer": "5",
+    "answer_display": "x = 5",
+    "explanation": "Pasamos 20 al otro lado (restando): 4x = 20. Dividimos entre 4: x = 5.",
+    "choices": [
+      {
+        "text": "-5",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": true
+      },
+      {
+        "text": "15",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-LIN_EQ_01-27c3e73334115e3a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 4,
+      "b": -11,
+      "x0": 2
+    },
+    "content_hash": "885f4c774de454d2",
+    "question": "Resuelve para x:  4x − 11 = -3",
+    "question_latex": "Resuelve: \\(4 x - 11 = -3\\)",
+    "answer": "2",
+    "answer_display": "x = 2",
+    "explanation": "Pasamos 11 al otro lado (sumando): 4x = 8. Dividimos entre 4: x = 2.",
+    "choices": [
+      {
+        "text": "5/3",
+        "correct": false
+      },
+      {
+        "text": "10",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "1",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-885f4c774de454d2"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -2,
+      "b": 4,
+      "x0": -8
+    },
+    "content_hash": "696d42dfc34522aa",
+    "question": "Resuelve para x:  −2x + 4 = 20",
+    "question_latex": "Resuelve: \\(4 - 2 x = 20\\)",
+    "answer": "-8",
+    "answer_display": "x = -8",
+    "explanation": "Pasamos 4 al otro lado (restando): -2x = 16. Dividimos entre -2: x = -8.",
+    "choices": [
+      {
+        "text": "-15/2",
+        "correct": false
+      },
+      {
+        "text": "-7",
+        "correct": false
+      },
+      {
+        "text": "-9",
+        "correct": false
+      },
+      {
+        "text": "-8",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-696d42dfc34522aa"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 2,
+      "b": -5,
+      "x0": 8
+    },
+    "content_hash": "595669cb9c505ef2",
+    "question": "Resuelve para x:  2x − 5 = 11",
+    "question_latex": "Resuelve: \\(2 x - 5 = 11\\)",
+    "answer": "8",
+    "answer_display": "x = 8",
+    "explanation": "Pasamos 5 al otro lado (sumando): 2x = 16. Dividimos entre 2: x = 8.",
+    "choices": [
+      {
+        "text": "-8",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": true
+      },
+      {
+        "text": "10",
+        "correct": false
+      },
+      {
+        "text": "24",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-LIN_EQ_01-595669cb9c505ef2"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -6,
+      "b": 16,
+      "x0": 4
+    },
+    "content_hash": "eff482eed19a1132",
+    "question": "Resuelve para x:  −6x + 16 = -8",
+    "question_latex": "Resuelve: \\(16 - 6 x = -8\\)",
+    "answer": "4",
+    "answer_display": "x = 4",
+    "explanation": "Pasamos 16 al otro lado (restando): -6x = -24. Dividimos entre -6: x = 4.",
+    "choices": [
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "-4",
+        "correct": false
+      },
+      {
+        "text": "-6",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-eff482eed19a1132"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -1,
+      "b": -11,
+      "x0": 9
+    },
+    "content_hash": "de0b8ff3d4f3d84d",
+    "question": "Resuelve para x:  −x − 11 = -20",
+    "question_latex": "Resuelve: \\(- x - 11 = -20\\)",
+    "answer": "9",
+    "answer_display": "x = 9",
+    "explanation": "Pasamos 11 al otro lado (sumando): -1x = -9. Dividimos entre -1: x = 9.",
+    "choices": [
+      {
+        "text": "9",
+        "correct": true
+      },
+      {
+        "text": "90",
+        "correct": false
+      },
+      {
+        "text": "18",
+        "correct": false
+      },
+      {
+        "text": "19",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-de0b8ff3d4f3d84d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 3,
+      "b": 12,
+      "x0": 2
+    },
+    "content_hash": "4926b4f948423a56",
+    "question": "Resuelve para x:  3x + 12 = 18",
+    "question_latex": "Resuelve: \\(3 x + 12 = 18\\)",
+    "answer": "2",
+    "answer_display": "x = 2",
+    "explanation": "Pasamos 12 al otro lado (restando): 3x = 6. Dividimos entre 3: x = 2.",
+    "choices": [
+      {
+        "text": "7/2",
+        "correct": false
+      },
+      {
+        "text": "-2",
+        "correct": false
+      },
+      {
+        "text": "10",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-4926b4f948423a56"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 3,
+      "b": 20,
+      "x0": -4
+    },
+    "content_hash": "c0f09885f037be81",
+    "question": "Resuelve para x:  3x + 20 = 8",
+    "question_latex": "Resuelve: \\(3 x + 20 = 8\\)",
+    "answer": "-4",
+    "answer_display": "x = -4",
+    "explanation": "Pasamos 20 al otro lado (restando): 3x = -12. Dividimos entre 3: x = -4.",
+    "choices": [
+      {
+        "text": "-4",
+        "correct": true
+      },
+      {
+        "text": "-12",
+        "correct": false
+      },
+      {
+        "text": "-6",
+        "correct": false
+      },
+      {
+        "text": "-2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-c0f09885f037be81"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 6,
+      "b": -12,
+      "x0": -8
+    },
+    "content_hash": "a9a24091f32794a9",
+    "question": "Resuelve para x:  6x − 12 = -60",
+    "question_latex": "Resuelve: \\(6 x - 12 = -60\\)",
+    "answer": "-8",
+    "answer_display": "x = -8",
+    "explanation": "Pasamos 12 al otro lado (sumando): 6x = -48. Dividimos entre 6: x = -8.",
+    "choices": [
+      {
+        "text": "-8",
+        "correct": true
+      },
+      {
+        "text": "-9",
+        "correct": false
+      },
+      {
+        "text": "-7",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-a9a24091f32794a9"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -2,
+      "b": -2,
+      "x0": -2
+    },
+    "content_hash": "07bcc7515cf902b1",
+    "question": "Resuelve para x:  −2x − 2 = 2",
+    "question_latex": "Resuelve: \\(- 2 x - 2 = 2\\)",
+    "answer": "-2",
+    "answer_display": "x = -2",
+    "explanation": "Pasamos 2 al otro lado (sumando): -2x = 4. Dividimos entre -2: x = -2.",
+    "choices": [
+      {
+        "text": "-1",
+        "correct": false
+      },
+      {
+        "text": "-7/3",
+        "correct": false
+      },
+      {
+        "text": "-7/4",
+        "correct": false
+      },
+      {
+        "text": "-2",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-07bcc7515cf902b1"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 6,
+      "b": 10,
+      "x0": -1
+    },
+    "content_hash": "ca5edab824c2b9ff",
+    "question": "Resuelve para x:  6x + 10 = 4",
+    "question_latex": "Resuelve: \\(6 x + 10 = 4\\)",
+    "answer": "-1",
+    "answer_display": "x = -1",
+    "explanation": "Pasamos 10 al otro lado (restando): 6x = -6. Dividimos entre 6: x = -1.",
+    "choices": [
+      {
+        "text": "-3",
+        "correct": false
+      },
+      {
+        "text": "-1/2",
+        "correct": false
+      },
+      {
+        "text": "-10",
+        "correct": false
+      },
+      {
+        "text": "-1",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-ca5edab824c2b9ff"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 6,
+      "b": -18,
+      "x0": 9
+    },
+    "content_hash": "465e9b09c2d7950e",
+    "question": "Resuelve para x:  6x − 18 = 36",
+    "question_latex": "Resuelve: \\(6 x - 18 = 36\\)",
+    "answer": "9",
+    "answer_display": "x = 9",
+    "explanation": "Pasamos 18 al otro lado (sumando): 6x = 54. Dividimos entre 6: x = 9.",
+    "choices": [
+      {
+        "text": "9",
+        "correct": true
+      },
+      {
+        "text": "18",
+        "correct": false
+      },
+      {
+        "text": "26/3",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-465e9b09c2d7950e"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 3,
+      "b": 9,
+      "x0": -5
+    },
+    "content_hash": "e5b2b7e73268313d",
+    "question": "Resuelve para x:  3x + 9 = -6",
+    "question_latex": "Resuelve: \\(3 x + 9 = -6\\)",
+    "answer": "-5",
+    "answer_display": "x = -5",
+    "explanation": "Pasamos 9 al otro lado (restando): 3x = -15. Dividimos entre 3: x = -5.",
+    "choices": [
+      {
+        "text": "-5",
+        "correct": true
+      },
+      {
+        "text": "-16/3",
+        "correct": false
+      },
+      {
+        "text": "-7/2",
+        "correct": false
+      },
+      {
+        "text": "-15",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-e5b2b7e73268313d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 1,
+      "b": -14,
+      "x0": -7
+    },
+    "content_hash": "eae1663e29f826b9",
+    "question": "Resuelve para x:  x − 14 = -21",
+    "question_latex": "Resuelve: \\(x - 14 = -21\\)",
+    "answer": "-7",
+    "answer_display": "x = -7",
+    "explanation": "Pasamos 14 al otro lado (sumando): 1x = -7. x = -7.",
+    "choices": [
+      {
+        "text": "-7",
+        "correct": true
+      },
+      {
+        "text": "-8",
+        "correct": false
+      },
+      {
+        "text": "-21",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-eae1663e29f826b9"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -6,
+      "b": -13,
+      "x0": -2
+    },
+    "content_hash": "6966077be99a690e",
+    "question": "Resuelve para x:  −6x − 13 = -1",
+    "question_latex": "Resuelve: \\(- 6 x - 13 = -1\\)",
+    "answer": "-2",
+    "answer_display": "x = -2",
+    "explanation": "Pasamos 13 al otro lado (sumando): -6x = 12. Dividimos entre -6: x = -2.",
+    "choices": [
+      {
+        "text": "-2",
+        "correct": true
+      },
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "-1",
+        "correct": false
+      },
+      {
+        "text": "-4",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-6966077be99a690e"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 6,
+      "b": 15,
+      "x0": 5
+    },
+    "content_hash": "d64a483b042f67b8",
+    "question": "Resuelve para x:  6x + 15 = 45",
+    "question_latex": "Resuelve: \\(6 x + 15 = 45\\)",
+    "answer": "5",
+    "answer_display": "x = 5",
+    "explanation": "Pasamos 15 al otro lado (restando): 6x = 30. Dividimos entre 6: x = 5.",
+    "choices": [
+      {
+        "text": "21/4",
+        "correct": false
+      },
+      {
+        "text": "-5",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": true
+      },
+      {
+        "text": "25",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-d64a483b042f67b8"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 2,
+      "b": -13,
+      "x0": 8
+    },
+    "content_hash": "14e4305b120445ce",
+    "question": "Resuelve para x:  2x − 13 = 3",
+    "question_latex": "Resuelve: \\(2 x - 13 = 3\\)",
+    "answer": "8",
+    "answer_display": "x = 8",
+    "explanation": "Pasamos 13 al otro lado (sumando): 2x = 16. Dividimos entre 2: x = 8.",
+    "choices": [
+      {
+        "text": "23/3",
+        "correct": false
+      },
+      {
+        "text": "40",
+        "correct": false
+      },
+      {
+        "text": "10",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-14e4305b120445ce"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 6,
+      "b": -7,
+      "x0": -9
+    },
+    "content_hash": "aebbb53c21030f26",
+    "question": "Resuelve para x:  6x − 7 = -61",
+    "question_latex": "Resuelve: \\(6 x - 7 = -61\\)",
+    "answer": "-9",
+    "answer_display": "x = -9",
+    "explanation": "Pasamos 7 al otro lado (sumando): 6x = -54. Dividimos entre 6: x = -9.",
+    "choices": [
+      {
+        "text": "-9",
+        "correct": true
+      },
+      {
+        "text": "-45",
+        "correct": false
+      },
+      {
+        "text": "-35/4",
+        "correct": false
+      },
+      {
+        "text": "-9/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-aebbb53c21030f26"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 1,
+      "b": -15,
+      "x0": 4
+    },
+    "content_hash": "3c693260a8c9e723",
+    "question": "Resuelve para x:  x − 15 = -11",
+    "question_latex": "Resuelve: \\(x - 15 = -11\\)",
+    "answer": "4",
+    "answer_display": "x = 4",
+    "explanation": "Pasamos 15 al otro lado (sumando): 1x = 4. x = 4.",
+    "choices": [
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "8",
+        "correct": false
+      },
+      {
+        "text": "9/2",
+        "correct": false
+      },
+      {
+        "text": "11/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-3c693260a8c9e723"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -3,
+      "b": 9,
+      "x0": -2
+    },
+    "content_hash": "7ccc54cbd9e15fda",
+    "question": "Resuelve para x:  −3x + 9 = 15",
+    "question_latex": "Resuelve: \\(9 - 3 x = 15\\)",
+    "answer": "-2",
+    "answer_display": "x = -2",
+    "explanation": "Pasamos 9 al otro lado (restando): -3x = 6. Dividimos entre -3: x = -2.",
+    "choices": [
+      {
+        "text": "-7/3",
+        "correct": false
+      },
+      {
+        "text": "-2",
+        "correct": true
+      },
+      {
+        "text": "-3/2",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-LIN_EQ_01-7ccc54cbd9e15fda"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 2,
+      "b": -6,
+      "x0": 4
+    },
+    "content_hash": "5ee97ab103b64d0d",
+    "question": "Resuelve para x:  2x − 6 = 2",
+    "question_latex": "Resuelve: \\(2 x - 6 = 2\\)",
+    "answer": "4",
+    "answer_display": "x = 4",
+    "explanation": "Pasamos 6 al otro lado (sumando): 2x = 8. Dividimos entre 2: x = 4.",
+    "choices": [
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "9/2",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "2",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-5ee97ab103b64d0d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 3,
+      "b": 11,
+      "x0": 5
+    },
+    "content_hash": "457a6f866746268d",
+    "question": "Resuelve para x:  3x + 11 = 26",
+    "question_latex": "Resuelve: \\(3 x + 11 = 26\\)",
+    "answer": "5",
+    "answer_display": "x = 5",
+    "explanation": "Pasamos 11 al otro lado (restando): 3x = 15. Dividimos entre 3: x = 5.",
+    "choices": [
+      {
+        "text": "5/2",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": true
+      },
+      {
+        "text": "6",
+        "correct": false
+      },
+      {
+        "text": "13/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-LIN_EQ_01-457a6f866746268d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -6,
+      "b": 15,
+      "x0": 6
+    },
+    "content_hash": "52a6905b6356959a",
+    "question": "Resuelve para x:  −6x + 15 = -21",
+    "question_latex": "Resuelve: \\(15 - 6 x = -21\\)",
+    "answer": "6",
+    "answer_display": "x = 6",
+    "explanation": "Pasamos 15 al otro lado (restando): -6x = -36. Dividimos entre -6: x = 6.",
+    "choices": [
+      {
+        "text": "16",
+        "correct": false
+      },
+      {
+        "text": "17/3",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-52a6905b6356959a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -5,
+      "b": -8,
+      "x0": -8
+    },
+    "content_hash": "b7cd9b4b68ecf124",
+    "question": "Resuelve para x:  −5x − 8 = 32",
+    "question_latex": "Resuelve: \\(- 5 x - 8 = 32\\)",
+    "answer": "-8",
+    "answer_display": "x = -8",
+    "explanation": "Pasamos 8 al otro lado (sumando): -5x = 40. Dividimos entre -5: x = -8.",
+    "choices": [
+      {
+        "text": "-8",
+        "correct": true
+      },
+      {
+        "text": "-13/2",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": false
+      },
+      {
+        "text": "-80",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-b7cd9b4b68ecf124"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 3,
+      "b": 2,
+      "x0": 6
+    },
+    "content_hash": "02ab706fca92565b",
+    "question": "Resuelve para x:  3x + 2 = 20",
+    "question_latex": "Resuelve: \\(3 x + 2 = 20\\)",
+    "answer": "6",
+    "answer_display": "x = 6",
+    "explanation": "Pasamos 2 al otro lado (restando): 3x = 18. Dividimos entre 3: x = 6.",
+    "choices": [
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "60",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-02ab706fca92565b"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -4,
+      "b": -8,
+      "x0": 1
+    },
+    "content_hash": "95e4dcef0553ccfa",
+    "question": "Resuelve para x:  −4x − 8 = -12",
+    "question_latex": "Resuelve: \\(- 4 x - 8 = -12\\)",
+    "answer": "1",
+    "answer_display": "x = 1",
+    "explanation": "Pasamos 8 al otro lado (sumando): -4x = -4. Dividimos entre -4: x = 1.",
+    "choices": [
+      {
+        "text": "0",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": true
+      },
+      {
+        "text": "-1",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-95e4dcef0553ccfa"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 3,
+      "b": -17,
+      "x0": -4
+    },
+    "content_hash": "c6ac8c577e65e1ff",
+    "question": "Resuelve para x:  3x − 17 = -29",
+    "question_latex": "Resuelve: \\(3 x - 17 = -29\\)",
+    "answer": "-4",
+    "answer_display": "x = -4",
+    "explanation": "Pasamos 17 al otro lado (sumando): 3x = -12. Dividimos entre 3: x = -4.",
+    "choices": [
+      {
+        "text": "-13/3",
+        "correct": false
+      },
+      {
+        "text": "-2",
+        "correct": false
+      },
+      {
+        "text": "-4",
+        "correct": true
+      },
+      {
+        "text": "-12",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-c6ac8c577e65e1ff"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -6,
+      "b": -20,
+      "x0": 7
+    },
+    "content_hash": "d04d77c49a98ea28",
+    "question": "Resuelve para x:  −6x − 20 = -62",
+    "question_latex": "Resuelve: \\(- 6 x - 20 = -62\\)",
+    "answer": "7",
+    "answer_display": "x = 7",
+    "explanation": "Pasamos 20 al otro lado (sumando): -6x = -42. Dividimos entre -6: x = 7.",
+    "choices": [
+      {
+        "text": "15/2",
+        "correct": false
+      },
+      {
+        "text": "-7",
+        "correct": false
+      },
+      {
+        "text": "7",
+        "correct": true
+      },
+      {
+        "text": "5",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-LIN_EQ_01-d04d77c49a98ea28"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -2,
+      "b": 2,
+      "x0": 8
+    },
+    "content_hash": "8e21204e7886fae0",
+    "question": "Resuelve para x:  −2x + 2 = -14",
+    "question_latex": "Resuelve: \\(2 - 2 x = -14\\)",
+    "answer": "8",
+    "answer_display": "x = 8",
+    "explanation": "Pasamos 2 al otro lado (restando): -2x = -16. Dividimos entre -2: x = 8.",
+    "choices": [
+      {
+        "text": "8",
+        "correct": true
+      },
+      {
+        "text": "24",
+        "correct": false
+      },
+      {
+        "text": "-8",
+        "correct": false
+      },
+      {
+        "text": "40",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-8e21204e7886fae0"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 5,
+      "b": -20,
+      "x0": -8
+    },
+    "content_hash": "30957a9950087a9e",
+    "question": "Resuelve para x:  5x − 20 = -60",
+    "question_latex": "Resuelve: \\(5 x - 20 = -60\\)",
+    "answer": "-8",
+    "answer_display": "x = -8",
+    "explanation": "Pasamos 20 al otro lado (sumando): 5x = -40. Dividimos entre 5: x = -8.",
+    "choices": [
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "-13/2",
+        "correct": false
+      },
+      {
+        "text": "-40",
+        "correct": false
+      },
+      {
+        "text": "-8",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-30957a9950087a9e"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 4,
+      "b": -18,
+      "x0": 9
+    },
+    "content_hash": "03be72f76659e0f9",
+    "question": "Resuelve para x:  4x − 18 = 18",
+    "question_latex": "Resuelve: \\(4 x - 18 = 18\\)",
+    "answer": "9",
+    "answer_display": "x = 9",
+    "explanation": "Pasamos 18 al otro lado (sumando): 4x = 36. Dividimos entre 4: x = 9.",
+    "choices": [
+      {
+        "text": "45",
+        "correct": false
+      },
+      {
+        "text": "9",
+        "correct": true
+      },
+      {
+        "text": "11",
+        "correct": false
+      },
+      {
+        "text": "19/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-LIN_EQ_01-03be72f76659e0f9"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": 3,
+      "b": 2,
+      "x0": -7
+    },
+    "content_hash": "256bedccff14fc21",
+    "question": "Resuelve para x:  3x + 2 = -19",
+    "question_latex": "Resuelve: \\(3 x + 2 = -19\\)",
+    "answer": "-7",
+    "answer_display": "x = -7",
+    "explanation": "Pasamos 2 al otro lado (restando): 3x = -21. Dividimos entre 3: x = -7.",
+    "choices": [
+      {
+        "text": "-7",
+        "correct": true
+      },
+      {
+        "text": "-7/2",
+        "correct": false
+      },
+      {
+        "text": "-17",
+        "correct": false
+      },
+      {
+        "text": "-21",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-LIN_EQ_01-256bedccff14fc21"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_lineales",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "escuela_tecnica",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 3,
+    "skills": [
+      "ecuaciones",
+      "despejes",
+      "aritmetica"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "LIN_EQ_01",
+    "variant_params": {
+      "a": -4,
+      "b": 17,
+      "x0": 5
+    },
+    "content_hash": "a597dbd5fec6666d",
+    "question": "Resuelve para x:  −4x + 17 = -3",
+    "question_latex": "Resuelve: \\(17 - 4 x = -3\\)",
+    "answer": "5",
+    "answer_display": "x = 5",
+    "explanation": "Pasamos 17 al otro lado (restando): -4x = -20. Dividimos entre -4: x = 5.",
+    "choices": [
+      {
+        "text": "6",
+        "correct": false
+      },
+      {
+        "text": "11/2",
+        "correct": false
+      },
+      {
+        "text": "15",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-LIN_EQ_01-a597dbd5fec6666d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 0,
+      "r2": 5
+    },
+    "content_hash": "09906d6a2bb28057",
+    "question": "Resuelve: x² − 5x = 0",
+    "question_latex": "\\(x^{2} - 5 x = 0\\)",
+    "answer": [
+      "0",
+      "5"
+    ],
+    "answer_display": "x₁ = 0,  x₂ = 5",
+    "explanation": "Factorizamos: (x)(x − 5) = 0 → x = 0 o x = 5.",
+    "exercise_id": "MAYAN-QUAD_01-09906d6a2bb28057"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -1,
+      "r2": -6
+    },
+    "content_hash": "a4288c6e314e25be",
+    "question": "Resuelve: x² + 7x + 6 = 0",
+    "question_latex": "\\(x^{2} + 7 x + 6 = 0\\)",
+    "answer": [
+      "-1",
+      "-6"
+    ],
+    "answer_display": "x₁ = -6,  x₂ = -1",
+    "explanation": "Factorizamos: (x + 1)(x + 6) = 0 → x = -1 o x = -6.",
+    "exercise_id": "MAYAN-QUAD_01-a4288c6e314e25be"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.0,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -4,
+      "r2": 4
+    },
+    "content_hash": "59b8d8b6f8bba88c",
+    "question": "Resuelve: x² − 16 = 0",
+    "question_latex": "\\(x^{2} - 16 = 0\\)",
+    "answer": [
+      "-4",
+      "4"
+    ],
+    "answer_display": "x₁ = -4,  x₂ = 4",
+    "explanation": "Factorizamos: (x + 4)(x − 4) = 0 → x = -4 o x = 4.",
+    "exercise_id": "MAYAN-QUAD_01-59b8d8b6f8bba88c"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 8,
+      "r2": 7
+    },
+    "content_hash": "a65c7c8ca6a31047",
+    "question": "Resuelve: x² − 15x + 56 = 0",
+    "question_latex": "\\(x^{2} - 15 x + 56 = 0\\)",
+    "answer": [
+      "7",
+      "8"
+    ],
+    "answer_display": "x₁ = 7,  x₂ = 8",
+    "explanation": "Factorizamos: (x − 8)(x − 7) = 0 → x = 8 o x = 7.",
+    "exercise_id": "MAYAN-QUAD_01-a65c7c8ca6a31047"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -9,
+      "r2": -7
+    },
+    "content_hash": "95490ce0595e38a6",
+    "question": "Resuelve: x² + 16x + 63 = 0",
+    "question_latex": "\\(x^{2} + 16 x + 63 = 0\\)",
+    "answer": [
+      "-7",
+      "-9"
+    ],
+    "answer_display": "x₁ = -9,  x₂ = -7",
+    "explanation": "Factorizamos: (x + 9)(x + 7) = 0 → x = -9 o x = -7.",
+    "exercise_id": "MAYAN-QUAD_01-95490ce0595e38a6"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -7,
+      "r2": 1
+    },
+    "content_hash": "7d01ac0f448a7634",
+    "question": "Resuelve: x² + 6x − 7 = 0",
+    "question_latex": "\\(x^{2} + 6 x - 7 = 0\\)",
+    "answer": [
+      "-7",
+      "1"
+    ],
+    "answer_display": "x₁ = -7,  x₂ = 1",
+    "explanation": "Factorizamos: (x + 7)(x − 1) = 0 → x = -7 o x = 1.",
+    "exercise_id": "MAYAN-QUAD_01-7d01ac0f448a7634"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -9,
+      "r2": 0
+    },
+    "content_hash": "6a96626c8b17ef16",
+    "question": "Resuelve: x² + 9x = 0",
+    "question_latex": "\\(x^{2} + 9 x = 0\\)",
+    "answer": [
+      "-9",
+      "0"
+    ],
+    "answer_display": "x₁ = -9,  x₂ = 0",
+    "explanation": "Factorizamos: (x + 9)(x) = 0 → x = -9 o x = 0.",
+    "exercise_id": "MAYAN-QUAD_01-6a96626c8b17ef16"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -7,
+      "r2": 8
+    },
+    "content_hash": "58488f8ecc25384d",
+    "question": "Resuelve: x² − x − 56 = 0",
+    "question_latex": "\\(x^{2} - x - 56 = 0\\)",
+    "answer": [
+      "-7",
+      "8"
+    ],
+    "answer_display": "x₁ = -7,  x₂ = 8",
+    "explanation": "Factorizamos: (x + 7)(x − 8) = 0 → x = -7 o x = 8.",
+    "exercise_id": "MAYAN-QUAD_01-58488f8ecc25384d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.0,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -2,
+      "r2": 9
+    },
+    "content_hash": "1f9448000224e3e2",
+    "question": "Resuelve: x² − 7x − 18 = 0",
+    "question_latex": "\\(x^{2} - 7 x - 18 = 0\\)",
+    "answer": [
+      "-2",
+      "9"
+    ],
+    "answer_display": "x₁ = -2,  x₂ = 9",
+    "explanation": "Factorizamos: (x + 2)(x − 9) = 0 → x = -2 o x = 9.",
+    "exercise_id": "MAYAN-QUAD_01-1f9448000224e3e2"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 3,
+      "r2": -4
+    },
+    "content_hash": "35b66e95b32d964f",
+    "question": "Resuelve: x² + x − 12 = 0",
+    "question_latex": "\\(x^{2} + x - 12 = 0\\)",
+    "answer": [
+      "-4",
+      "3"
+    ],
+    "answer_display": "x₁ = -4,  x₂ = 3",
+    "explanation": "Factorizamos: (x − 3)(x + 4) = 0 → x = 3 o x = -4.",
+    "exercise_id": "MAYAN-QUAD_01-35b66e95b32d964f"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.0,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 0,
+      "r2": -1
+    },
+    "content_hash": "75a79316f130944d",
+    "question": "Resuelve: x² + x = 0",
+    "question_latex": "\\(x^{2} + x = 0\\)",
+    "answer": [
+      "-1",
+      "0"
+    ],
+    "answer_display": "x₁ = -1,  x₂ = 0",
+    "explanation": "Factorizamos: (x)(x + 1) = 0 → x = 0 o x = -1.",
+    "exercise_id": "MAYAN-QUAD_01-75a79316f130944d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -7,
+      "r2": -4
+    },
+    "content_hash": "1a1405e1f65171bf",
+    "question": "Resuelve: x² + 11x + 28 = 0",
+    "question_latex": "\\(x^{2} + 11 x + 28 = 0\\)",
+    "answer": [
+      "-4",
+      "-7"
+    ],
+    "answer_display": "x₁ = -7,  x₂ = -4",
+    "explanation": "Factorizamos: (x + 7)(x + 4) = 0 → x = -7 o x = -4.",
+    "exercise_id": "MAYAN-QUAD_01-1a1405e1f65171bf"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.0,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 4,
+      "r2": 0
+    },
+    "content_hash": "a69a59afbb4f90c5",
+    "question": "Resuelve: x² − 4x = 0",
+    "question_latex": "\\(x^{2} - 4 x = 0\\)",
+    "answer": [
+      "0",
+      "4"
+    ],
+    "answer_display": "x₁ = 0,  x₂ = 4",
+    "explanation": "Factorizamos: (x − 4)(x) = 0 → x = 4 o x = 0.",
+    "exercise_id": "MAYAN-QUAD_01-a69a59afbb4f90c5"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -7,
+      "r2": 2
+    },
+    "content_hash": "ab0ee3f2df32fba6",
+    "question": "Resuelve: x² + 5x − 14 = 0",
+    "question_latex": "\\(x^{2} + 5 x - 14 = 0\\)",
+    "answer": [
+      "-7",
+      "2"
+    ],
+    "answer_display": "x₁ = -7,  x₂ = 2",
+    "explanation": "Factorizamos: (x + 7)(x − 2) = 0 → x = -7 o x = 2.",
+    "exercise_id": "MAYAN-QUAD_01-ab0ee3f2df32fba6"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -2,
+      "r2": 6
+    },
+    "content_hash": "6f17cd2bda07857f",
+    "question": "Resuelve: x² − 4x − 12 = 0",
+    "question_latex": "\\(x^{2} - 4 x - 12 = 0\\)",
+    "answer": [
+      "-2",
+      "6"
+    ],
+    "answer_display": "x₁ = -2,  x₂ = 6",
+    "explanation": "Factorizamos: (x + 2)(x − 6) = 0 → x = -2 o x = 6.",
+    "exercise_id": "MAYAN-QUAD_01-6f17cd2bda07857f"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -3,
+      "r2": 5
+    },
+    "content_hash": "c8869f98ebb92e32",
+    "question": "Resuelve: x² − 2x − 15 = 0",
+    "question_latex": "\\(x^{2} - 2 x - 15 = 0\\)",
+    "answer": [
+      "-3",
+      "5"
+    ],
+    "answer_display": "x₁ = -3,  x₂ = 5",
+    "explanation": "Factorizamos: (x + 3)(x − 5) = 0 → x = -3 o x = 5.",
+    "exercise_id": "MAYAN-QUAD_01-c8869f98ebb92e32"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 0,
+      "r2": -9
+    },
+    "content_hash": "4f997b0d008ab5c6",
+    "question": "Resuelve: x² + 9x = 0",
+    "question_latex": "\\(x^{2} + 9 x = 0\\)",
+    "answer": [
+      "-9",
+      "0"
+    ],
+    "answer_display": "x₁ = -9,  x₂ = 0",
+    "explanation": "Factorizamos: (x)(x + 9) = 0 → x = 0 o x = -9.",
+    "exercise_id": "MAYAN-QUAD_01-4f997b0d008ab5c6"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 1,
+      "r2": 3
+    },
+    "content_hash": "ca90c3f804b7712a",
+    "question": "Resuelve: x² − 4x + 3 = 0",
+    "question_latex": "\\(x^{2} - 4 x + 3 = 0\\)",
+    "answer": [
+      "1",
+      "3"
+    ],
+    "answer_display": "x₁ = 1,  x₂ = 3",
+    "explanation": "Factorizamos: (x − 1)(x − 3) = 0 → x = 1 o x = 3.",
+    "exercise_id": "MAYAN-QUAD_01-ca90c3f804b7712a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 1,
+      "r2": 5
+    },
+    "content_hash": "91fbba31a0eab725",
+    "question": "Resuelve: x² − 6x + 5 = 0",
+    "question_latex": "\\(x^{2} - 6 x + 5 = 0\\)",
+    "answer": [
+      "1",
+      "5"
+    ],
+    "answer_display": "x₁ = 1,  x₂ = 5",
+    "explanation": "Factorizamos: (x − 1)(x − 5) = 0 → x = 1 o x = 5.",
+    "exercise_id": "MAYAN-QUAD_01-91fbba31a0eab725"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -5,
+      "r2": 0
+    },
+    "content_hash": "3fc9604692e89b83",
+    "question": "Resuelve: x² + 5x = 0",
+    "question_latex": "\\(x^{2} + 5 x = 0\\)",
+    "answer": [
+      "-5",
+      "0"
+    ],
+    "answer_display": "x₁ = -5,  x₂ = 0",
+    "explanation": "Factorizamos: (x + 5)(x) = 0 → x = -5 o x = 0.",
+    "exercise_id": "MAYAN-QUAD_01-3fc9604692e89b83"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -3,
+      "r2": 6
+    },
+    "content_hash": "ada7057b093470dd",
+    "question": "Resuelve: x² − 3x − 18 = 0",
+    "question_latex": "\\(x^{2} - 3 x - 18 = 0\\)",
+    "answer": [
+      "-3",
+      "6"
+    ],
+    "answer_display": "x₁ = -3,  x₂ = 6",
+    "explanation": "Factorizamos: (x + 3)(x − 6) = 0 → x = -3 o x = 6.",
+    "exercise_id": "MAYAN-QUAD_01-ada7057b093470dd"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 3,
+      "r2": 1
+    },
+    "content_hash": "7b39cd0dabe47c5d",
+    "question": "Resuelve: x² − 4x + 3 = 0",
+    "question_latex": "\\(x^{2} - 4 x + 3 = 0\\)",
+    "answer": [
+      "1",
+      "3"
+    ],
+    "answer_display": "x₁ = 1,  x₂ = 3",
+    "explanation": "Factorizamos: (x − 3)(x − 1) = 0 → x = 3 o x = 1.",
+    "exercise_id": "MAYAN-QUAD_01-7b39cd0dabe47c5d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 6,
+      "r2": 9
+    },
+    "content_hash": "6a823813af0c4c0e",
+    "question": "Resuelve: x² − 15x + 54 = 0",
+    "question_latex": "\\(x^{2} - 15 x + 54 = 0\\)",
+    "answer": [
+      "6",
+      "9"
+    ],
+    "answer_display": "x₁ = 6,  x₂ = 9",
+    "explanation": "Factorizamos: (x − 6)(x − 9) = 0 → x = 6 o x = 9.",
+    "exercise_id": "MAYAN-QUAD_01-6a823813af0c4c0e"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 3,
+      "r2": 2
+    },
+    "content_hash": "9dda57a2672a6aa2",
+    "question": "Resuelve: x² − 5x + 6 = 0",
+    "question_latex": "\\(x^{2} - 5 x + 6 = 0\\)",
+    "answer": [
+      "2",
+      "3"
+    ],
+    "answer_display": "x₁ = 2,  x₂ = 3",
+    "explanation": "Factorizamos: (x − 3)(x − 2) = 0 → x = 3 o x = 2.",
+    "exercise_id": "MAYAN-QUAD_01-9dda57a2672a6aa2"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 9,
+      "r2": -3
+    },
+    "content_hash": "b6df34f0c2da5552",
+    "question": "Resuelve: x² − 6x − 27 = 0",
+    "question_latex": "\\(x^{2} - 6 x - 27 = 0\\)",
+    "answer": [
+      "-3",
+      "9"
+    ],
+    "answer_display": "x₁ = -3,  x₂ = 9",
+    "explanation": "Factorizamos: (x − 9)(x + 3) = 0 → x = 9 o x = -3.",
+    "exercise_id": "MAYAN-QUAD_01-b6df34f0c2da5552"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 8,
+      "r2": -4
+    },
+    "content_hash": "10c7339f418a5f8e",
+    "question": "Resuelve: x² − 4x − 32 = 0",
+    "question_latex": "\\(x^{2} - 4 x - 32 = 0\\)",
+    "answer": [
+      "-4",
+      "8"
+    ],
+    "answer_display": "x₁ = -4,  x₂ = 8",
+    "explanation": "Factorizamos: (x − 8)(x + 4) = 0 → x = 8 o x = -4.",
+    "exercise_id": "MAYAN-QUAD_01-10c7339f418a5f8e"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 8,
+      "r2": -9
+    },
+    "content_hash": "5b5b8c1f0a5fd1f8",
+    "question": "Resuelve: x² + x − 72 = 0",
+    "question_latex": "\\(x^{2} + x - 72 = 0\\)",
+    "answer": [
+      "-9",
+      "8"
+    ],
+    "answer_display": "x₁ = -9,  x₂ = 8",
+    "explanation": "Factorizamos: (x − 8)(x + 9) = 0 → x = 8 o x = -9.",
+    "exercise_id": "MAYAN-QUAD_01-5b5b8c1f0a5fd1f8"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.0,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 5,
+      "r2": -3
+    },
+    "content_hash": "ee5a82a54b867962",
+    "question": "Resuelve: x² − 2x − 15 = 0",
+    "question_latex": "\\(x^{2} - 2 x - 15 = 0\\)",
+    "answer": [
+      "-3",
+      "5"
+    ],
+    "answer_display": "x₁ = -3,  x₂ = 5",
+    "explanation": "Factorizamos: (x − 5)(x + 3) = 0 → x = 5 o x = -3.",
+    "exercise_id": "MAYAN-QUAD_01-ee5a82a54b867962"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 0,
+      "r2": -7
+    },
+    "content_hash": "7061d14411fead5f",
+    "question": "Resuelve: x² + 7x = 0",
+    "question_latex": "\\(x^{2} + 7 x = 0\\)",
+    "answer": [
+      "-7",
+      "0"
+    ],
+    "answer_display": "x₁ = -7,  x₂ = 0",
+    "explanation": "Factorizamos: (x)(x + 7) = 0 → x = 0 o x = -7.",
+    "exercise_id": "MAYAN-QUAD_01-7061d14411fead5f"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 4,
+      "r2": 6
+    },
+    "content_hash": "8f7f61675b0e7834",
+    "question": "Resuelve: x² − 10x + 24 = 0",
+    "question_latex": "\\(x^{2} - 10 x + 24 = 0\\)",
+    "answer": [
+      "4",
+      "6"
+    ],
+    "answer_display": "x₁ = 4,  x₂ = 6",
+    "explanation": "Factorizamos: (x − 4)(x − 6) = 0 → x = 4 o x = 6.",
+    "exercise_id": "MAYAN-QUAD_01-8f7f61675b0e7834"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 0,
+      "r2": -2
+    },
+    "content_hash": "e7c52f1b81feaa05",
+    "question": "Resuelve: x² + 2x = 0",
+    "question_latex": "\\(x^{2} + 2 x = 0\\)",
+    "answer": [
+      "-2",
+      "0"
+    ],
+    "answer_display": "x₁ = -2,  x₂ = 0",
+    "explanation": "Factorizamos: (x)(x + 2) = 0 → x = 0 o x = -2.",
+    "exercise_id": "MAYAN-QUAD_01-e7c52f1b81feaa05"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -5,
+      "r2": 4
+    },
+    "content_hash": "24b2b8ede2c21879",
+    "question": "Resuelve: x² + x − 20 = 0",
+    "question_latex": "\\(x^{2} + x - 20 = 0\\)",
+    "answer": [
+      "-5",
+      "4"
+    ],
+    "answer_display": "x₁ = -5,  x₂ = 4",
+    "explanation": "Factorizamos: (x + 5)(x − 4) = 0 → x = -5 o x = 4.",
+    "exercise_id": "MAYAN-QUAD_01-24b2b8ede2c21879"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -7,
+      "r2": 5
+    },
+    "content_hash": "9b98de882443d65f",
+    "question": "Resuelve: x² + 2x − 35 = 0",
+    "question_latex": "\\(x^{2} + 2 x - 35 = 0\\)",
+    "answer": [
+      "-7",
+      "5"
+    ],
+    "answer_display": "x₁ = -7,  x₂ = 5",
+    "explanation": "Factorizamos: (x + 7)(x − 5) = 0 → x = -7 o x = 5.",
+    "exercise_id": "MAYAN-QUAD_01-9b98de882443d65f"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.0,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 7,
+      "r2": 4
+    },
+    "content_hash": "19f51a67c71b8b5d",
+    "question": "Resuelve: x² − 11x + 28 = 0",
+    "question_latex": "\\(x^{2} - 11 x + 28 = 0\\)",
+    "answer": [
+      "4",
+      "7"
+    ],
+    "answer_display": "x₁ = 4,  x₂ = 7",
+    "explanation": "Factorizamos: (x − 7)(x − 4) = 0 → x = 7 o x = 4.",
+    "exercise_id": "MAYAN-QUAD_01-19f51a67c71b8b5d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 2,
+      "r2": 8
+    },
+    "content_hash": "9becebd5b289e6ab",
+    "question": "Resuelve: x² − 10x + 16 = 0",
+    "question_latex": "\\(x^{2} - 10 x + 16 = 0\\)",
+    "answer": [
+      "2",
+      "8"
+    ],
+    "answer_display": "x₁ = 2,  x₂ = 8",
+    "explanation": "Factorizamos: (x − 2)(x − 8) = 0 → x = 2 o x = 8.",
+    "exercise_id": "MAYAN-QUAD_01-9becebd5b289e6ab"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -7,
+      "r2": -6
+    },
+    "content_hash": "680b085dd315085c",
+    "question": "Resuelve: x² + 13x + 42 = 0",
+    "question_latex": "\\(x^{2} + 13 x + 42 = 0\\)",
+    "answer": [
+      "-6",
+      "-7"
+    ],
+    "answer_display": "x₁ = -7,  x₂ = -6",
+    "explanation": "Factorizamos: (x + 7)(x + 6) = 0 → x = -7 o x = -6.",
+    "exercise_id": "MAYAN-QUAD_01-680b085dd315085c"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 2,
+      "r2": -4
+    },
+    "content_hash": "08b276cec0631a1d",
+    "question": "Resuelve: x² + 2x − 8 = 0",
+    "question_latex": "\\(x^{2} + 2 x - 8 = 0\\)",
+    "answer": [
+      "-4",
+      "2"
+    ],
+    "answer_display": "x₁ = -4,  x₂ = 2",
+    "explanation": "Factorizamos: (x − 2)(x + 4) = 0 → x = 2 o x = -4.",
+    "exercise_id": "MAYAN-QUAD_01-08b276cec0631a1d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -8,
+      "r2": 9
+    },
+    "content_hash": "41ea134f601d6147",
+    "question": "Resuelve: x² − x − 72 = 0",
+    "question_latex": "\\(x^{2} - x - 72 = 0\\)",
+    "answer": [
+      "-8",
+      "9"
+    ],
+    "answer_display": "x₁ = -8,  x₂ = 9",
+    "explanation": "Factorizamos: (x + 8)(x − 9) = 0 → x = -8 o x = 9.",
+    "exercise_id": "MAYAN-QUAD_01-41ea134f601d6147"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 4,
+      "r2": -6
+    },
+    "content_hash": "0cd86b58c049f94f",
+    "question": "Resuelve: x² + 2x − 24 = 0",
+    "question_latex": "\\(x^{2} + 2 x - 24 = 0\\)",
+    "answer": [
+      "-6",
+      "4"
+    ],
+    "answer_display": "x₁ = -6,  x₂ = 4",
+    "explanation": "Factorizamos: (x − 4)(x + 6) = 0 → x = 4 o x = -6.",
+    "exercise_id": "MAYAN-QUAD_01-0cd86b58c049f94f"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.0,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -1,
+      "r2": -2
+    },
+    "content_hash": "c986ff0fe7982986",
+    "question": "Resuelve: x² + 3x + 2 = 0",
+    "question_latex": "\\(x^{2} + 3 x + 2 = 0\\)",
+    "answer": [
+      "-1",
+      "-2"
+    ],
+    "answer_display": "x₁ = -2,  x₂ = -1",
+    "explanation": "Factorizamos: (x + 1)(x + 2) = 0 → x = -1 o x = -2.",
+    "exercise_id": "MAYAN-QUAD_01-c986ff0fe7982986"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 7,
+      "r2": 8
+    },
+    "content_hash": "8e9bcb0185d8cde8",
+    "question": "Resuelve: x² − 15x + 56 = 0",
+    "question_latex": "\\(x^{2} - 15 x + 56 = 0\\)",
+    "answer": [
+      "7",
+      "8"
+    ],
+    "answer_display": "x₁ = 7,  x₂ = 8",
+    "explanation": "Factorizamos: (x − 7)(x − 8) = 0 → x = 7 o x = 8.",
+    "exercise_id": "MAYAN-QUAD_01-8e9bcb0185d8cde8"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.0,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 9,
+      "r2": -2
+    },
+    "content_hash": "4f6105f59b5d5e25",
+    "question": "Resuelve: x² − 7x − 18 = 0",
+    "question_latex": "\\(x^{2} - 7 x - 18 = 0\\)",
+    "answer": [
+      "-2",
+      "9"
+    ],
+    "answer_display": "x₁ = -2,  x₂ = 9",
+    "explanation": "Factorizamos: (x − 9)(x + 2) = 0 → x = 9 o x = -2.",
+    "exercise_id": "MAYAN-QUAD_01-4f6105f59b5d5e25"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 5.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 3,
+      "r2": 5
+    },
+    "content_hash": "09c16d65f3797fe5",
+    "question": "Resuelve: x² − 8x + 15 = 0",
+    "question_latex": "\\(x^{2} - 8 x + 15 = 0\\)",
+    "answer": [
+      "3",
+      "5"
+    ],
+    "answer_display": "x₁ = 3,  x₂ = 5",
+    "explanation": "Factorizamos: (x − 3)(x − 5) = 0 → x = 3 o x = 5.",
+    "exercise_id": "MAYAN-QUAD_01-09c16d65f3797fe5"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 9,
+      "r2": 7
+    },
+    "content_hash": "3d0e2c4e65ac3b0c",
+    "question": "Resuelve: x² − 16x + 63 = 0",
+    "question_latex": "\\(x^{2} - 16 x + 63 = 0\\)",
+    "answer": [
+      "7",
+      "9"
+    ],
+    "answer_display": "x₁ = 7,  x₂ = 9",
+    "explanation": "Factorizamos: (x − 9)(x − 7) = 0 → x = 9 o x = 7.",
+    "exercise_id": "MAYAN-QUAD_01-3d0e2c4e65ac3b0c"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -9,
+      "r2": 6
+    },
+    "content_hash": "afb354f732db2f45",
+    "question": "Resuelve: x² + 3x − 54 = 0",
+    "question_latex": "\\(x^{2} + 3 x - 54 = 0\\)",
+    "answer": [
+      "-9",
+      "6"
+    ],
+    "answer_display": "x₁ = -9,  x₂ = 6",
+    "explanation": "Factorizamos: (x + 9)(x − 6) = 0 → x = -9 o x = 6.",
+    "exercise_id": "MAYAN-QUAD_01-afb354f732db2f45"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": 4,
+      "r2": -7
+    },
+    "content_hash": "6364eb11c1ff8212",
+    "question": "Resuelve: x² + 3x − 28 = 0",
+    "question_latex": "\\(x^{2} + 3 x - 28 = 0\\)",
+    "answer": [
+      "-7",
+      "4"
+    ],
+    "answer_display": "x₁ = -7,  x₂ = 4",
+    "explanation": "Factorizamos: (x − 4)(x + 7) = 0 → x = 4 o x = -7.",
+    "exercise_id": "MAYAN-QUAD_01-6364eb11c1ff8212"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "algebra",
+    "subtopic": "ecuaciones_cuadraticas",
+    "difficulty": 4.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "bachillerato",
+      "admision_uni",
+      "universitario"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 6,
+    "skills": [
+      "factorizacion",
+      "ecuaciones",
+      "razonamiento_algebraico"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "QUAD_01",
+    "variant_params": {
+      "r1": -5,
+      "r2": 2
+    },
+    "content_hash": "30c206d366e93458",
+    "question": "Resuelve: x² + 3x − 10 = 0",
+    "question_latex": "\\(x^{2} + 3 x - 10 = 0\\)",
+    "answer": [
+      "-5",
+      "2"
+    ],
+    "answer_display": "x₁ = -5,  x₂ = 2",
+    "explanation": "Factorizamos: (x + 5)(x − 2) = 0 → x = -5 o x = 2.",
+    "exercise_id": "MAYAN-QUAD_01-30c206d366e93458"
+  }
+]

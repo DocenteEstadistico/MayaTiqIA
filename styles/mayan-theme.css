@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --mayan-emerald: #065f46; /* emerald-800 */
+  --mayan-amber: #b45309;   /* amber-700 */
+  --mayan-gold: #fbbf24;    /* amber-400 */
+  --mayan-bg: #FDF8F0;      /* Crema suave */
+  --mayan-card: #ffffff;
+  --mayan-text: #374151;
+  --mayan-border: #fde68a; /* amber-200 */
+}
+
+html.dark, body.dark, [data-theme="dark"] {
+  --mayan-bg: #101815;
+  --mayan-card: #1a241f;
+  --mayan-text: #e7f0eb;
+  --mayan-border: #065f46;
+}
+
+.bg-mayan-gradient {
+  background: linear-gradient(135deg, var(--mayan-emerald), var(--mayan-amber));
+}
+
+.border-mayan {
+  border-color: var(--mayan-border);
+}
+
+body {
+  background-color: var(--mayan-bg);
+  color: var(--mayan-text);
+}
+
+@keyframes staggerIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-stagger-in {
+  animation: staggerIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

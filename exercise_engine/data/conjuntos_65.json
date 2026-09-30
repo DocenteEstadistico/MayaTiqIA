@@ -1,0 +1,4750 @@
+[
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        11
+      ],
+      "B": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "op": "union"
+    },
+    "content_hash": "648ac4771effe662",
+    "question": "Dados los conjuntos A = [2, 4, 5, 6, 7, 11] y B = [1, 4, 5, 6, 7, 8], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "8",
+    "answer_display": "8 elementos",
+    "explanation": "A ∪ B = [1, 2, 4, 5, 6, 7, 8, 11]. El número de elementos es 8.",
+    "choices": [
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "80",
+        "correct": false
+      },
+      {
+        "text": "33/4",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-648ac4771effe662"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "B": [
+        3,
+        5,
+        7,
+        10
+      ],
+      "op": "union"
+    },
+    "content_hash": "2ba1bd577e2f97e2",
+    "question": "Dados los conjuntos A = [1, 2, 3, 5, 7, 11] y B = [3, 5, 7, 10], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "7",
+    "answer_display": "7 elementos",
+    "explanation": "A ∪ B = [1, 2, 3, 5, 7, 10, 11]. El número de elementos es 7.",
+    "choices": [
+      {
+        "text": "70",
+        "correct": false
+      },
+      {
+        "text": "21",
+        "correct": false
+      },
+      {
+        "text": "7",
+        "correct": true
+      },
+      {
+        "text": "8",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-2ba1bd577e2f97e2"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        4,
+        6,
+        9,
+        10,
+        11
+      ],
+      "B": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "op": "union"
+    },
+    "content_hash": "0e97021ca2ae6dc3",
+    "question": "Dados los conjuntos A = [1, 4, 6, 9, 10, 11] y B = [1, 2, 4, 8], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "8",
+    "answer_display": "8 elementos",
+    "explanation": "A ∪ B = [1, 2, 4, 6, 8, 9, 10, 11]. El número de elementos es 8.",
+    "choices": [
+      {
+        "text": "9",
+        "correct": false
+      },
+      {
+        "text": "18",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": true
+      },
+      {
+        "text": "4",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-0e97021ca2ae6dc3"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        9,
+        10
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "1d14efd9dcb80dd5",
+    "question": "Dados los conjuntos A = [1, 2, 3, 4, 7, 9, 10] y B = [1, 2, 3, 4, 5, 7, 8], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A \\ B = [9, 10]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "1",
+        "correct": false
+      },
+      {
+        "text": "12",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "4",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-1d14efd9dcb80dd5"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11
+      ],
+      "B": [
+        2,
+        4,
+        5,
+        7,
+        8,
+        10
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "b0d9565f9a32088e",
+    "question": "Dados los conjuntos A = [1, 4, 5, 6, 7, 8, 11] y B = [2, 4, 5, 7, 8, 10], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A \\ B = [1, 6, 11]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "7/2",
+        "correct": false
+      },
+      {
+        "text": "3/2",
+        "correct": false
+      },
+      {
+        "text": "15",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-b0d9565f9a32088e"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "B": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "op": "union"
+    },
+    "content_hash": "7d6fd544e5318928",
+    "question": "Dados los conjuntos A = [2, 4, 5, 6, 7, 9, 10] y B = [1, 4, 5, 6, 7, 9, 10], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "8",
+    "answer_display": "8 elementos",
+    "explanation": "A ∪ B = [1, 2, 4, 5, 6, 7, 9, 10]. El número de elementos es 8.",
+    "choices": [
+      {
+        "text": "33/4",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": true
+      },
+      {
+        "text": "23/3",
+        "correct": false
+      },
+      {
+        "text": "9",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-7d6fd544e5318928"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "B": [
+        1,
+        4,
+        8,
+        9,
+        10,
+        11
+      ],
+      "op": "union"
+    },
+    "content_hash": "d1fca44fd014ecee",
+    "question": "Dados los conjuntos A = [1, 2, 3, 4, 6] y B = [1, 4, 8, 9, 10, 11], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "9",
+    "answer_display": "9 elementos",
+    "explanation": "A ∪ B = [1, 2, 3, 4, 6, 8, 9, 10, 11]. El número de elementos es 9.",
+    "choices": [
+      {
+        "text": "9",
+        "correct": true
+      },
+      {
+        "text": "10",
+        "correct": false
+      },
+      {
+        "text": "19/2",
+        "correct": false
+      },
+      {
+        "text": "9/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-d1fca44fd014ecee"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "B": [
+        2,
+        3,
+        6,
+        8,
+        9,
+        10
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "0d49f0c714a29b71",
+    "question": "Dados los conjuntos A = [1, 3, 5, 6, 8, 9] y B = [2, 3, 6, 8, 9, 10], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A \\ B = [1, 5]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "5/3",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "6",
+        "correct": false
+      },
+      {
+        "text": "9/4",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-0d49f0c714a29b71"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "B": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "621c7a8960e3cbe6",
+    "question": "Dados los conjuntos A = [3, 4, 5, 6, 9, 10] y B = [1, 2, 5, 7, 8, 9, 10], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A \\ B = [3, 4, 6]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "13",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      },
+      {
+        "text": "-3",
+        "correct": false
+      },
+      {
+        "text": "13/4",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-621c7a8960e3cbe6"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        11
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        11
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "8609afc16c2ee511",
+    "question": "Dados los conjuntos A = [1, 2, 4, 5, 8, 11] y B = [1, 2, 3, 4, 5, 8, 11], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "6",
+    "answer_display": "6 elementos",
+    "explanation": "A ∩ B = [1, 2, 4, 5, 8, 11]. El número de elementos es 6.",
+    "choices": [
+      {
+        "text": "12",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": true
+      },
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "60",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-8609afc16c2ee511"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "B": [
+        1,
+        7,
+        9,
+        10,
+        11
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "07889f966e1f8ff9",
+    "question": "Dados los conjuntos A = [1, 4, 6, 7, 8, 9] y B = [1, 7, 9, 10, 11], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A ∩ B = [1, 7, 9]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "3/2",
+        "correct": false
+      },
+      {
+        "text": "-7",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-07889f966e1f8ff9"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "B": [
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "94ae6599eb71b45c",
+    "question": "Dados los conjuntos A = [2, 3, 6, 7, 8] y B = [3, 4, 6, 8, 9, 10, 11], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A ∩ B = [3, 6, 8]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "7/2",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "-7",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-94ae6599eb71b45c"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "B": [
+        2,
+        6,
+        10,
+        11
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "3b04deca89028057",
+    "question": "Dados los conjuntos A = [1, 3, 7, 8, 9, 10, 11] y B = [2, 6, 10, 11], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A ∩ B = [10, 11]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "-2",
+        "correct": false
+      },
+      {
+        "text": "7/2",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-3b04deca89028057"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        2,
+        4,
+        9,
+        10
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        11
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "1a343cfe0160c109",
+    "question": "Dados los conjuntos A = [2, 4, 9, 10] y B = [1, 2, 3, 7, 8, 9, 11], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A ∩ B = [2, 9]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "-8",
+        "correct": false
+      },
+      {
+        "text": "9/4",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "4",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-1a343cfe0160c109"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        3,
+        4,
+        8,
+        10,
+        11
+      ],
+      "B": [
+        2,
+        5,
+        8,
+        9,
+        10
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "702c3dee3ef39f70",
+    "question": "Dados los conjuntos A = [3, 4, 8, 10, 11] y B = [2, 5, 8, 9, 10], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A ∩ B = [8, 10]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": false
+      },
+      {
+        "text": "-8",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-702c3dee3ef39f70"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        3,
+        6,
+        8
+      ],
+      "B": [
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11
+      ],
+      "op": "union"
+    },
+    "content_hash": "4b428886f22bd1d8",
+    "question": "Dados los conjuntos A = [1, 3, 6, 8] y B = [1, 3, 5, 6, 8, 10, 11], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "7",
+    "answer_display": "7 elementos",
+    "explanation": "A ∪ B = [1, 3, 5, 6, 8, 10, 11]. El número de elementos es 7.",
+    "choices": [
+      {
+        "text": "7",
+        "correct": true
+      },
+      {
+        "text": "8",
+        "correct": false
+      },
+      {
+        "text": "14",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-4b428886f22bd1d8"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        3,
+        6,
+        7,
+        10
+      ],
+      "B": [
+        1,
+        3,
+        4,
+        6,
+        10,
+        11
+      ],
+      "op": "union"
+    },
+    "content_hash": "08e5c592c4d6bc2d",
+    "question": "Dados los conjuntos A = [1, 3, 6, 7, 10] y B = [1, 3, 4, 6, 10, 11], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "7",
+    "answer_display": "7 elementos",
+    "explanation": "A ∪ B = [1, 3, 4, 6, 7, 10, 11]. El número de elementos es 7.",
+    "choices": [
+      {
+        "text": "35",
+        "correct": false
+      },
+      {
+        "text": "20/3",
+        "correct": false
+      },
+      {
+        "text": "21",
+        "correct": false
+      },
+      {
+        "text": "7",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-08e5c592c4d6bc2d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        10,
+        11
+      ],
+      "B": [
+        2,
+        3,
+        4,
+        7,
+        9,
+        10
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "ba3c9da5524aaa42",
+    "question": "Dados los conjuntos A = [1, 3, 4, 6, 8, 10, 11] y B = [2, 3, 4, 7, 9, 10], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A ∩ B = [3, 4, 10]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "30",
+        "correct": false
+      },
+      {
+        "text": "-7",
+        "correct": false
+      },
+      {
+        "text": "9/2",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-ba3c9da5524aaa42"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        3,
+        4,
+        8,
+        9
+      ],
+      "B": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        10
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "d794347e689c0a54",
+    "question": "Dados los conjuntos A = [3, 4, 8, 9] y B = [3, 4, 5, 6, 8, 10], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "1",
+    "answer_display": "1 elementos",
+    "explanation": "A \\ B = [9]. El número de elementos es 1.",
+    "choices": [
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": true
+      },
+      {
+        "text": "3",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-d794347e689c0a54"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        5,
+        6,
+        7,
+        11
+      ],
+      "B": [
+        2,
+        3,
+        5,
+        9,
+        11
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "491789ac28c9c520",
+    "question": "Dados los conjuntos A = [5, 6, 7, 11] y B = [2, 3, 5, 9, 11], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A \\ B = [6, 7]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "20",
+        "correct": false
+      },
+      {
+        "text": "12",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-491789ac28c9c520"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        4,
+        6,
+        8,
+        9
+      ],
+      "B": [
+        1,
+        2,
+        6,
+        9,
+        10
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "63384581e5c2f2ad",
+    "question": "Dados los conjuntos A = [1, 4, 6, 8, 9] y B = [1, 2, 6, 9, 10], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A ∩ B = [1, 6, 9]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "-7",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      },
+      {
+        "text": "1",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-63384581e5c2f2ad"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        4,
+        7,
+        9
+      ],
+      "B": [
+        1,
+        7,
+        8,
+        9
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "b4fdeeecac3b82db",
+    "question": "Dados los conjuntos A = [1, 4, 7, 9] y B = [1, 7, 8, 9], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A ∩ B = [1, 7, 9]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "3/2",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      },
+      {
+        "text": "8/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-b4fdeeecac3b82db"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        7,
+        9,
+        10,
+        11
+      ],
+      "B": [
+        1,
+        2,
+        4,
+        7,
+        9,
+        10,
+        11
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "d1cfe6ec56395968",
+    "question": "Dados los conjuntos A = [1, 7, 9, 10, 11] y B = [1, 2, 4, 7, 9, 10, 11], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "5",
+    "answer_display": "5 elementos",
+    "explanation": "A ∩ B = [1, 7, 9, 10, 11]. El número de elementos es 5.",
+    "choices": [
+      {
+        "text": "5",
+        "correct": true
+      },
+      {
+        "text": "21/4",
+        "correct": false
+      },
+      {
+        "text": "-5",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-d1cfe6ec56395968"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        5,
+        6,
+        7,
+        9,
+        11
+      ],
+      "B": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "2423c4261fed3eca",
+    "question": "Dados los conjuntos A = [5, 6, 7, 9, 11] y B = [3, 4, 5, 6, 8, 9, 11], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "1",
+    "answer_display": "1 elementos",
+    "explanation": "A \\ B = [7]. El número de elementos es 1.",
+    "choices": [
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "10",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-2423c4261fed3eca"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        2,
+        8,
+        11
+      ],
+      "B": [
+        1,
+        5,
+        8,
+        9,
+        11
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "550bd7f8984261ed",
+    "question": "Dados los conjuntos A = [1, 2, 8, 11] y B = [1, 5, 8, 9, 11], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A ∩ B = [1, 8, 11]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "9/2",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      },
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "30",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-550bd7f8984261ed"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        3,
+        6,
+        7,
+        9,
+        10
+      ],
+      "B": [
+        1,
+        4,
+        6,
+        10
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "5c0bd495107d56e0",
+    "question": "Dados los conjuntos A = [1, 3, 6, 7, 9, 10] y B = [1, 4, 6, 10], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A \\ B = [3, 7, 9]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "3",
+        "correct": true
+      },
+      {
+        "text": "3/2",
+        "correct": false
+      },
+      {
+        "text": "8/3",
+        "correct": false
+      },
+      {
+        "text": "30",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-5c0bd495107d56e0"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        2,
+        5,
+        8,
+        10
+      ],
+      "B": [
+        1,
+        5,
+        6,
+        7,
+        9
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "c42e14f4b85de01c",
+    "question": "Dados los conjuntos A = [1, 2, 5, 8, 10] y B = [1, 5, 6, 7, 9], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A \\ B = [2, 8, 10]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "9/2",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      },
+      {
+        "text": "13",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-c42e14f4b85de01c"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        4,
+        6,
+        8
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        11
+      ],
+      "op": "union"
+    },
+    "content_hash": "576827eb288cec28",
+    "question": "Dados los conjuntos A = [1, 4, 6, 8] y B = [1, 2, 3, 5, 7, 8, 11], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "9",
+    "answer_display": "9 elementos",
+    "explanation": "A ∪ B = [1, 2, 3, 4, 5, 6, 7, 8, 11]. El número de elementos es 9.",
+    "choices": [
+      {
+        "text": "9",
+        "correct": true
+      },
+      {
+        "text": "11",
+        "correct": false
+      },
+      {
+        "text": "90",
+        "correct": false
+      },
+      {
+        "text": "21/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-576827eb288cec28"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        3,
+        4,
+        5,
+        9,
+        11
+      ],
+      "B": [
+        1,
+        6,
+        9,
+        11
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "48d3e4cb9265ac20",
+    "question": "Dados los conjuntos A = [1, 3, 4, 5, 9, 11] y B = [1, 6, 9, 11], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A \\ B = [3, 4, 5]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      },
+      {
+        "text": "8/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-48d3e4cb9265ac20"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        11
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        6,
+        10,
+        11
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "1e6d7aef89a59405",
+    "question": "Dados los conjuntos A = [3, 5, 6, 7, 8, 11] y B = [1, 2, 3, 6, 10, 11], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A \\ B = [5, 7, 8]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "30",
+        "correct": false
+      },
+      {
+        "text": "-3",
+        "correct": false
+      },
+      {
+        "text": "9/2",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-1e6d7aef89a59405"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "B": [
+        4,
+        5,
+        6,
+        10
+      ],
+      "op": "union"
+    },
+    "content_hash": "4d16b0b3ea66bc45",
+    "question": "Dados los conjuntos A = [8, 9, 10, 11] y B = [4, 5, 6, 10], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "7",
+    "answer_display": "7 elementos",
+    "explanation": "A ∪ B = [4, 5, 6, 8, 9, 10, 11]. El número de elementos es 7.",
+    "choices": [
+      {
+        "text": "7",
+        "correct": true
+      },
+      {
+        "text": "7/2",
+        "correct": false
+      },
+      {
+        "text": "70",
+        "correct": false
+      },
+      {
+        "text": "20/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-4d16b0b3ea66bc45"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "B": [
+        1,
+        5,
+        6,
+        9,
+        11
+      ],
+      "op": "union"
+    },
+    "content_hash": "273b784769fb2b89",
+    "question": "Dados los conjuntos A = [3, 4, 5, 7, 9] y B = [1, 5, 6, 9, 11], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "8",
+    "answer_display": "8 elementos",
+    "explanation": "A ∪ B = [1, 3, 4, 5, 6, 7, 9, 11]. El número de elementos es 8.",
+    "choices": [
+      {
+        "text": "6",
+        "correct": false
+      },
+      {
+        "text": "19/2",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": true
+      },
+      {
+        "text": "7",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-273b784769fb2b89"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        2,
+        3,
+        7,
+        9
+      ],
+      "B": [
+        3,
+        6,
+        7,
+        10,
+        11
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "a60a86d3922d770c",
+    "question": "Dados los conjuntos A = [2, 3, 7, 9] y B = [3, 6, 7, 10, 11], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A \\ B = [2, 9]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "1",
+        "correct": false
+      },
+      {
+        "text": "0",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-a60a86d3922d770c"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        2,
+        3,
+        9,
+        10
+      ],
+      "B": [
+        4,
+        6,
+        8,
+        10,
+        11
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "5cbc895b24e7290a",
+    "question": "Dados los conjuntos A = [1, 2, 3, 9, 10] y B = [4, 6, 8, 10, 11], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "1",
+    "answer_display": "1 elementos",
+    "explanation": "A ∩ B = [10]. El número de elementos es 1.",
+    "choices": [
+      {
+        "text": "5/4",
+        "correct": false
+      },
+      {
+        "text": "5/2",
+        "correct": false
+      },
+      {
+        "text": "11",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-5cbc895b24e7290a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        2,
+        3,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "B": [
+        2,
+        4,
+        5,
+        8,
+        10,
+        11
+      ],
+      "op": "union"
+    },
+    "content_hash": "95c9d223f5ff152a",
+    "question": "Dados los conjuntos A = [2, 3, 6, 7, 8, 10, 11] y B = [2, 4, 5, 8, 10, 11], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "9",
+    "answer_display": "9 elementos",
+    "explanation": "A ∪ B = [2, 3, 4, 5, 6, 7, 8, 10, 11]. El número de elementos es 9.",
+    "choices": [
+      {
+        "text": "21/2",
+        "correct": false
+      },
+      {
+        "text": "10",
+        "correct": false
+      },
+      {
+        "text": "9",
+        "correct": true
+      },
+      {
+        "text": "19",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-95c9d223f5ff152a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "B": [
+        1,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "e40634f048494f49",
+    "question": "Dados los conjuntos A = [4, 5, 7, 8] y B = [1, 3, 5, 6, 8, 9], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A \\ B = [4, 7]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "6",
+        "correct": false
+      },
+      {
+        "text": "9/4",
+        "correct": false
+      },
+      {
+        "text": "7/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-e40634f048494f49"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "B": [
+        1,
+        2,
+        4,
+        7,
+        9,
+        10
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "21327ab71301ae35",
+    "question": "Dados los conjuntos A = [1, 2, 6, 7] y B = [1, 2, 4, 7, 9, 10], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "1",
+    "answer_display": "1 elementos",
+    "explanation": "A \\ B = [6]. El número de elementos es 1.",
+    "choices": [
+      {
+        "text": "5/4",
+        "correct": false
+      },
+      {
+        "text": "-1",
+        "correct": false
+      },
+      {
+        "text": "-9",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-21327ab71301ae35"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "B": [
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "op": "union"
+    },
+    "content_hash": "b10a70d3db8cac7e",
+    "question": "Dados los conjuntos A = [1, 3, 4, 5, 7, 8, 9] y B = [3, 4, 6, 8, 9], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "8",
+    "answer_display": "8 elementos",
+    "explanation": "A ∪ B = [1, 3, 4, 5, 6, 7, 8, 9]. El número de elementos es 8.",
+    "choices": [
+      {
+        "text": "18",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": true
+      },
+      {
+        "text": "16",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-b10a70d3db8cac7e"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        11
+      ],
+      "B": [
+        3,
+        7,
+        8,
+        10
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "c182f962dd429e3a",
+    "question": "Dados los conjuntos A = [2, 3, 4, 6, 8, 9, 11] y B = [3, 7, 8, 10], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "5",
+    "answer_display": "5 elementos",
+    "explanation": "A \\ B = [2, 4, 6, 9, 11]. El número de elementos es 5.",
+    "choices": [
+      {
+        "text": "15",
+        "correct": false
+      },
+      {
+        "text": "5",
+        "correct": true
+      },
+      {
+        "text": "50",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-c182f962dd429e3a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        11
+      ],
+      "B": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        10,
+        11
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "8be49463ab969dfa",
+    "question": "Dados los conjuntos A = [1, 4, 5, 6, 7, 11] y B = [1, 3, 4, 6, 7, 10, 11], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "1",
+    "answer_display": "1 elementos",
+    "explanation": "A \\ B = [5]. El número de elementos es 1.",
+    "choices": [
+      {
+        "text": "5/4",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": true
+      },
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-8be49463ab969dfa"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.2,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "B": [
+        1,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "b090d9d8fac73c15",
+    "question": "Dados los conjuntos A = [3, 4, 5, 6, 9] y B = [1, 4, 6, 7, 9, 10, 11], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A \\ B = [3, 5]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "12",
+        "correct": false
+      },
+      {
+        "text": "9/4",
+        "correct": false
+      },
+      {
+        "text": "5/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-b090d9d8fac73c15"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        2,
+        7,
+        10,
+        11
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "3a6f3fee851e69a1",
+    "question": "Dados los conjuntos A = [1, 2, 7, 10, 11] y B = [1, 2, 3, 5, 6, 9], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A ∩ B = [1, 2]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "9/4",
+        "correct": false
+      },
+      {
+        "text": "12",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "10",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-3a6f3fee851e69a1"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.9,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "B": [
+        2,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "62f8fd313aaaa2cf",
+    "question": "Dados los conjuntos A = [1, 4, 5, 7, 8, 9, 11] y B = [2, 4, 6, 7, 8, 9], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A \\ B = [1, 5, 11]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "13/4",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      },
+      {
+        "text": "1",
+        "correct": false
+      },
+      {
+        "text": "13",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-62f8fd313aaaa2cf"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        4,
+        7,
+        8,
+        10
+      ],
+      "B": [
+        1,
+        3,
+        5,
+        7,
+        8
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "9f9a13fec0aaf739",
+    "question": "Dados los conjuntos A = [4, 7, 8, 10] y B = [1, 3, 5, 7, 8], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A \\ B = [4, 10]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "6",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "-2",
+        "correct": false
+      },
+      {
+        "text": "20",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-9f9a13fec0aaf739"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.3,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        10
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        11
+      ],
+      "op": "union"
+    },
+    "content_hash": "c996f3aabbc9c349",
+    "question": "Dados los conjuntos A = [1, 2, 4, 8, 9, 10] y B = [1, 2, 3, 5, 7, 8, 11], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "10",
+    "answer_display": "10 elementos",
+    "explanation": "A ∪ B = [1, 2, 3, 4, 5, 7, 8, 9, 10, 11]. El número de elementos es 10.",
+    "choices": [
+      {
+        "text": "50",
+        "correct": false
+      },
+      {
+        "text": "9",
+        "correct": false
+      },
+      {
+        "text": "29/3",
+        "correct": false
+      },
+      {
+        "text": "10",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-c996f3aabbc9c349"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        3,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "B": [
+        4,
+        5,
+        6,
+        7,
+        10,
+        11
+      ],
+      "op": "union"
+    },
+    "content_hash": "3aea2bee06fe5af5",
+    "question": "Dados los conjuntos A = [3, 5, 6, 8, 9, 10] y B = [4, 5, 6, 7, 10, 11], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "9",
+    "answer_display": "9 elementos",
+    "explanation": "A ∪ B = [3, 4, 5, 6, 7, 8, 9, 10, 11]. El número de elementos es 9.",
+    "choices": [
+      {
+        "text": "37/4",
+        "correct": false
+      },
+      {
+        "text": "9",
+        "correct": true
+      },
+      {
+        "text": "26/3",
+        "correct": false
+      },
+      {
+        "text": "-1",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-3aea2bee06fe5af5"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        9,
+        10
+      ],
+      "B": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        11
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "b28b1f7584dce1e5",
+    "question": "Dados los conjuntos A = [1, 2, 3, 5, 8, 9, 10] y B = [1, 3, 4, 6, 7, 11], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A ∩ B = [1, 3]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "-2",
+        "correct": false
+      },
+      {
+        "text": "10",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "5/2",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-b28b1f7584dce1e5"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        6,
+        7,
+        9,
+        10
+      ],
+      "B": [
+        2,
+        5,
+        8,
+        10,
+        11
+      ],
+      "op": "union"
+    },
+    "content_hash": "0e040dbefe8745d9",
+    "question": "Dados los conjuntos A = [6, 7, 9, 10] y B = [2, 5, 8, 10, 11], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "8",
+    "answer_display": "8 elementos",
+    "explanation": "A ∪ B = [2, 5, 6, 7, 8, 9, 10, 11]. El número de elementos es 8.",
+    "choices": [
+      {
+        "text": "8",
+        "correct": true
+      },
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "33/4",
+        "correct": false
+      },
+      {
+        "text": "40",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-0e040dbefe8745d9"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        2,
+        4,
+        7,
+        8,
+        9,
+        11
+      ],
+      "B": [
+        1,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "0ba2855aa4789ca1",
+    "question": "Dados los conjuntos A = [2, 4, 7, 8, 9, 11] y B = [1, 5, 6, 8, 9, 10], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "4",
+    "answer_display": "4 elementos",
+    "explanation": "A \\ B = [2, 4, 7, 11]. El número de elementos es 4.",
+    "choices": [
+      {
+        "text": "11/3",
+        "correct": false
+      },
+      {
+        "text": "-6",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "3",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-0ba2855aa4789ca1"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        4,
+        5,
+        6,
+        7,
+        9,
+        11
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "cd3bbc723832ba04",
+    "question": "Dados los conjuntos A = [4, 5, 6, 7, 9, 11] y B = [1, 2, 3, 4, 6, 7, 9], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "4",
+    "answer_display": "4 elementos",
+    "explanation": "A ∩ B = [4, 6, 7, 9]. El número de elementos es 4.",
+    "choices": [
+      {
+        "text": "40",
+        "correct": false
+      },
+      {
+        "text": "11/2",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "8",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-cd3bbc723832ba04"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        10
+      ],
+      "B": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "aa6021bed08c087d",
+    "question": "Dados los conjuntos A = [1, 2, 4, 8, 9, 10] y B = [1, 2, 8, 9], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "4",
+    "answer_display": "4 elementos",
+    "explanation": "A ∩ B = [1, 2, 8, 9]. El número de elementos es 4.",
+    "choices": [
+      {
+        "text": "11/2",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "12",
+        "correct": false
+      },
+      {
+        "text": "11/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-aa6021bed08c087d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        3,
+        4,
+        6,
+        9,
+        10
+      ],
+      "B": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        11
+      ],
+      "op": "union"
+    },
+    "content_hash": "c281ba00531ca59a",
+    "question": "Dados los conjuntos A = [1, 3, 4, 6, 9, 10] y B = [1, 2, 4, 5, 7, 11], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "10",
+    "answer_display": "10 elementos",
+    "explanation": "A ∪ B = [1, 2, 3, 4, 5, 6, 7, 9, 10, 11]. El número de elementos es 10.",
+    "choices": [
+      {
+        "text": "41/4",
+        "correct": false
+      },
+      {
+        "text": "100",
+        "correct": false
+      },
+      {
+        "text": "20",
+        "correct": false
+      },
+      {
+        "text": "10",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-c281ba00531ca59a"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        2,
+        3,
+        10,
+        11
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        11
+      ],
+      "op": "union"
+    },
+    "content_hash": "ecede19612540b7d",
+    "question": "Dados los conjuntos A = [2, 3, 10, 11] y B = [1, 2, 3, 6, 7, 8, 11], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "8",
+    "answer_display": "8 elementos",
+    "explanation": "A ∪ B = [1, 2, 3, 6, 7, 8, 10, 11]. El número de elementos es 8.",
+    "choices": [
+      {
+        "text": "10",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": true
+      },
+      {
+        "text": "17/2",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-ecede19612540b7d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.4,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "B": [
+        2,
+        3,
+        5,
+        8,
+        10,
+        11
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "729f8332502a8677",
+    "question": "Dados los conjuntos A = [3, 4, 5, 6, 9] y B = [2, 3, 5, 8, 10, 11], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A ∩ B = [3, 5]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "5/2",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "-8",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-729f8332502a8677"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        4,
+        5,
+        8,
+        11
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "op": "union"
+    },
+    "content_hash": "54194ec349f471d2",
+    "question": "Dados los conjuntos A = [4, 5, 8, 11] y B = [1, 2, 3, 4, 9], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "8",
+    "answer_display": "8 elementos",
+    "explanation": "A ∪ B = [1, 2, 3, 4, 5, 8, 9, 11]. El número de elementos es 8.",
+    "choices": [
+      {
+        "text": "16",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": true
+      },
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "-2",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-54194ec349f471d2"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "B": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        10
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "8092a8e08d66170d",
+    "question": "Dados los conjuntos A = [3, 5, 7, 8, 10] y B = [1, 4, 6, 7, 8, 10], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A ∩ B = [7, 8, 10]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "15",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      },
+      {
+        "text": "-3",
+        "correct": false
+      },
+      {
+        "text": "-7",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-8092a8e08d66170d"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.7,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "B": [
+        1,
+        3,
+        6,
+        8,
+        11
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "daef02ab159517ce",
+    "question": "Dados los conjuntos A = [4, 5, 9, 10, 11] y B = [1, 3, 6, 8, 11], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "1",
+    "answer_display": "1 elementos",
+    "explanation": "A ∩ B = [11]. El número de elementos es 1.",
+    "choices": [
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": true
+      },
+      {
+        "text": "5/4",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-daef02ab159517ce"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        3,
+        6,
+        9
+      ],
+      "B": [
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "9c5d3cc02e2eacfb",
+    "question": "Dados los conjuntos A = [1, 3, 6, 9] y B = [2, 3, 4, 6, 8], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A \\ B = [1, 9]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-9c5d3cc02e2eacfb"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        4,
+        8,
+        10
+      ],
+      "B": [
+        3,
+        4,
+        6,
+        7,
+        10,
+        11
+      ],
+      "op": "diferencia"
+    },
+    "content_hash": "f3b8d8b737957713",
+    "question": "Dados los conjuntos A = [1, 4, 8, 10] y B = [3, 4, 6, 7, 10, 11], ¿cuántos elementos tiene la diferencia A \\ B?",
+    "question_latex": "\\(|A \\setminus B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A \\ B = [1, 8]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "0",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-f3b8d8b737957713"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        9
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "800ccb8aab8e02b8",
+    "question": "Dados los conjuntos A = [1, 2, 4, 5, 7, 8] y B = [1, 2, 3, 4, 7, 9], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "4",
+    "answer_display": "4 elementos",
+    "explanation": "A ∩ B = [1, 2, 4, 7]. El número de elementos es 4.",
+    "choices": [
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "12",
+        "correct": false
+      }
+    ],
+    "correct_index": 2,
+    "exercise_id": "MAYAN-SET_OPS_01-800ccb8aab8e02b8"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11
+      ],
+      "B": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "470e9a9c2a953519",
+    "question": "Dados los conjuntos A = [2, 3, 4, 6, 7, 8, 11] y B = [2, 3, 4, 5, 6, 9], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "4",
+    "answer_display": "4 elementos",
+    "explanation": "A ∩ B = [2, 3, 4, 6]. El número de elementos es 4.",
+    "choices": [
+      {
+        "text": "4",
+        "correct": true
+      },
+      {
+        "text": "40",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "-6",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-470e9a9c2a953519"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.1,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        5,
+        6,
+        7,
+        11
+      ],
+      "B": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "d9f3c885f9bc0a8b",
+    "question": "Dados los conjuntos A = [5, 6, 7, 11] y B = [1, 3, 5, 7, 8, 9], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "2",
+    "answer_display": "2 elementos",
+    "explanation": "A ∩ B = [5, 7]. El número de elementos es 2.",
+    "choices": [
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "-2",
+        "correct": false
+      },
+      {
+        "text": "12",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      }
+    ],
+    "correct_index": 0,
+    "exercise_id": "MAYAN-SET_OPS_01-d9f3c885f9bc0a8b"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.5,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        1,
+        4,
+        7,
+        8,
+        9,
+        10
+      ],
+      "B": [
+        1,
+        3,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "7d231db7c3d126b9",
+    "question": "Dados los conjuntos A = [1, 4, 7, 8, 9, 10] y B = [1, 3, 5, 6, 9, 10, 11], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A ∩ B = [1, 9, 10]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "-7",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      },
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "8/3",
+        "correct": false
+      }
+    ],
+    "correct_index": 1,
+    "exercise_id": "MAYAN-SET_OPS_01-7d231db7c3d126b9"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.6,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        4,
+        7,
+        8,
+        10
+      ],
+      "B": [
+        1,
+        3,
+        4,
+        5,
+        9,
+        11
+      ],
+      "op": "union"
+    },
+    "content_hash": "686b4fea0ce80f8b",
+    "question": "Dados los conjuntos A = [4, 7, 8, 10] y B = [1, 3, 4, 5, 9, 11], ¿cuántos elementos tiene A ∪ B?",
+    "question_latex": "\\(|A \\cup B| = ?\\)",
+    "answer": "9",
+    "answer_display": "9 elementos",
+    "explanation": "A ∪ B = [1, 3, 4, 5, 7, 8, 9, 10, 11]. El número de elementos es 9.",
+    "choices": [
+      {
+        "text": "90",
+        "correct": false
+      },
+      {
+        "text": "8",
+        "correct": false
+      },
+      {
+        "text": "11",
+        "correct": false
+      },
+      {
+        "text": "9",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-686b4fea0ce80f8b"
+  },
+  {
+    "source": "mayan_generator",
+    "license": "Propietaria MAYAN TECH IA",
+    "attribution": "Banco propio MAYAN TECH IA",
+    "subject": "matematicas",
+    "topic": "conjuntos",
+    "subtopic": "operaciones_conjuntos",
+    "difficulty": 3.8,
+    "grade_level": "bachillerato",
+    "profiles": [
+      "basicos",
+      "bachillerato",
+      "admision_uni"
+    ],
+    "resource_track": "matematicas",
+    "estimated_time": 4,
+    "skills": [
+      "conjuntos",
+      "union",
+      "interseccion",
+      "diferencia"
+    ],
+    "language": "es",
+    "answer_type": "numeric",
+    "verified_by": "cas",
+    "cas_checkable": true,
+    "status": "approved",
+    "template_id": "SET_OPS_01",
+    "variant_params": {
+      "A": [
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "B": [
+        6,
+        7,
+        9,
+        10
+      ],
+      "op": "interseccion"
+    },
+    "content_hash": "30398938c7a2119b",
+    "question": "Dados los conjuntos A = [5, 6, 7, 8, 10] y B = [6, 7, 9, 10], ¿cuántos elementos tiene A ∩ B?",
+    "question_latex": "\\(|A \\cap B| = ?\\)",
+    "answer": "3",
+    "answer_display": "3 elementos",
+    "explanation": "A ∩ B = [6, 7, 10]. El número de elementos es 3.",
+    "choices": [
+      {
+        "text": "9/2",
+        "correct": false
+      },
+      {
+        "text": "13",
+        "correct": false
+      },
+      {
+        "text": "8/3",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": true
+      }
+    ],
+    "correct_index": 3,
+    "exercise_id": "MAYAN-SET_OPS_01-30398938c7a2119b"
+  }
+]
