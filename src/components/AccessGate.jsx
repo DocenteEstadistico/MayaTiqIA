@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { supabase, isSupabaseConfigured } from '../lib/supabaseClient';
 
 function formatExpiry(value) {
@@ -46,6 +46,7 @@ export default function AccessGate({ children }) {
   const [durationDays, setDurationDays] = useState('7');
   const [passLabel, setPassLabel] = useState('Prueba inicial');
   const [issuedCodes, setIssuedCodes] = useState([]);
+  const accountPanelRef = useRef(null);
 
   const refreshAccess = useCallback(async () => {
     const { data: sessionData, error: sessionError } = await supabase.auth.getSession();
@@ -55,12 +56,14 @@ export default function AccessGate({ children }) {
 
     if (!currentSession) {
       setAccess(null);
+      window.dispatchEvent(new Event('maya-access-updated'));
       return;
     }
 
     const { data, error } = await supabase.rpc('get_my_access_status');
     if (error) throw error;
     setAccess(data);
+    window.dispatchEvent(new Event('maya-access-updated'));
   }, []);
 
   useEffect(() => {
@@ -107,6 +110,14 @@ export default function AccessGate({ children }) {
       document.removeEventListener('visibilitychange', refreshIfVisible);
     };
   }, [session, refreshAccess]);
+
+  useEffect(() => {
+    const openAccountPanel = () => {
+      if (accountPanelRef.current) accountPanelRef.current.open = true;
+    };
+    window.addEventListener('maya-open-account', openAccountPanel);
+    return () => window.removeEventListener('maya-open-account', openAccountPanel);
+  }, []);
 
   const handleAuth = async (event) => {
     event.preventDefault();
@@ -199,133 +210,108 @@ export default function AccessGate({ children }) {
     }
   };
 
-  if (!isSupabaseConfigured) {
-    return (
-      <AccessShell>
-        <h1 className="text-2xl font-black text-emerald-800 dark:text-emerald-300">Configura el acceso a Maya TiqIA</h1>
-        <p className="mt-3 text-stone-600 dark:text-stone-300">
-          No se configuraron las variables <code>VITE_SUPABASE_URL</code> y <code>VITE_SUPABASE_ANON_KEY</code>.
-          Añádelas en el entorno local y en las variables de compilación de Netlify.
-        </p>
-      </AccessShell>
-    );
-  }
-
-  if (loading) {
-    return <AccessShell><p className="text-stone-600 dark:text-stone-300">Comprobando sesión y acceso…</p></AccessShell>;
-  }
-
-  if (!session) {
-    return (
-      <AccessShell>
-        <div className="mb-6">
-          <p className="text-xs font-black uppercase tracking-widest text-emerald-700 dark:text-emerald-400">Maya TiqIA</p>
-          <h1 className="mt-2 text-3xl font-black text-stone-900 dark:text-white">Acceso para estudiantes, profesores y directores</h1>
-          <p className="mt-2 text-sm text-stone-600 dark:text-stone-300">
-            Regístrate con tu correo y crea tu propia contraseña, o inicia sesión si ya tienes una cuenta. Para entrar también necesitarás un código de acceso vigente.
-          </p>
-        </div>
-        <div className="mb-5 grid grid-cols-2 gap-2 rounded-xl bg-stone-100 p-1 dark:bg-stone-800">
-          {[
-            ['signin', 'Iniciar sesión'],
-            ['signup', 'Crear cuenta'],
-          ].map(([mode, label]) => (
-            <button
-              key={mode}
-              type="button"
-              onClick={() => { setAuthMode(mode); setNotice(''); setErrorMessage(''); }}
-              className={`rounded-lg px-3 py-2 text-sm font-bold ${authMode === mode ? 'bg-white text-emerald-800 shadow dark:bg-stone-700 dark:text-emerald-300' : 'text-stone-600 dark:text-stone-300'}`}
-            >
-              {label}
-            </button>
-          ))}
-        </div>
-        <form onSubmit={handleAuth} className="space-y-4">
-          <label className="block text-sm font-bold text-stone-700 dark:text-stone-200">
-            Correo electrónico
-            <input
-              required
-              type="email"
-              autoComplete="email"
-              value={email}
-              onChange={event => setEmail(event.target.value)}
-              className="mt-1.5 w-full rounded-xl border border-stone-300 bg-white px-3 py-2.5 font-normal dark:border-stone-700 dark:bg-stone-900"
-            />
-          </label>
-          <label className="block text-sm font-bold text-stone-700 dark:text-stone-200">
-            Contraseña
-            <input
-              required
-              minLength={8}
-              type="password"
-              autoComplete={authMode === 'signup' ? 'new-password' : 'current-password'}
-              value={password}
-              onChange={event => setPassword(event.target.value)}
-              className="mt-1.5 w-full rounded-xl border border-stone-300 bg-white px-3 py-2.5 font-normal dark:border-stone-700 dark:bg-stone-900"
-            />
-          </label>
-          <button disabled={busy} className="w-full rounded-xl bg-emerald-700 px-4 py-3 font-extrabold text-white hover:bg-emerald-600 disabled:opacity-60">
-            {busy ? 'Procesando…' : authMode === 'signup' ? 'Crear cuenta' : 'Iniciar sesión'}
-          </button>
-        </form>
-        <Feedback notice={notice} error={errorMessage} />
-      </AccessShell>
-    );
-  }
-
-  if (!access?.active) {
-    return (
-      <AccessShell>
-        <div className="flex flex-wrap items-start justify-between gap-3">
-          <div>
-            <p className="text-xs font-black uppercase tracking-widest text-emerald-700 dark:text-emerald-400">Cuenta</p>
-            <h1 className="mt-2 text-2xl font-black text-stone-900 dark:text-white">Activa tu pase de acceso</h1>
-            <p className="mt-2 text-sm text-stone-600 dark:text-stone-300">{session.user.email}</p>
-          </div>
-          <button onClick={handleSignOut} disabled={busy} className="rounded-lg px-3 py-2 text-sm font-bold text-stone-600 hover:bg-stone-100 dark:text-stone-300 dark:hover:bg-stone-800">
-            Cerrar sesión
-          </button>
-        </div>
-
-        <form onSubmit={handleRedeem} className="mt-6 flex flex-col gap-3 sm:flex-row">
-          <input
-            required
-            minLength={10}
-            maxLength={100}
-            autoComplete="off"
-            value={code}
-            onChange={event => setCode(event.target.value.toUpperCase())}
-            placeholder="Ejemplo: MAYAN-..."
-            className="min-w-0 flex-1 rounded-xl border border-stone-300 bg-white px-3 py-3 font-mono uppercase dark:border-stone-700 dark:bg-stone-900"
-          />
-          <button disabled={busy} className="rounded-xl bg-emerald-700 px-5 py-3 font-extrabold text-white hover:bg-emerald-600 disabled:opacity-60">
-            Canjear código
-          </button>
-        </form>
-        <p className="mt-3 text-xs text-stone-500 dark:text-stone-400">Cada código se canjea una vez y activa acceso por el plazo que definió quien lo emitió.</p>
-        <Feedback notice={notice} error={errorMessage} />
-        {access?.is_admin && <AdminPassPanel {...{ busy, passCount, setPassCount, durationDays, setDurationDays, passLabel, setPassLabel, issuedCodes, handleCreateCodes }} />}
-      </AccessShell>
-    );
-  }
-
   return (
     <>
-      <div className="fixed right-3 top-3 z-50 flex items-center gap-3 rounded-full border border-emerald-300 bg-white/95 px-4 py-2 text-xs font-bold text-emerald-800 shadow-lg backdrop-blur dark:border-emerald-800 dark:bg-stone-900/95 dark:text-emerald-300">
-        <span>{access.is_admin ? 'Administrador' : `${access.days_remaining} días de acceso`}</span>
-        <button onClick={handleSignOut} disabled={busy} className="underline underline-offset-2">Salir</button>
-      </div>
-      {access.is_admin && (
-        <div className="fixed right-3 top-14 z-50">
-          <details className="max-h-[80vh] w-[min(24rem,calc(100vw-1.5rem))] overflow-auto rounded-2xl border border-amber-300 bg-white shadow-xl dark:border-amber-800 dark:bg-stone-900">
-            <summary className="cursor-pointer px-4 py-3 text-sm font-extrabold text-amber-800 dark:text-amber-300">Emitir pases de acceso</summary>
-            <div className="p-4 pt-0">
-              <AdminPassPanel {...{ busy, passCount, setPassCount, durationDays, setDurationDays, passLabel, setPassLabel, issuedCodes, handleCreateCodes }} />
-            </div>
-          </details>
-        </div>
-      )}
       {children}
+      <div className="fixed right-3 top-3 z-50">
+        <details
+          ref={accountPanelRef}
+          className="max-h-[85vh] w-[min(24rem,calc(100vw-1.5rem))] overflow-auto rounded-2xl border border-emerald-300 bg-white/95 shadow-xl backdrop-blur dark:border-emerald-800 dark:bg-stone-900/95"
+        >
+          <summary className="cursor-pointer list-none px-4 py-3 text-right text-xs font-extrabold text-emerald-800 dark:text-emerald-300">
+            {loading ? 'Comprobando cuenta…' : session ? 'Mi cuenta' : 'Crear cuenta / Iniciar sesión'}
+          </summary>
+          <div className="p-4 pt-0">
+            {!isSupabaseConfigured ? (
+              <p className="text-sm text-stone-600 dark:text-stone-300">
+                El acceso todavía no está configurado. Añade <code>VITE_SUPABASE_URL</code> y <code>VITE_SUPABASE_ANON_KEY</code> en el entorno local y en Netlify.
+              </p>
+            ) : loading ? (
+              <p role="status" className="text-sm text-stone-600 dark:text-stone-300">Comprobando sesión…</p>
+            ) : !session ? (
+              <>
+                <div className="mb-4 grid grid-cols-2 gap-2 rounded-xl bg-stone-100 p-1 dark:bg-stone-800">
+                  {[
+                    ['signin', 'Iniciar sesión'],
+                    ['signup', 'Crear cuenta'],
+                  ].map(([mode, label]) => (
+                    <button
+                      key={mode}
+                      type="button"
+                      onClick={() => { setAuthMode(mode); setNotice(''); setErrorMessage(''); }}
+                      className={`rounded-lg px-3 py-2 text-sm font-bold ${authMode === mode ? 'bg-white text-emerald-800 shadow dark:bg-stone-700 dark:text-emerald-300' : 'text-stone-600 dark:text-stone-300'}`}
+                    >
+                      {label}
+                    </button>
+                  ))}
+                </div>
+                <form onSubmit={handleAuth} className="space-y-3">
+                  <label className="block text-sm font-bold text-stone-700 dark:text-stone-200">
+                    Correo electrónico
+                    <input
+                      required
+                      type="email"
+                      autoComplete="email"
+                      value={email}
+                      onChange={event => setEmail(event.target.value)}
+                      className="mt-1.5 w-full rounded-xl border border-stone-300 bg-white px-3 py-2.5 font-normal dark:border-stone-700 dark:bg-stone-900"
+                    />
+                  </label>
+                  <label className="block text-sm font-bold text-stone-700 dark:text-stone-200">
+                    Contraseña
+                    <input
+                      required
+                      minLength={8}
+                      type="password"
+                      autoComplete={authMode === 'signup' ? 'new-password' : 'current-password'}
+                      value={password}
+                      onChange={event => setPassword(event.target.value)}
+                      className="mt-1.5 w-full rounded-xl border border-stone-300 bg-white px-3 py-2.5 font-normal dark:border-stone-700 dark:bg-stone-900"
+                    />
+                  </label>
+                  <button disabled={busy} className="w-full rounded-xl bg-emerald-700 px-4 py-3 font-extrabold text-white hover:bg-emerald-600 disabled:opacity-60">
+                    {busy ? 'Procesando…' : authMode === 'signup' ? 'Crear cuenta gratuita' : 'Iniciar sesión'}
+                  </button>
+                </form>
+              </>
+            ) : (
+              <>
+                <p className="text-sm text-stone-600 dark:text-stone-300">{session.user.email}</p>
+                <p className="mt-1 text-sm font-bold text-emerald-800 dark:text-emerald-300">
+                  {access?.is_admin ? 'Administrador' : access?.active ? `${access.days_remaining} días de acceso completo` : 'Cuenta gratuita · 10 ejercicios de muestra por tema'}
+                </p>
+                {!access?.active && (
+                  <form onSubmit={handleRedeem} className="mt-4 space-y-3">
+                    <label className="block text-sm font-bold text-stone-700 dark:text-stone-200">
+                      ¿Ya tienes una clave de acceso?
+                      <input
+                        required
+                        minLength={10}
+                        maxLength={100}
+                        autoComplete="off"
+                        value={code}
+                        onChange={event => setCode(event.target.value.toUpperCase())}
+                        placeholder="MAYAN-…"
+                        className="mt-1.5 w-full rounded-xl border border-stone-300 bg-white px-3 py-2.5 font-mono uppercase dark:border-stone-700 dark:bg-stone-900"
+                      />
+                    </label>
+                    <button disabled={busy} className="w-full rounded-xl bg-emerald-700 px-4 py-2.5 font-extrabold text-white hover:bg-emerald-600 disabled:opacity-60">
+                      {busy ? 'Procesando…' : 'Activar acceso completo'}
+                    </button>
+                  </form>
+                )}
+                <button onClick={handleSignOut} disabled={busy} className="mt-4 w-full rounded-lg px-3 py-2 text-sm font-bold text-stone-600 hover:bg-stone-100 disabled:opacity-60 dark:text-stone-300 dark:hover:bg-stone-800">
+                  Cerrar sesión
+                </button>
+              </>
+            )}
+            <Feedback notice={notice} error={errorMessage} />
+            {session && access?.is_admin && (
+              <AdminPassPanel {...{ busy, passCount, setPassCount, durationDays, setDurationDays, passLabel, setPassLabel, issuedCodes, handleCreateCodes }} />
+            )}
+          </div>
+        </details>
+      </div>
     </>
   );
 }
@@ -375,15 +361,5 @@ function Feedback({ notice, error }) {
       {notice && <p role="status" className="mt-4 rounded-xl bg-emerald-50 p-3 text-sm text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-200">{notice}</p>}
       {error && <p role="alert" className="mt-4 rounded-xl bg-red-50 p-3 text-sm text-red-800 dark:bg-red-950/40 dark:text-red-200">{error}</p>}
     </>
-  );
-}
-
-function AccessShell({ children }) {
-  return (
-    <main className="flex min-h-screen items-center justify-center bg-stone-100 px-4 py-8 dark:bg-[#0b1310]">
-      <section className="w-full max-w-xl rounded-3xl border border-stone-200 bg-white p-6 shadow-xl dark:border-stone-800 dark:bg-[#141f1a] sm:p-8">
-        {children}
-      </section>
-    </main>
   );
 }

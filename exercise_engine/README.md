@@ -61,17 +61,18 @@ Las plantillas de cálculo diferencial e integral permanecen disponibles en
 añadir cálculo habría que definirlo como una sexta área o decidir expresamente
 cómo redistribuir las cuotas.
 
-## 🔐 Cuentas y pases de acceso de Supabase
+## 🔐 Cuentas, vista gratuita y pases de acceso de Supabase
 
-La aplicación requiere una cuenta y un pase individual de un solo uso. Cada
-persona crea su contraseña para su cuenta; el código de pase es una credencial
-distinta que se canjea una sola vez y comienza a contar sus días al canjearse.
-Se pueden emitir lotes de 1 a 500 códigos y repetir el proceso para crear
-cientos o miles de pases con distintos plazos y etiquetas.
+El dashboard se puede explorar sin iniciar sesión. Crear una cuenta gratuita
+permite practicar diez ejercicios de muestra por tema; un pase activa el banco
+completo durante el plazo que se haya emitido. Cada persona crea su contraseña
+para su cuenta; el código de pase es una credencial distinta que se canjea una
+sola vez y comienza a contar sus días al canjearse.
 
-1. En el SQL Editor de Supabase, ejecuta `access_passes.sql`. El script crea
-   las tablas/RPC con RLS y restringe la lectura de ejercicios aprobados a
-   cuentas con acceso vigente.
+1. En el SQL Editor de Supabase, ejecuta en orden `sqlesquema.sql`,
+   `access_passes.sql` y `freemium_access.sql`. La última migración marca diez
+   ejercicios aprobados por tema como muestra gratuita, crea el perfil básico
+   para cada nueva cuenta y protege el contenido completo con RLS.
 2. Crea/confirma tu propia cuenta en la aplicación. En el SQL Editor, descomenta
    el bloque `Bootstrap del administrador`, sustituye `TU_CORREO_ADMIN` por el
    correo exacto de esa cuenta y ejecútalo. No incluyas claves privadas en el
@@ -83,16 +84,17 @@ cientos o miles de pases con distintos plazos y etiquetas.
    `VITE_SUPABASE_URL` y `VITE_SUPABASE_ANON_KEY` con el URL y la clave pública
    del mismo proyecto. Configura las mismas dos variables en `.env` para local
    (consulta `.env.example`) y vuelve a desplegar el sitio.
-5. Desde una sesión de administrador, emite `20` códigos con duración `7` días,
-   descarga el CSV y entrega un código distinto a cada persona. Para más de 500,
-   emite varios lotes y usa una etiqueta distinta para identificarlos. Guarda
-   cada CSV en un lugar privado y seguro: los códigos se guardan como hashes y
-   el texto legible se muestra solo al emitirlos.
+5. Tras confirmar manualmente un pago, desde una sesión de administrador emite
+   un código con duración `30` días, descarga el CSV y entrega ese código a la
+   persona. Cambia la duración si vendes otro plazo. Guarda cada CSV en un lugar
+   privado y seguro: los códigos se guardan como hashes y el texto legible se
+   muestra solo al emitirlos.
 
 ### Publicar el banco para servirlo con RLS
 
-Los ejercicios se consultan desde Supabase después de iniciar sesión; el
-frontend no importa el JSON local. Para cargar o actualizar el banco, ejecuta
+Los ejercicios se consultan desde Supabase; el frontend no importa el JSON
+local. Una sesión autenticada sin pase solo recibe los ejercicios marcados
+como muestra por RLS. Para cargar o actualizar el banco, ejecuta
 `npm run upload:bank` desde la raíz del proyecto. El cargador toma
 `VITE_SUPABASE_URL` de `.env` o del entorno, y requiere
 `SUPABASE_SERVICE_ROLE_KEY` en el entorno de esa operación. La clave

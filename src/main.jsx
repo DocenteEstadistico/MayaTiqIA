@@ -6,12 +6,8 @@ import '../mayan-theme.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {import.meta.env.DEV ? (
+    <AccessGate>
       <MayanDashboard />
-    ) : (
-      <AccessGate>
-        <MayanDashboard />
-      </AccessGate>
-    )}
+    </AccessGate>
   </React.StrictMode>
 );

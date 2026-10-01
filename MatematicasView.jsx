@@ -28,6 +28,8 @@ export default function MatematicasView({ perfilActual = 'bachillerato', onVolve
   const [ejerciciosBase, setEjerciciosBase] = useState([]);
   const [cargandoEjercicios, setCargandoEjercicios] = useState(true);
   const [errorEjercicios, setErrorEjercicios] = useState('');
+  const [hayCuenta, setHayCuenta] = useState(false);
+  const [accesoCompleto, setAccesoCompleto] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -36,6 +38,23 @@ export default function MatematicasView({ perfilActual = 'bachillerato', onVolve
       setCargandoEjercicios(true);
       setErrorEjercicios('');
       try {
+        const { data: sessionData, error: sessionError } = await supabase.auth.getSession();
+        if (sessionError) throw sessionError;
+        const session = sessionData.session;
+        if (!session) {
+          if (!cancelled) {
+            setHayCuenta(false);
+            setAccesoCompleto(false);
+            setEjerciciosBase([]);
+          }
+          return;
+        }
+        if (!cancelled) setHayCuenta(true);
+
+        const { data: accessData, error: accessError } = await supabase.rpc('get_my_access_status');
+        if (accessError) throw accessError;
+        if (!cancelled) setAccesoCompleto(Boolean(accessData?.active));
+
         const todos = [];
         const pageSize = 500;
         for (let offset = 0; ; offset += pageSize) {
@@ -58,7 +77,11 @@ export default function MatematicasView({ perfilActual = 'bachillerato', onVolve
     };
 
     void cargarEjercicios();
-    return () => { cancelled = true; };
+    window.addEventListener('maya-access-updated', cargarEjercicios);
+    return () => {
+      cancelled = true;
+      window.removeEventListener('maya-access-updated', cargarEjercicios);
+    };
   }, []);
 
   // Catálogo completo de módulos de Matemáticas con nivel de acceso
@@ -276,6 +299,29 @@ export default function MatematicasView({ perfilActual = 'bachillerato', onVolve
         </div>
       </div>
 
+      {!cargandoEjercicios && !errorEjercicios && !hayCuenta && (
+        <div className="flex flex-col gap-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-950 dark:border-amber-800/60 dark:bg-amber-950/40 dark:text-amber-100 sm:flex-row sm:items-center sm:justify-between">
+          <p>Explora la plataforma y crea una cuenta gratuita para practicar hasta 10 ejercicios de muestra por tema.</p>
+          <button
+            onClick={() => window.dispatchEvent(new Event('maya-open-account'))}
+            className="shrink-0 rounded-xl bg-emerald-700 px-4 py-2.5 font-extrabold text-white hover:bg-emerald-600"
+          >
+            Crear cuenta gratuita
+          </button>
+        </div>
+      )}
+      {!cargandoEjercicios && !errorEjercicios && hayCuenta && !accesoCompleto && ejerciciosBase.length > 0 && (
+        <div className="flex flex-col gap-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-950 dark:border-amber-800/60 dark:bg-amber-950/40 dark:text-amber-100 sm:flex-row sm:items-center sm:justify-between">
+          <p>Estás en el modo gratuito: hasta 10 ejercicios por tema. Después de confirmar el pago, solicita una clave para activar el banco completo durante 30 días.</p>
+          <button
+            onClick={() => window.dispatchEvent(new Event('maya-open-account'))}
+            className="shrink-0 rounded-xl border border-amber-500 px-4 py-2.5 font-extrabold hover:bg-amber-100 dark:hover:bg-amber-900/40"
+          >
+            Ya tengo una clave
+          </button>
+        </div>
+      )}
+
       {/* Aviso de restricción desde Servidor para Bachillerato */}
       {!isUniversitario && (
         <div className="flex items-center gap-3 p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/60 text-amber-900 dark:text-amber-200 text-xs sm:text-sm">
@@ -298,9 +344,9 @@ export default function MatematicasView({ perfilActual = 'bachillerato', onVolve
             No se pudieron cargar los ejercicios: {errorEjercicios}
           </p>
         )}
-        {!cargandoEjercicios && !errorEjercicios && ejerciciosBase.length === 0 && (
+        {!cargandoEjercicios && !errorEjercicios && hayCuenta && ejerciciosBase.length === 0 && (
           <p role="alert" className="rounded-xl bg-amber-50 p-3 text-sm text-amber-900 dark:bg-amber-950/40 dark:text-amber-200">
-            Todavía no hay ejercicios aprobados en Supabase. El administrador debe publicar el banco antes de abrir los módulos.
+            Esta cuenta todavía no tiene ejercicios disponibles. Comprueba que el administrador haya publicado ejercicios aprobados y ejecutado la migración freemium en Supabase.
           </p>
         )}
         <div className="flex items-center justify-between">
