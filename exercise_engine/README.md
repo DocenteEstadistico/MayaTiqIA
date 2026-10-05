@@ -78,8 +78,8 @@ sola vez y comienza a contar sus días al canjearse.
    correo exacto de esa cuenta y ejecútalo. No incluyas claves privadas en el
    código fuente.
 3. En Authentication → URL Configuration de Supabase configura `Site URL` como
-   `https://mayantechia.netlify.app` y agrega a `Redirect URLs` ese dominio más
-   `http://localhost:5173/**` para desarrollo.
+   `https://mayatiqia.netlify.app` y agrega a `Redirect URLs`
+   `https://mayatiqia.netlify.app/**` y `http://localhost:5173/**` para desarrollo.
 4. En Netlify → Site configuration → Environment variables configura
    `VITE_SUPABASE_URL` y `VITE_SUPABASE_ANON_KEY` con el URL y la clave pública
    del mismo proyecto. Configura las mismas dos variables en `.env` para local
