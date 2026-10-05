@@ -30,6 +30,7 @@ if (!Array.isArray(exercises) || exercises.length === 0) {
 
 const requiredFields = ['exercise_id', 'topic', 'subtopic', 'question', 'answer', 'status'];
 const ids = new Set();
+const contentHashes = new Set();
 for (const [index, exercise] of exercises.entries()) {
   const missing = requiredFields.filter(field => exercise[field] === undefined || exercise[field] === null);
   if (missing.length) {
@@ -39,6 +40,12 @@ for (const [index, exercise] of exercises.entries()) {
     throw new Error(`ID de ejercicio duplicado: ${exercise.exercise_id}.`);
   }
   ids.add(exercise.exercise_id);
+  if (exercise.content_hash) {
+    if (contentHashes.has(exercise.content_hash)) {
+      throw new Error(`Huella content_hash duplicada: ${exercise.content_hash}.`);
+    }
+    contentHashes.add(exercise.content_hash);
+  }
 }
 
 const supabase = createClient(supabaseUrl, serviceRoleKey, {

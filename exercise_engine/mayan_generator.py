@@ -85,6 +85,17 @@ def _pythagorean_triples(max_m=50):
     return triples
 
 PYTHAGOREAN_TRIPLES = _pythagorean_triples()
+SMALL_PYTHAGOREAN_TRIPLES = [
+    (12, 16, 20),
+    (10, 24, 26),
+    (15, 20, 25),
+    (20, 21, 29),
+    (18, 24, 30),
+    (10.5, 14, 17.5),
+    (13.5, 18, 22.5),
+    (16.5, 22, 27.5),
+    (11, 26.4, 28.6),
+]
 
 def _factor(r: int) -> str:
     """(x − r) con signo correcto: r=-3 → '(x + 3)' · r=0 → '(x)'."""
@@ -1048,30 +1059,29 @@ class TeoremaPitagoras(Template):
     mcq = True
 
     def build(self, rng):
-        a, b, c = rng.choice(PYTHAGOREAN_TRIPLES)
-        k = rng.randint(1, 20)
-        a, b, c = a * k, b * k, c * k
+        a, b, c = rng.choice(SMALL_PYTHAGOREAN_TRIPLES)
+        unit = rng.choice(["cm", "m"])
         modo = rng.choice(["hipotenusa", "cateto"])
         
         if modo == "hipotenusa":
             val = c
             return {
-                "question": f"En un triángulo rectángulo, los catetos miden {a} cm y {b} cm. ¿Cuánto mide la hipotenusa?",
-                "question_latex": f"\\(a = {a}\\text{{ cm}}, b = {b}\\text{{ cm}}, c = ?\\)",
+                "question": f"En un triángulo rectángulo, los catetos miden {a} {unit} y {b} {unit}. ¿Cuánto mide la hipotenusa?",
+                "question_latex": f"\\(a = {a}\\text{{ {unit}}}, b = {b}\\text{{ {unit}}}, c = ?\\)",
                 "answer": str(val),
-                "answer_display": f"{val} cm",
-                "explanation": f"Por el Teorema de Pitágoras: c = √({a}² + {b}²) = √({a*a} + {b*b}) = √({c*c}) = {c} cm.",
-                "params": {"a": a, "b": b, "c": c, "modo": modo},
+                "answer_display": f"{val} {unit}",
+                "explanation": f"Por el Teorema de Pitágoras: c = √({a}² + {b}²) = √({a*a} + {b*b}) = √({c*c}) = {c} {unit}.",
+                "params": {"a": a, "b": b, "c": c, "modo": modo, "unit": unit},
             }
         else:
             val = a
             return {
-                "question": f"En un triángulo rectángulo, la hipotenusa mide {c} cm y uno de los catetos mide {b} cm. ¿Cuánto mide el otro cateto?",
-                "question_latex": f"\\(c = {c}\\text{{ cm}}, b = {b}\\text{{ cm}}, a = ?\\)",
+                "question": f"En un triángulo rectángulo, la hipotenusa mide {c} {unit} y uno de los catetos mide {b} {unit}. ¿Cuánto mide el otro cateto?",
+                "question_latex": f"\\(c = {c}\\text{{ {unit}}}, b = {b}\\text{{ {unit}}}, a = ?\\)",
                 "answer": str(val),
-                "answer_display": f"{val} cm",
-                "explanation": f"Por el Teorema de Pitágoras: a = √({c}² − {b}²) = √({c*c} − {b*b}) = √({a*a}) = {a} cm.",
-                "params": {"a": a, "b": b, "c": c, "modo": modo},
+                "answer_display": f"{val} {unit}",
+                "explanation": f"Por el Teorema de Pitágoras: a = √({c}² − {b}²) = √({c*c} − {b*b}) = √({a*a}) = {a} {unit}.",
+                "params": {"a": a, "b": b, "c": c, "modo": modo, "unit": unit},
             }
 
 @template
@@ -1084,43 +1094,42 @@ class RazonesTrigonometricas(Template):
     mcq = True
 
     def build(self, rng):
-        co, ca, h = rng.choice(PYTHAGOREAN_TRIPLES)
-        scale = rng.randint(1, 30)
-        co, ca, h = co * scale, ca * scale, h * scale
+        co, ca, h = rng.choice(SMALL_PYTHAGOREAN_TRIPLES)
+        unit = rng.choice(["cm", "m"])
         func = rng.choice(["sin", "cos", "tan"])
         
         if func == "sin":
             ans_rat = Rational(co, h)
             ans_str = _frac_str(ans_rat)
             return {
-                "question": f"En un triángulo rectángulo, el cateto opuesto al ángulo θ mide {co} y la hipotenusa mide {h}. Hallar sen(θ).",
+                "question": f"En un triángulo rectángulo, el cateto opuesto al ángulo θ mide {co} {unit} y la hipotenusa mide {h} {unit}. Hallar sen(θ).",
                 "question_latex": f"\\(\\sin(\\theta) = \\dfrac{{\\text{{opuesto}}}}{{\\text{{hipotenusa}}}}\\)",
                 "answer": ans_str,
                 "answer_display": ans_str,
                 "explanation": f"sen(θ) = Cateto Opuesto / Hipotenusa = {co}/{h}" + (f" = {ans_str}" if ans_str != f"{co}/{h}" else "") + ".",
-                "params": {"co": co, "ca": ca, "h": h, "func": func},
+                "params": {"co": co, "ca": ca, "h": h, "func": func, "unit": unit},
             }
         elif func == "cos":
             ans_rat = Rational(ca, h)
             ans_str = _frac_str(ans_rat)
             return {
-                "question": f"En un triángulo rectángulo, el cateto adyacente al ángulo θ mide {ca} y la hipotenusa mide {h}. Hallar cos(θ).",
+                "question": f"En un triángulo rectángulo, el cateto adyacente al ángulo θ mide {ca} {unit} y la hipotenusa mide {h} {unit}. Hallar cos(θ).",
                 "question_latex": f"\\(\\cos(\\theta) = \\dfrac{{\\text{{adyacente}}}}{{\\text{{hipotenusa}}}}\\)",
                 "answer": ans_str,
                 "answer_display": ans_str,
                 "explanation": f"cos(θ) = Cateto Adyacente / Hipotenusa = {ca}/{h}" + (f" = {ans_str}" if ans_str != f"{ca}/{h}" else "") + ".",
-                "params": {"co": co, "ca": ca, "h": h, "func": func},
+                "params": {"co": co, "ca": ca, "h": h, "func": func, "unit": unit},
             }
         else:
             ans_rat = Rational(co, ca)
             ans_str = _frac_str(ans_rat)
             return {
-                "question": f"En un triángulo rectángulo, el cateto opuesto mide {co} y el cateto adyacente mide {ca}. Hallar tan(θ).",
+                "question": f"En un triángulo rectángulo, el cateto opuesto mide {co} {unit} y el cateto adyacente mide {ca} {unit}. Hallar tan(θ).",
                 "question_latex": f"\\(\\tan(\\theta) = \\dfrac{{\\text{{opuesto}}}}{{\\text{{adyacente}}}}\\)",
                 "answer": ans_str,
                 "answer_display": ans_str,
                 "explanation": f"tan(θ) = Cateto Opuesto / Cateto Adyacente = {co}/{ca}" + (f" = {ans_str}" if ans_str != f"{co}/{ca}" else "") + ".",
-                "params": {"co": co, "ca": ca, "h": h, "func": func},
+                "params": {"co": co, "ca": ca, "h": h, "func": func, "unit": unit},
             }
 
 @template
@@ -1134,22 +1143,23 @@ class CatetoPorAngulo(Template):
     def build(self, rng):
         angle = rng.choice([30, 45, 60])
         mode = rng.choice(["seno", "coseno", "tangente"])
+        unit = rng.choice(["cm", "m"])
         if mode == "seno":
-            given_side = rng.randint(10, 1000)
+            given_side = rng.randint(10, 30)
             result = simplify(given_side * sp.sin(sp.pi * angle / 180))
-            known = f"la hipotenusa mide {given_side} cm"
+            known = f"la hipotenusa mide {given_side} {unit}"
             question = f"Halla el cateto opuesto"
             formula = "cateto opuesto = hipotenusa × sen(ángulo)"
         elif mode == "coseno":
-            given_side = rng.randint(10, 1000)
+            given_side = rng.randint(10, 30)
             result = simplify(given_side * sp.cos(sp.pi * angle / 180))
-            known = f"la hipotenusa mide {given_side} cm"
+            known = f"la hipotenusa mide {given_side} {unit}"
             question = f"Halla el cateto adyacente"
             formula = "cateto adyacente = hipotenusa × cos(ángulo)"
         else:
-            given_side = rng.randint(4, 1000)
+            given_side = rng.randint(10, 30)
             result = simplify(given_side * sp.tan(sp.pi * angle / 180))
-            known = f"el cateto adyacente mide {given_side} cm"
+            known = f"el cateto adyacente mide {given_side} {unit}"
             question = f"Halla el cateto opuesto"
             formula = "cateto opuesto = cateto adyacente × tan(ángulo)"
 
@@ -1157,9 +1167,9 @@ class CatetoPorAngulo(Template):
             "question": f"En un triángulo rectángulo, uno de sus ángulos agudos mide {angle}° y {known}. {question}.",
             "question_latex": f"\\(\\theta={angle}^\\circ,\\quad {formula}\\)",
             "answer": sp.sstr(result).replace("**", "^"),
-            "answer_display": f"${latex(result)}\\text{{ cm}}$",
-            "explanation": f"Usamos {formula}. Sustituyendo los datos, el cateto mide {latex(result)} cm.",
-            "params": {"angle": angle, "mode": mode, "given_side": given_side},
+            "answer_display": f"${latex(result)}\\text{{ {unit}}}$",
+            "explanation": f"Usamos {formula}. Sustituyendo los datos, el cateto mide {latex(result)} {unit}.",
+            "params": {"angle": angle, "mode": mode, "given_side": given_side, "unit": unit},
         }
 
 @template
@@ -1174,41 +1184,44 @@ class AreaFiguraPlana(Template):
     def build(self, rng):
         figura = rng.choice(["triangulo", "rectangulo", "trapecio"])
         if figura == "triangulo":
-            b = rng.randrange(4, 1001, 2)
-            h = rng.randint(3, 999)
+            b = rng.randrange(10, 31, 2)
+            h = rng.randint(10, 30)
+            unit = rng.choice(["cm", "m"])
             val = b * h // 2
             return {
-                "question": f"Calcula el área de un triángulo con base b = {b} cm y altura h = {h} cm.",
+                "question": f"Calcula el área de un triángulo con base b = {b} {unit} y altura h = {h} {unit}.",
                 "question_latex": f"\\(A = \\dfrac{{b \\cdot h}}{{2}}\\)",
                 "answer": str(val),
-                "answer_display": f"{val} cm²",
-                "explanation": f"Área del triángulo = (base × altura) / 2 = ({b} × {h}) / 2 = {val} cm².",
-                "params": {"b": b, "h": h, "figura": figura},
+                "answer_display": f"{val} {unit}²",
+                "explanation": f"Área del triángulo = (base × altura) / 2 = ({b} × {h}) / 2 = {val} {unit}².",
+                "params": {"b": b, "h": h, "figura": figura, "unit": unit},
             }
         elif figura == "rectangulo":
-            b = rng.randint(4, 1000)
-            h = rng.randint(3, 999)
+            b = rng.randint(10, 30)
+            h = rng.randint(10, 30)
+            unit = rng.choice(["cm", "m"])
             val = b * h
             return {
-                "question": f"Calcula el área de un rectángulo de base {b} m y altura {h} m.",
+                "question": f"Calcula el área de un rectángulo de base {b} {unit} y altura {h} {unit}.",
                 "question_latex": f"\\(A = b \\cdot h\\)",
                 "answer": str(val),
-                "answer_display": f"{val} m²",
-                "explanation": f"Área del rectángulo = base × altura = {b} × {h} = {val} m².",
-                "params": {"b": b, "h": h, "figura": figura},
+                "answer_display": f"{val} {unit}²",
+                "explanation": f"Área del rectángulo = base × altura = {b} × {h} = {val} {unit}².",
+                "params": {"b": b, "h": h, "figura": figura, "unit": unit},
             }
         else:
-            B = rng.randrange(8, 1001, 2)
-            b = rng.randrange(4, B + 1, 2)
-            h = rng.randrange(2, 1001, 2)
+            B = rng.randrange(12, 31, 2)
+            b = rng.randrange(10, B, 2)
+            h = rng.randrange(10, 31, 2)
+            unit = rng.choice(["cm", "m"])
             val = (B + b) * h // 2
             return {
-                "question": f"Un trapecio tiene base mayor B = {B} cm, base menor b = {b} cm y altura h = {h} cm. ¿Cuál es su área?",
+                "question": f"Un trapecio tiene base mayor B = {B} {unit}, base menor b = {b} {unit} y altura h = {h} {unit}. ¿Cuál es su área?",
                 "question_latex": f"\\(A = \\dfrac{{(B + b) \\cdot h}}{{2}}\\)",
                 "answer": str(val),
-                "answer_display": f"{val} cm²",
-                "explanation": f"Área del trapecio = (({B} + {b}) × {h}) / 2 = ({B+b} × {h}) / 2 = {val} cm².",
-                "params": {"B": B, "b": b, "h": h, "figura": figura},
+                "answer_display": f"{val} {unit}²",
+                "explanation": f"Área del trapecio = (({B} + {b}) × {h}) / 2 = ({B+b} × {h}) / 2 = {val} {unit}².",
+                "params": {"B": B, "b": b, "h": h, "figura": figura, "unit": unit},
             }
 
 @template
@@ -1221,40 +1234,42 @@ class PerimetroFiguraPlana(Template):
     mcq = True
 
     def build(self, rng):
+        unit = rng.choice(["cm", "m"])
         figura = rng.choice(["rectangulo", "triangulo", "trapecio"])
         if figura == "rectangulo":
-            a, b = rng.randint(3, 1000), rng.randint(3, 1000)
+            a, b = rng.randint(10, 30), rng.randint(10, 30)
             result = 2 * (a + b)
-            question = f"Calcula el perímetro de un rectángulo de lados {a} cm y {b} cm."
-            params = {"figura": figura, "a": a, "b": b}
-            explanation = f"P = 2({a} + {b}) = {result} cm."
+            question = f"Calcula el perímetro de un rectángulo de lados {a} {unit} y {b} {unit}."
+            params = {"figura": figura, "a": a, "b": b, "unit": unit}
+            explanation = f"P = 2({a} + {b}) = {result} {unit}."
         elif figura == "triangulo":
-            a, b = rng.randint(3, 1000), rng.randint(3, 1000)
-            c = rng.randint(abs(a - b) + 1, a + b - 1)
+            a, b = rng.randint(10, 30), rng.randint(10, 30)
+            c = rng.randint(max(10, abs(a - b) + 1), min(30, a + b - 1))
             result = a + b + c
-            question = f"Calcula el perímetro de un triángulo cuyos lados miden {a} cm, {b} cm y {c} cm."
-            params = {"figura": figura, "a": a, "b": b, "c": c}
-            explanation = f"P = {a} + {b} + {c} = {result} cm."
+            question = f"Calcula el perímetro de un triángulo cuyos lados miden {a} {unit}, {b} {unit} y {c} {unit}."
+            params = {"figura": figura, "a": a, "b": b, "c": c, "unit": unit}
+            explanation = f"P = {a} + {b} + {c} = {result} {unit}."
         else:
-            base_mayor = rng.randint(10, 1000)
-            base_menor = rng.randint(2, base_mayor - 2)
-            lado = rng.randint((base_mayor - base_menor + 1) // 2, 1000)
+            base_mayor = rng.randint(12, 30)
+            base_menor = rng.randint(10, base_mayor - 2)
+            lado = rng.randint(max(10, (base_mayor - base_menor + 1) // 2), 30)
             result = base_mayor + base_menor + 2 * lado
             question = (
-                f"Un trapecio isósceles tiene bases de {base_mayor} cm y {base_menor} cm "
-                f"y lados iguales de {lado} cm. Calcula su perímetro."
+                f"Un trapecio isósceles tiene bases de {base_mayor} {unit} y {base_menor} {unit} "
+                f"y lados iguales de {lado} {unit}. Calcula su perímetro."
             )
             params = {
                 "figura": figura,
                 "base_mayor": base_mayor,
                 "base_menor": base_menor,
                 "lado": lado,
+                "unit": unit,
             }
-            explanation = f"P = {base_mayor} + {base_menor} + 2 × {lado} = {result} cm."
+            explanation = f"P = {base_mayor} + {base_menor} + 2 × {lado} = {result} {unit}."
         return {
             "question": question,
             "answer": str(result),
-            "answer_display": f"{result} cm",
+            "answer_display": f"{result} {unit}",
             "explanation": explanation,
             "params": params,
         }
@@ -1269,30 +1284,31 @@ class VolumenCuerpo(Template):
     mcq = True
 
     def build(self, rng):
+        unit = rng.choice(["cm", "m"])
         cuerpo = rng.choice(["prisma", "cubo"])
         if cuerpo == "cubo":
-            l = rng.randint(3, 1000)
+            l = rng.randint(10, 30)
             val = l**3
             return {
-                "question": f"¿Cuál es el volumen de un cubo cuyo lado mide {l} cm?",
+                "question": f"¿Cuál es el volumen de un cubo cuyo lado mide {l} {unit}?",
                 "question_latex": f"\\(V = l^3\\)",
                 "answer": str(val),
-                "answer_display": f"{val} cm³",
-                "explanation": f"Volumen del cubo = l³ = {l}³ = {val} cm³.",
-                "params": {"l": l, "cuerpo": cuerpo},
+                "answer_display": f"{val} {unit}³",
+                "explanation": f"Volumen del cubo = l³ = {l}³ = {val} {unit}³.",
+                "params": {"l": l, "cuerpo": cuerpo, "unit": unit},
             }
         else:
-            l = rng.randint(3, 1000)
-            w = rng.randint(3, 1000)
-            h = rng.randint(2, 1000)
+            l = rng.randint(10, 30)
+            w = rng.randint(10, 30)
+            h = rng.randint(10, 30)
             val = l * w * h
             return {
-                "question": f"Calcula el volumen de un prisma recto de largo {l} cm, ancho {w} cm y alto {h} cm.",
+                "question": f"Calcula el volumen de un prisma recto de largo {l} {unit}, ancho {w} {unit} y alto {h} {unit}.",
                 "question_latex": f"\\(V = l \\cdot w \\cdot h\\)",
                 "answer": str(val),
-                "answer_display": f"{val} cm³",
-                "explanation": f"Volumen del prisma = largo × ancho × alto = {l} × {w} × {h} = {val} cm³.",
-                "params": {"l": l, "w": w, "h": h, "cuerpo": cuerpo},
+                "answer_display": f"{val} {unit}³",
+                "explanation": f"Volumen del prisma = largo × ancho × alto = {l} × {w} × {h} = {val} {unit}³.",
+                "params": {"l": l, "w": w, "h": h, "cuerpo": cuerpo, "unit": unit},
             }
 
 @template
