@@ -37,8 +37,10 @@ export default function AccessGate({ children }) {
   const [loading, setLoading] = useState(true);
   const [busy, setBusy] = useState(false);
   const [authMode, setAuthMode] = useState('signin');
+  const [recoveryMode, setRecoveryMode] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [newPassword, setNewPassword] = useState('');
   const [code, setCode] = useState('');
   const [notice, setNotice] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
@@ -84,7 +86,11 @@ export default function AccessGate({ children }) {
     };
     void loadInitialSession();
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(() => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event) => {
+      if (event === 'PASSWORD_RECOVERY') {
+        setRecoveryMode(true);
+        if (accountPanelRef.current) accountPanelRef.current.open = true;
+      }
       window.setTimeout(() => {
         if (mounted) void loadInitialSession();
       }, 0);
@@ -145,6 +151,41 @@ export default function AccessGate({ children }) {
         if (error) throw error;
         await refreshAccess();
       }
+    } catch (error) {
+      setErrorMessage(error.message);
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const handlePasswordRecovery = async () => {
+    setBusy(true);
+    setErrorMessage('');
+    setNotice('');
+    try {
+      const { error } = await supabase.auth.resetPasswordForEmail(email.trim(), {
+        redirectTo: window.location.origin,
+      });
+      if (error) throw error;
+      setNotice('Si existe una cuenta con ese correo, recibirás un enlace para restablecer la contraseña. Revisa también la carpeta de spam.');
+    } catch (error) {
+      setErrorMessage(error.message);
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const handleUpdatePassword = async (event) => {
+    event.preventDefault();
+    setBusy(true);
+    setErrorMessage('');
+    setNotice('');
+    try {
+      const { error } = await supabase.auth.updateUser({ password: newPassword });
+      if (error) throw error;
+      setRecoveryMode(false);
+      setNewPassword('');
+      setNotice('Contraseña actualizada. Ya puedes iniciar sesión con tu nueva contraseña.');
     } catch (error) {
       setErrorMessage(error.message);
     } finally {
@@ -228,6 +269,29 @@ export default function AccessGate({ children }) {
               </p>
             ) : loading ? (
               <p role="status" className="text-sm text-stone-600 dark:text-stone-300">Comprobando sesión…</p>
+            ) : recoveryMode ? (
+              <>
+                <p className="mb-4 text-sm text-stone-600 dark:text-stone-300">
+                  Elige una nueva contraseña para tu cuenta.
+                </p>
+                <form onSubmit={handleUpdatePassword} className="space-y-3">
+                  <label className="block text-sm font-bold text-stone-700 dark:text-stone-200">
+                    Nueva contraseña
+                    <input
+                      required
+                      minLength={8}
+                      type="password"
+                      autoComplete="new-password"
+                      value={newPassword}
+                      onChange={event => setNewPassword(event.target.value)}
+                      className="mt-1.5 w-full rounded-xl border border-stone-300 bg-white px-3 py-2.5 font-normal dark:border-stone-700 dark:bg-stone-900"
+                    />
+                  </label>
+                  <button disabled={busy} className="w-full rounded-xl bg-emerald-700 px-4 py-3 font-extrabold text-white hover:bg-emerald-600 disabled:opacity-60">
+                    {busy ? 'Guardando…' : 'Guardar nueva contraseña'}
+                  </button>
+                </form>
+              </>
             ) : !session ? (
               <>
                 <div className="mb-4 grid grid-cols-2 gap-2 rounded-xl bg-stone-100 p-1 dark:bg-stone-800">
@@ -272,6 +336,16 @@ export default function AccessGate({ children }) {
                   <button disabled={busy} className="w-full rounded-xl bg-emerald-700 px-4 py-3 font-extrabold text-white hover:bg-emerald-600 disabled:opacity-60">
                     {busy ? 'Procesando…' : authMode === 'signup' ? 'Crear cuenta gratuita' : 'Iniciar sesión'}
                   </button>
+                  {authMode === 'signin' && (
+                    <button
+                      type="button"
+                      disabled={busy || !email.trim()}
+                      onClick={handlePasswordRecovery}
+                      className="w-full rounded-lg px-3 py-2 text-sm font-bold text-emerald-800 hover:bg-emerald-50 disabled:cursor-not-allowed disabled:opacity-50 dark:text-emerald-300 dark:hover:bg-stone-800"
+                    >
+                      ¿Olvidaste tu contraseña?
+                    </button>
+                  )}
                 </form>
               </>
             ) : (
