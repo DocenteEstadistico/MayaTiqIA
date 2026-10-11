@@ -50,6 +50,16 @@ const modos = [
   { id: 'progreso', nombre: '📊 Progreso general', descripcion: 'Gráficas por materia' },
 ];
 
+const navItems = [
+  { id: 'dashboard', label: 'Inicio', corto: 'Inicio', icono: Home },
+  { id: 'matematicas', label: 'Rutas Matemáticas (1000)', corto: 'Matemáticas', icono: Calculator },
+  { id: 'phet', label: 'Laboratorio PhET', corto: 'PhET', icono: FlaskConical },
+  { id: 'admision', label: 'Simulacros PAA', corto: 'PAA', icono: GraduationCap },
+  { id: 'agrotechia', label: 'AgroTechIA', corto: 'Agro', icono: Leaf },
+  { id: 'universitario', label: 'Universitario & Tesis', corto: 'Universidad', icono: Award },
+  { id: 'profesor_director', label: 'Profesor & Director', corto: 'Docentes', icono: UserCog },
+];
+
 export default function MayanDashboard() {
   const [perfilActual, setPerfilActual] = useState('universitario');
   const [materiaSeleccionada, setMateriaSeleccionada] = useState('mat');
@@ -193,142 +203,87 @@ export default function MayanDashboard() {
     <div className="min-h-screen font-sans bg-[#FDF8F0] dark:bg-[#0b1310] text-[#374151] dark:text-[#e7f0eb] transition-colors duration-200">
       <Toaster position="top-center" richColors theme={isDark ? 'dark' : 'light'} />
 
-      {/* Header General Reimaginado (Estilo Matific + Khan Academy) */}
-      <header className="bg-white dark:bg-[#141f1a] shadow-md border-b border-mayan sticky top-0 z-20">
-        <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center flex-wrap gap-3">
+      {/* Header general: marca, gamificación y navegación por módulos */}
+      <header className="sticky top-0 z-20 border-b border-mayan bg-white/90 shadow-sm backdrop-blur-md dark:bg-[#141f1a]/90">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3">
           {/* Logo y Marca */}
-          <div className="flex items-center gap-3">
-            <button
-              onClick={() => setVistaActiva('dashboard')}
-              className="w-11 h-11 bg-mayan-gradient rounded-2xl flex items-center justify-center shadow-lg hover:scale-105 transition-transform active:scale-95 border border-amber-300/40"
-              title="Volver al Inicio"
-            >
-              <span className="text-white font-extrabold text-2xl tracking-tighter">M</span>
-            </button>
-            <div>
-              <div className="flex items-center gap-2">
-                <h1 
-                  onClick={() => setVistaActiva('dashboard')}
-                  className="text-xl sm:text-2xl font-black text-emerald-800 dark:text-emerald-400 tracking-tight cursor-pointer hover:opacity-80 transition-opacity"
-                >
+          <button
+            onClick={() => setVistaActiva('dashboard')}
+            className="group flex min-w-0 items-center gap-3 rounded-2xl text-left"
+            title="Volver al Inicio"
+          >
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-amber-300/40 bg-mayan-gradient shadow-lg shadow-emerald-900/20 transition-transform group-hover:scale-105 group-active:scale-95">
+              <span className="text-2xl font-extrabold tracking-tighter text-white">M</span>
+            </span>
+            <span className="min-w-0">
+              <span className="flex items-center gap-2">
+                <span className="truncate text-xl font-black tracking-tight text-emerald-800 sm:text-2xl dark:text-emerald-400">
                   Maya TIQIA
-                </h1>
-                <span className="text-[10px] bg-amber-500 text-stone-900 font-extrabold px-2 py-0.5 rounded-full uppercase tracking-wider hidden sm:inline-block shadow-xs">
+                </span>
+                <span className="hidden rounded-full bg-amber-400 px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-wider text-stone-900 sm:inline-block">
                   Progresivo
                 </span>
-              </div>
-            </div>
-          </div>
+              </span>
+              <span className="hidden text-xs font-medium text-stone-500 sm:block dark:text-stone-400">
+                Aprendizaje adaptativo con identidad maya
+              </span>
+            </span>
+          </button>
 
-          {/* Gamificación Top Bar: Racha, Gemas y Perfil */}
-          <div className="flex items-center gap-3 flex-wrap">
-            {/* Racha de Días 🔥 */}
-            <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-600 dark:text-amber-400 text-xs font-extrabold shadow-xs">
-              <Flame className="w-4 h-4 text-amber-500 fill-amber-500 animate-bounce" />
-              <span>{rachaDias} Días</span>
-            </div>
-
-            {/* Gemas/Estrellas ⭐ */}
-            <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-teal-500/10 border border-teal-500/30 text-teal-600 dark:text-teal-400 text-xs font-extrabold shadow-xs">
-              <Star className="w-4 h-4 text-teal-500 fill-teal-500" />
-              <span>{gemasTotal} ⭐</span>
-            </div>
-
-            {/* Toggle Dark Mode */}
-            <button
-              onClick={() => setIsDark(!isDark)}
-              aria-label={isDark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
-              className="flex items-center justify-center p-2 rounded-full bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-700 dark:text-stone-200 transition-all active:scale-95"
+          {/* Gamificación: racha, gemas, perfil y tema */}
+          <div className="flex shrink-0 items-center gap-2">
+            <div
+              className="hidden items-center gap-1.5 rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1.5 text-xs font-extrabold text-amber-700 sm:flex dark:text-amber-400"
+              title="Racha de días seguidos"
             >
-              {isDark ? <Sun size={18} className="text-amber-400" /> : <Moon size={18} className="text-emerald-800" />}
-            </button>
+              <Flame className="h-4 w-4 fill-amber-500 text-amber-500" />
+              <span>{rachaDias} días</span>
+            </div>
 
-            {/* Badge Perfil Actual */}
-            <div className="flex items-center gap-1.5 bg-emerald-100/80 dark:bg-emerald-950/80 border border-emerald-300 dark:border-emerald-800 px-3 py-1.5 rounded-full text-xs font-bold text-emerald-900 dark:text-emerald-200">
+            <div
+              className="hidden items-center gap-1.5 rounded-full border border-teal-500/30 bg-teal-500/10 px-3 py-1.5 text-xs font-extrabold text-teal-700 sm:flex dark:text-teal-400"
+              title="Estrellas acumuladas"
+            >
+              <Star className="h-4 w-4 fill-teal-500 text-teal-500" />
+              <span>{gemasTotal}</span>
+            </div>
+
+            <div className="hidden items-center gap-1.5 rounded-full border border-emerald-300 bg-emerald-50 px-3 py-1.5 text-xs font-bold text-emerald-900 lg:flex dark:border-emerald-800 dark:bg-emerald-950/80 dark:text-emerald-200">
               <UserCog size={15} className="text-emerald-700 dark:text-emerald-400" />
               <span>{perfilNombreActual}</span>
             </div>
-          </div>
-        </div>
-
-        {/* Tab Bar Superior de Navegación por Módulos */}
-        <div className="bg-emerald-900 text-white px-4 py-2 border-t border-emerald-800/60 overflow-x-auto">
-          <div className="max-w-7xl mx-auto flex items-center gap-2 text-xs font-bold min-w-max">
-            <button
-              onClick={() => setVistaActiva('dashboard')}
-              className={`px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition-all ${
-                vistaActiva === 'dashboard' ? 'bg-amber-400 text-stone-900 shadow-md' : 'hover:bg-emerald-800 text-emerald-100'
-              }`}
-            >
-              <Home size={14} />
-              <span>Inicio</span>
-            </button>
 
             <button
-              onClick={() => setVistaActiva('matematicas')}
-              className={`px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition-all ${
-                vistaActiva === 'matematicas' ? 'bg-amber-400 text-stone-900 shadow-md' : 'hover:bg-emerald-800 text-emerald-100'
-              }`}
+              onClick={() => setIsDark(!isDark)}
+              aria-label={isDark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-stone-200 bg-stone-50 text-stone-700 transition-colors hover:bg-stone-100 active:scale-95 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-200 dark:hover:bg-stone-700"
             >
-              <Calculator size={14} />
-              <span>Rutas Matemáticas (1000)</span>
-            </button>
-
-            <button
-              onClick={() => setVistaActiva('phet')}
-              className={`px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition-all ${
-                vistaActiva === 'phet' ? 'bg-amber-400 text-stone-900 shadow-md' : 'hover:bg-emerald-800 text-emerald-100'
-              }`}
-            >
-              <FlaskConical size={14} />
-              <span>Laboratorio PhET Interactivo</span>
-            </button>
-
-            <button
-              onClick={() => setVistaActiva('admision')}
-              className={`px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition-all ${
-                vistaActiva === 'admision' ? 'bg-amber-400 text-stone-900 shadow-md' : 'hover:bg-emerald-800 text-emerald-100'
-              }`}
-            >
-              <GraduationCap size={14} />
-              <span>Simulacros PAA</span>
-            </button>
-
-            <button
-              onClick={() => setVistaActiva('agrotechia')}
-              className={`px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition-all ${
-                vistaActiva === 'agrotechia' ? 'bg-amber-400 text-stone-900 shadow-md' : 'hover:bg-emerald-800 text-emerald-100'
-              }`}
-            >
-              <Leaf size={14} />
-              <span>AgroTechIA</span>
-            </button>
-
-            <button
-              onClick={() => setVistaActiva('universitario')}
-              className={`px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition-all ${
-                vistaActiva === 'universitario' ? 'bg-amber-400 text-stone-900 shadow-md' : 'hover:bg-emerald-800 text-emerald-100'
-              }`}
-            >
-              <Award size={14} />
-              <span>Portal Universitario & Tesis</span>
-            </button>
-
-            <button
-              onClick={() => setVistaActiva('profesor_director')}
-              className={`px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition-all ${
-                vistaActiva === 'profesor_director' ? 'bg-amber-400 text-stone-900 shadow-md' : 'hover:bg-emerald-800 text-emerald-100'
-              }`}
-            >
-              <UserCog size={14} />
-              <span>👩‍🏫 Portal Profesor & Director</span>
+              {isDark ? <Sun size={18} className="text-amber-400" /> : <Moon size={18} className="text-emerald-800" />}
             </button>
           </div>
         </div>
+
+        {/* Barra de navegación por módulos (desplazable en móvil) */}
+        <nav aria-label="Módulos de Maya TIQIA" className="border-t border-emerald-800/60 bg-emerald-900">
+          <div className="no-scrollbar mx-auto flex max-w-7xl items-center gap-1.5 overflow-x-auto px-4 py-2">
+            {navItems.map(({ id, label, corto, icono: Icono }) => (
+              <button
+                key={id}
+                onClick={() => setVistaActiva(id)}
+                aria-current={vistaActiva === id ? 'page' : undefined}
+                className="maya-nav-tab"
+              >
+                <Icono size={15} aria-hidden="true" />
+                <span className="sm:hidden">{corto}</span>
+                <span className="hidden sm:inline">{label}</span>
+              </button>
+            ))}
+          </div>
+        </nav>
       </header>
 
       {/* Main Content: Renderiza la vista correspondiente */}
-      <main className="max-w-7xl mx-auto px-4 py-6">
+      <main className="mx-auto max-w-7xl px-4 py-6 sm:py-8">
         {vistaActiva === 'profesor_director' && (
           <PortalProfesorDirectorView
             onVolver={() => setVistaActiva('dashboard')}
@@ -397,7 +352,34 @@ export default function MayanDashboard() {
         )}
 
         {vistaActiva === 'dashboard' && (
-          <div className="space-y-6">
+          <div className="space-y-8 animate-stagger-in">
+            <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-900 via-emerald-800 to-teal-700 p-6 text-white shadow-xl shadow-emerald-950/10 sm:p-8">
+              <div aria-hidden="true" className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-amber-400/20 blur-3xl" />
+              <div className="relative flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+                <div className="max-w-2xl space-y-2">
+                  <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.18em] text-amber-200">
+                    <Sparkles size={14} aria-hidden="true" /> Tu espacio de aprendizaje
+                  </p>
+                  <h1 className="text-2xl font-black tracking-tight sm:text-3xl">¡Hola de nuevo! Sigamos aprendiendo hoy</h1>
+                  <p className="text-sm text-emerald-50/90 sm:text-base" aria-live="polite">{mensajeMotivador}</p>
+                </div>
+                <div className="grid grid-cols-3 gap-2 sm:gap-3">
+                  {[
+                    { label: 'Racha', value: `${rachaDias} días`, icon: Flame },
+                    { label: 'Estrellas', value: gemasTotal, icon: Star },
+                    { label: 'Perfil', value: perfilNombreActual?.replace(/^\S+\s/, ''), icon: Trophy },
+                  ].map(({ label, value, icon: Icono }) => (
+                    <div key={label} className="min-w-0 rounded-2xl border border-white/10 bg-white/10 px-3 py-2.5 backdrop-blur-sm">
+                      <div className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-amber-200">
+                        <Icono size={12} aria-hidden="true" /> {label}
+                      </div>
+                      <div className="mt-0.5 truncate text-sm font-black sm:text-base">{value}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+
             <PerfilSelector 
               perfiles={perfiles} 
               perfilActual={perfilActual} 
@@ -428,10 +410,6 @@ export default function MayanDashboard() {
               isConnected={isConnected} 
               notificarCompletado={notificarCompletado} 
             />
-
-            <div className="mt-8 text-center text-stone-600 dark:text-stone-300 text-sm italic bg-white dark:bg-[#1a241f] py-3.5 px-4 rounded-2xl shadow-sm border border-stone-100 dark:border-stone-800/60 transition-colors duration-200">
-              💬 {mensajeMotivador}
-            </div>
           </div>
         )}
       </main>

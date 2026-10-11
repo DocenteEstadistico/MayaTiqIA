@@ -28,7 +28,7 @@ function ProgressRing({ avance = 0, isDark }) {
       aria-label={`Progreso: ${avance}%`}
     >
       {/* Centro blanco / oscuro */}
-      <div className="w-10 h-10 rounded-full bg-white dark:bg-[#1a241f] flex items-center justify-center shadow-inner">
+      <div className="w-10 h-10 rounded-full bg-white dark:bg-[#141f1a] flex items-center justify-center shadow-inner">
         <span className="text-xs font-bold text-emerald-800 dark:text-emerald-400">
           {Math.round(currentAvance)}%
         </span>
@@ -46,13 +46,19 @@ export default function ProgresoReciente({ progreso, materias, perfilNombre }) {
   }, []);
 
   return (
-    <section className="mb-8 bg-white dark:bg-[#1a241f] rounded-xl p-5 shadow-sm border border-emerald-100 dark:border-emerald-900/40 transition-colors duration-200" aria-label="Progreso reciente">
-      <h2 className="text-lg font-semibold text-gray-700 dark:text-stone-200 mb-4 flex justify-between items-center flex-wrap gap-2">
-        <span className="flex items-center gap-2">📈 Tu progreso reciente</span>
-        <span className="text-sm font-normal text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 px-3 py-1 rounded-full border border-emerald-200 dark:border-emerald-800">
+    <section className="maya-card p-5 sm:p-6" aria-label="Progreso reciente">
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+        <div className="flex items-center gap-3">
+          <span className="maya-section-icon text-lg" aria-hidden="true">📈</span>
+          <div>
+            <p className="maya-eyebrow">Seguimiento</p>
+            <h2 className="maya-section-title">Tu progreso reciente</h2>
+          </div>
+        </div>
+        <span className="rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-sm text-emerald-700 dark:border-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-400">
           Perfil: <strong>{perfilNombre}</strong>
         </span>
-      </h2>
+      </div>
 
       {loading ? (
         <div className="space-y-4">

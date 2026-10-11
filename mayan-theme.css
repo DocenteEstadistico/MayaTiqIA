@@ -123,3 +123,59 @@ body {
 .animate-stagger-in {
   animation: staggerIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
+
+/* ------------------------------------------------------------------
+   Sistema visual compartido (jade / ámbar)
+   ------------------------------------------------------------------ */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+:focus-visible {
+  outline: 2px solid var(--mayan-gold);
+  outline-offset: 2px;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@layer components {
+  /* Tarjeta base reutilizable */
+  .maya-card {
+    @apply rounded-3xl border border-stone-200/80 bg-white shadow-sm shadow-emerald-950/[0.03] transition-colors duration-200 dark:border-emerald-900/50 dark:bg-[#141f1a];
+  }
+
+  /* Encabezados de sección */
+  .maya-eyebrow {
+    @apply text-[11px] font-extrabold uppercase tracking-[0.18em] text-emerald-700 dark:text-emerald-400;
+  }
+  .maya-section-title {
+    @apply text-lg font-black tracking-tight text-stone-900 sm:text-xl dark:text-white;
+  }
+  .maya-section-icon {
+    @apply flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300;
+  }
+
+  /* Pestañas de navegación principal */
+  .maya-nav-tab {
+    @apply inline-flex shrink-0 items-center gap-1.5 rounded-xl px-3 py-2 text-xs font-bold text-emerald-100 transition-colors duration-150 hover:bg-white/10 hover:text-white sm:text-[13px];
+  }
+  .maya-nav-tab[aria-current='page'] {
+    @apply bg-amber-400 text-stone-900 shadow-md shadow-amber-900/20 hover:bg-amber-300 hover:text-stone-900;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

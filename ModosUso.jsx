@@ -2,23 +2,27 @@ import React from 'react';
 
 export default function ModosUso({ modos, ejecutarModo }) {
   return (
-    <section className="mb-8" aria-label="Sección de modos de uso">
-      <div className="flex items-center justify-between mb-3">
-        <h2 className="text-lg font-bold text-gray-800 dark:text-stone-100 flex items-center gap-2">
-          <span>🎯</span> Modos & Experiencias de Aprendizaje
-        </h2>
-        <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-900 dark:text-amber-300">
-          Matific & Khan Gamified
+    <section aria-label="Sección de modos de uso">
+      <div className="mb-4 flex flex-wrap items-end justify-between gap-2">
+        <div className="flex items-center gap-3">
+          <span className="maya-section-icon text-lg" aria-hidden="true">🎯</span>
+          <div>
+            <p className="maya-eyebrow">Paso 3</p>
+            <h2 className="maya-section-title">Modos y experiencias de aprendizaje</h2>
+          </div>
+        </div>
+        <span className="rounded-full bg-amber-100 px-2.5 py-1 text-xs font-semibold text-amber-900 dark:bg-amber-950 dark:text-amber-300">
+          Aprendizaje gamificado
         </span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3.5">
+      <div className="grid grid-cols-1 gap-3.5 sm:grid-cols-2 lg:grid-cols-5">
         {modos.map((modo, index) => (
           <button
             key={modo.id}
             onClick={() => ejecutarModo(modo.id)}
             aria-label={`Ejecutar modo ${modo.nombre}: ${modo.descripcion}`}
             style={{ animationDelay: `${index * 40}ms` }}
-            className="card-matific flex flex-col items-start p-4 bg-white dark:bg-[#141f1a] rounded-2xl border border-stone-200 dark:border-stone-800/80 text-left transition-all duration-200 animate-stagger-in hover:shadow-xl hover:-translate-y-1 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 group"
+            className="card-matific group flex flex-col items-start rounded-2xl border border-stone-200/80 bg-white p-4 text-left opacity-0 transition-all duration-200 animate-stagger-in hover:-translate-y-1 hover:border-emerald-300 hover:shadow-xl active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 dark:border-emerald-900/50 dark:bg-[#141f1a] dark:hover:border-emerald-700"
           >
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500/10 to-amber-500/20 flex items-center justify-center text-2xl mb-2 group-hover:scale-110 transition-transform">
               {modo.nombre.split(' ')[0]}

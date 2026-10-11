@@ -4,7 +4,7 @@ import { Link2, Wifi, WifiOff, GraduationCap } from 'lucide-react';
 export default function IntegracionTesis({ perfilActual, isConnected, notificarCompletado }) {
   return (
     <section 
-      className="bg-amber-50 dark:bg-amber-950/20 rounded-xl p-5 border border-amber-200 dark:border-amber-900/50 transition-colors duration-200"
+      className="rounded-3xl border border-amber-200 bg-gradient-to-br from-amber-50 to-orange-50/60 p-5 transition-colors duration-200 sm:p-6 dark:border-amber-900/50 dark:from-amber-950/30 dark:to-amber-950/10"
       aria-label="Sección de integración con Tesis y Tutorías"
     >
       <div className="flex justify-between items-center flex-wrap gap-4">
@@ -31,7 +31,7 @@ export default function IntegracionTesis({ perfilActual, isConnected, notificarC
           <button
             onClick={() => window.open('/tesis-dashboard', '_blank')}
             aria-label="Abrir plataforma Tesis y Tutorías en una nueva pestaña"
-            className="px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-lg font-medium text-sm flex items-center gap-2 transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 shadow-sm"
+            className="px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-xl font-semibold text-sm flex items-center gap-2 transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 shadow-sm"
           >
             <GraduationCap size={16} aria-hidden="true" /> Ir a Tesis y Tutorías
           </button>
@@ -39,7 +39,7 @@ export default function IntegracionTesis({ perfilActual, isConnected, notificarC
             <button
               onClick={notificarCompletado}
               aria-label="Notificar avance a tu tutor de tesis"
-              className="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg font-medium text-sm transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 shadow-sm"
+              className="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-semibold text-sm transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 shadow-sm"
             >
               Notificar avance a tutor
             </button>

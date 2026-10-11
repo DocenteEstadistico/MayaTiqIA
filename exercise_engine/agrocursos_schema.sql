@@ -41,16 +41,25 @@ create index if not exists idx_courses_featured
 create index if not exists idx_instructors_association
   on public.instructors(association_badge);
 
+-- Claves únicas para que los datos semilla no se dupliquen al re-ejecutar el script
+create unique index if not exists uq_instructors_full_name
+  on public.instructors(full_name);
+
+create unique index if not exists uq_courses_title
+  on public.courses(title);
+
 alter table public.instructors
   enable row level security;
 
 alter table public.courses
   enable row level security;
 
+drop policy if exists "Public read for instructors" on public.instructors;
 create policy "Public read for instructors"
   on public.instructors for select
   using (true);
 
+drop policy if exists "Public read for courses" on public.courses;
 create policy "Public read for courses"
   on public.courses for select
   using (true);
@@ -113,3 +122,10 @@ values
     false
   )
 on conflict do nothing;
+
+-- Lectura pública con la clave anon (solo SELECT; la escritura queda bloqueada por RLS)
+grant select on public.instructors to anon, authenticated;
+grant select on public.courses to anon, authenticated;
+
+-- Recarga el caché de esquema de la API REST para que las tablas aparezcan de inmediato
+notify pgrst, 'reload schema';

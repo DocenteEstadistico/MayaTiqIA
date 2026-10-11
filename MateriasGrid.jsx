@@ -10,20 +10,24 @@ export default function MateriasGrid({ materias, materiaSeleccionada, selecciona
   }, []);
 
   return (
-    <section className="mb-8" aria-label="Sección de materias disponibles">
-      <div className="flex items-center justify-between mb-3">
-        <h2 className="text-lg font-semibold text-gray-700 dark:text-stone-200 flex items-center gap-2">
-          <span>📚</span> Materias disponibles
-        </h2>
-        <span className="text-xs text-emerald-700 dark:text-emerald-400 font-medium">
-          💡 Haz clic en una materia para abrir su portal interactivo
+    <section aria-label="Sección de materias disponibles">
+      <div className="mb-4 flex flex-wrap items-end justify-between gap-2">
+        <div className="flex items-center gap-3">
+          <span className="maya-section-icon text-lg" aria-hidden="true">📚</span>
+          <div>
+            <p className="maya-eyebrow">Paso 2</p>
+            <h2 className="maya-section-title">Materias disponibles</h2>
+          </div>
+        </div>
+        <span className="text-xs font-medium text-stone-500 dark:text-stone-400">
+          Elige una materia para abrir su portal interactivo
         </span>
       </div>
       
       {loading ? (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {Array.from({ length: 6 }).map((_, idx) => (
-            <div key={idx} className="flex flex-col items-center p-4 rounded-2xl bg-white dark:bg-[#1a241f] shadow-sm border border-stone-100 dark:border-stone-800/60 space-y-3">
+            <div key={idx} className="flex flex-col items-center p-4 rounded-2xl bg-white dark:bg-[#141f1a] shadow-sm border border-stone-200/80 dark:border-emerald-900/50 space-y-3">
               <Skeleton className="w-10 h-10 rounded-full" />
               <Skeleton className="w-20 h-4 rounded" />
               <Skeleton className="w-14 h-3 rounded-full" />
@@ -40,14 +44,17 @@ export default function MateriasGrid({ materias, materiaSeleccionada, selecciona
                 onClick={() => seleccionarMateria(materia.id)}
                 aria-label={`Seleccionar materia ${materia.nombre}${progreso[materia.id]?.nivel ? `, nivel ${progreso[materia.id].nivel}` : ''}`}
                 style={{ animationDelay: `${index * 40}ms` }}
-                className={`flex flex-col items-center p-4 rounded-2xl transition-all duration-200 animate-stagger-in hover:shadow-md hover:-translate-y-0.5 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 relative ${
-                  isSelected 
-                    ? 'ring-4 ring-amber-400 bg-white dark:bg-[#1a241f] shadow-lg border-transparent' 
-                    : 'bg-white dark:bg-[#1a241f] hover:shadow-md border border-stone-100 dark:border-stone-800/60'
-                } ${materia.color ? `${materia.color} dark:bg-opacity-15` : ''}`}
+                aria-pressed={isSelected}
+                className={`relative flex flex-col items-center rounded-2xl border bg-white p-4 opacity-0 transition-all duration-200 animate-stagger-in hover:-translate-y-0.5 hover:shadow-md active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 dark:bg-[#141f1a] ${
+                  isSelected
+                    ? 'border-amber-400 shadow-lg shadow-amber-500/10 ring-2 ring-amber-400'
+                    : 'border-stone-200/80 hover:border-emerald-300 dark:border-emerald-900/50 dark:hover:border-emerald-700'
+                }`}
               >
-                <materia.icono size={32} className="text-emerald-700 dark:text-emerald-400" />
-                <span className="mt-2 font-medium text-gray-800 dark:text-stone-100 text-sm text-center">
+                <span className={`flex h-14 w-14 items-center justify-center rounded-2xl ${materia.color || 'bg-emerald-100'} dark:bg-emerald-950/70`}>
+                  <materia.icono size={28} className="text-emerald-700 dark:text-emerald-400" />
+                </span>
+                <span className="mt-3 text-center text-sm font-bold text-stone-800 dark:text-stone-100">
                   {materia.nombre}
                 </span>
 
