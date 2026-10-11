@@ -107,3 +107,15 @@ transaccionales de Supabase, no en el navegador. El esquema separa la emisión
 de pases de la concesión de acceso para que una pasarela de pago futura pueda
 registrar un `source = 'payment'` sin reutilizar códigos. La integración de
 Stripe u otras pasarelas no se configura en este cambio.
+
+## AgroTechIA
+
+La vista AgroTechIA consulta el catálogo público desde las tablas `courses` e
+`instructors`; cuando aún no hay registros o Supabase no está configurado,
+presenta cursos de demostración. Para crear las tablas y los registros iniciales,
+ejecuta `agrocursos_schema.sql` en el SQL Editor de Supabase.
+
+Netlify utiliza `netlify.toml` para ejecutar `npm run build` y publicar `dist`.
+Configura `VITE_SUPABASE_URL` y `VITE_SUPABASE_ANON_KEY` en las variables de
+entorno del sitio de Netlify para habilitar la lectura desde Supabase. No
+configures la clave `service_role` en el frontend ni en variables `VITE_*`.

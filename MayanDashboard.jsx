@@ -5,7 +5,7 @@ import { useThesisSocket } from './hooks/useThesisSocket';
 import { 
   BookOpen, Calculator, Languages, FlaskConical, Dna, Globe,
   UserCog, Wifi, WifiOff, Sun, Moon, Home, GraduationCap, ChevronRight,
-  Flame, Star, Sparkles, Trophy, Sliders, Play, Award
+  Flame, Star, Sparkles, Trophy, Sliders, Play, Award, Leaf
 } from 'lucide-react';
 
 import PerfilSelector from './PerfilSelector';
@@ -17,6 +17,7 @@ import BachilleratoView from './BachilleratoView';
 import UniversitarioView from './UniversitarioView';
 import MatematicasView from './MatematicasView';
 import AdmisionUniView from './AdmisionUniView';
+import AgroTechIA from './src/components/AgroTechIA';
 import SimuladoresPhETView from './src/components/SimuladoresPhETView';
 import PortalProfesorDirectorView from './src/components/PortalProfesorDirectorView';
 import './mayan-theme.css';
@@ -52,7 +53,7 @@ const modos = [
 export default function MayanDashboard() {
   const [perfilActual, setPerfilActual] = useState('universitario');
   const [materiaSeleccionada, setMateriaSeleccionada] = useState('mat');
-  const [vistaActiva, setVistaActiva] = useState('dashboard'); // 'dashboard' | 'bachillerato' | 'universitario' | 'matematicas' | 'admision' | 'phet'
+  const [vistaActiva, setVistaActiva] = useState('dashboard'); // 'dashboard' | 'bachillerato' | 'universitario' | 'matematicas' | 'admision' | 'phet' | 'agrotechia'
   const [modoOnline, setModoOnline] = useState(true);
   
   // Gamificación estilo Matific / Khan Academy
@@ -294,6 +295,16 @@ export default function MayanDashboard() {
             </button>
 
             <button
+              onClick={() => setVistaActiva('agrotechia')}
+              className={`px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition-all ${
+                vistaActiva === 'agrotechia' ? 'bg-amber-400 text-stone-900 shadow-md' : 'hover:bg-emerald-800 text-emerald-100'
+              }`}
+            >
+              <Leaf size={14} />
+              <span>AgroTechIA</span>
+            </button>
+
+            <button
               onClick={() => setVistaActiva('universitario')}
               className={`px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition-all ${
                 vistaActiva === 'universitario' ? 'bg-amber-400 text-stone-900 shadow-md' : 'hover:bg-emerald-800 text-emerald-100'
@@ -361,6 +372,13 @@ export default function MayanDashboard() {
             }}
             isConnected={isConnected}
             sendEvent={sendEvent}
+          />
+        )}
+
+        {/* 3) Nueva vista de Agrocursos integrada dentro del dashboard principal sin romper el resto del flujo. */}
+        {vistaActiva === 'agrotechia' && (
+          <AgroTechIA
+            onVolver={() => setVistaActiva('dashboard')}
           />
         )}
 
