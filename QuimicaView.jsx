@@ -1,12 +1,20 @@
 import React, { useState, useMemo } from 'react';
 import {
   ArrowLeft, FlaskConical, Sparkles, Trophy, Brain, Zap,
-  BookOpen, Atom, Table2, TestTube, Beaker, ChevronRight, Play, Lock
+  BookOpen, Atom, Table2, TestTube, Beaker, ChevronRight, Play, Lock,
+  Sliders, CheckCircle2
 } from 'lucide-react';
 import { toast } from 'sonner';
 import confetti from 'canvas-confetti';
 import ModuloDedicadoView from './src/components/ModuloDedicadoView';
-import ejerciciosData from './src/data/ejercicios_quimica_1000.json';
+import ejerciciosData from './src/data/ejercicios_quimica_1000_mcq.json';
+
+const NIVELES = [
+  { id: 'todos',              label: 'Todos los niveles', color: 'from-stone-500 to-stone-600',   emoji: '🧪' },
+  { id: 'facil',              label: 'Fácil',             color: 'from-emerald-500 to-green-600', emoji: '🟢' },
+  { id: 'intermedio',         label: 'Intermedio',        color: 'from-amber-500 to-yellow-600',  emoji: '🟡' },
+  { id: 'intermedio_dificil', label: 'Intermedio-Difícil',color: 'from-rose-500 to-red-600',      emoji: '🔴' },
+];
 
 const MODULOS = [
   {
@@ -89,16 +97,23 @@ export default function QuimicaView({ perfilActual = 'bachillerato', onVolver })
   const [ejerciciosModulo, setEjerciciosModulo] = useState([]);
   const [xpTotal, setXpTotal] = useState(0);
   const [subtemaFiltro, setSubtemaFiltro] = useState(null);
+  const [nivelFiltro, setNivelFiltro] = useState('todos');
 
-  // Construir índice de ejercicios por topic (cargado desde JSON local)
+  // Aplicar filtro de nivel a todos los ejercicios
+  const ejerciciosFiltrados = useMemo(() => {
+    if (nivelFiltro === 'todos') return ejerciciosData;
+    return ejerciciosData.filter(e => e.level === nivelFiltro);
+  }, [nivelFiltro]);
+
+  // Construir índice de ejercicios por topic (ya filtrados por nivel)
   const ejerciciosPorTopic = useMemo(() => {
     const idx = {};
-    for (const e of ejerciciosData) {
+    for (const e of ejerciciosFiltrados) {
       if (!idx[e.topic]) idx[e.topic] = [];
       idx[e.topic].push(e);
     }
     return idx;
-  }, []);
+  }, [ejerciciosFiltrados]);
 
   const conteosPorTopic = useMemo(() => {
     const c = {};
@@ -110,29 +125,34 @@ export default function QuimicaView({ perfilActual = 'bachillerato', onVolver })
     const s = {};
     for (const [topic, lista] of Object.entries(ejerciciosPorTopic)) {
       const subs = {};
-      for (const e of lista) {
-        subs[e.subtopic] = (subs[e.subtopic] || 0) + 1;
-      }
+      for (const e of lista) subs[e.subtopic] = (subs[e.subtopic] || 0) + 1;
       s[topic] = subs;
     }
     return s;
   }, [ejerciciosPorTopic]);
 
+  // Conteos globales por nivel (para los botones del filtro)
+  const conteosPorNivel = useMemo(() => {
+    const c = { todos: ejerciciosData.length, facil: 0, intermedio: 0, intermedio_dificil: 0 };
+    for (const e of ejerciciosData) c[e.level] = (c[e.level] || 0) + 1;
+    return c;
+  }, []);
+
   const handleAbrirModulo = (modulo, subtema = null) => {
     let lista = ejerciciosPorTopic[modulo.topicKey] || [];
     if (subtema) lista = lista.filter(e => e.subtopic === subtema);
     if (lista.length === 0) {
-      toast.error('No hay ejercicios para este subtema.');
+      toast.error('No hay ejercicios para este subtema en el nivel seleccionado.');
       return;
     }
-    // Mezclar para variedad
     const mezclados = [...lista].sort(() => Math.random() - 0.5);
     setModuloActivo(modulo);
     setEjerciciosModulo(mezclados);
     setSubtemaFiltro(subtema);
     confetti({ particleCount: 40, spread: 50, origin: { y: 0.8 } });
+    const nivelLabel = nivelFiltro === 'todos' ? '' : ` · nivel ${NIVELES.find(n => n.id === nivelFiltro)?.label}`;
     toast.info(`Módulo: ${modulo.titulo}`, {
-      description: `${mezclados.length} ejercicios${subtema ? ` de "${SUBTEMA_LABELS[subtema]}"` : ''} cargados.`
+      description: `${mezclados.length} ejercicios${subtema ? ` de "${SUBTEMA_LABELS[subtema]}"` : ''}${nivelLabel}.`
     });
   };
 
@@ -173,8 +193,52 @@ export default function QuimicaView({ perfilActual = 'bachillerato', onVolver })
             <span>{xpTotal} XP</span>
           </div>
           <div className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-purple-50 dark:bg-purple-950/60 border border-purple-200 dark:border-purple-800 text-purple-900 dark:text-purple-300 text-xs font-bold">
-            <span>981 ejercicios disponibles</span>
+            <CheckCircle2 size={14} />
+            <span>{ejerciciosFiltrados.length} ejercicios · opción múltiple</span>
           </div>
+        </div>
+      </div>
+
+      {/* Filtro de nivel de dificultad */}
+      <div className="bg-white dark:bg-[#1a241f] rounded-2xl border border-stone-200 dark:border-stone-800 shadow-sm p-4 sm:p-5">
+        <div className="flex items-center gap-2 mb-3">
+          <Sliders size={18} className="text-purple-600" />
+          <h3 className="font-extrabold text-stone-800 dark:text-stone-100 text-sm sm:text-base">
+            Nivel de dificultad
+          </h3>
+          <span className="text-xs text-stone-500 dark:text-stone-400">
+            — elige y practica solo ese nivel
+          </span>
+        </div>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5">
+          {NIVELES.map((n) => {
+            const activo = nivelFiltro === n.id;
+            const count = conteosPorNivel[n.id] || 0;
+            return (
+              <button
+                key={n.id}
+                onClick={() => setNivelFiltro(n.id)}
+                className={`relative overflow-hidden rounded-xl p-3 text-left transition-all active:scale-95 ${
+                  activo
+                    ? `bg-gradient-to-r ${n.color} text-white shadow-md ring-2 ring-offset-2 ring-purple-400 dark:ring-offset-[#1a241f]`
+                    : 'bg-stone-50 dark:bg-stone-800/60 text-stone-700 dark:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-700 border border-stone-200 dark:border-stone-700'
+                }`}
+              >
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2 min-w-0">
+                    <span className="text-lg shrink-0">{n.emoji}</span>
+                    <div className="min-w-0">
+                      <div className="font-extrabold text-sm truncate">{n.label}</div>
+                      <div className={`text-[11px] ${activo ? 'text-white/80' : 'text-stone-500 dark:text-stone-400'}`}>
+                        {count} ejercicios
+                      </div>
+                    </div>
+                  </div>
+                  {activo && <CheckCircle2 size={18} className="shrink-0 text-white" />}
+                </div>
+              </button>
+            );
+          })}
         </div>
       </div>
 
@@ -189,8 +253,8 @@ export default function QuimicaView({ perfilActual = 'bachillerato', onVolver })
             Domina la Química Inorgánica
           </h2>
           <p className="text-purple-100/90 text-sm sm:text-base leading-relaxed">
-            981 ejercicios organizados en los 5 temas de la prueba específica: Mediciones, Materia,
-            Elementos y Átomos, Tabla Periódica y Nomenclatura con los 3 sistemas (Clásico, Estequiométrico y Stock).
+            {ejerciciosFiltrados.length} ejercicios de opción múltiple autocalificables en los 5 temas de la
+            prueba específica, con 3 niveles de dificultad (fácil, intermedio, intermedio-difícil).
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 pt-2">
             {MODULOS.map(m => {
@@ -242,32 +306,52 @@ export default function QuimicaView({ perfilActual = 'bachillerato', onVolver })
                   {/* Botón practicar todo el módulo */}
                   <button
                     onClick={() => handleAbrirModulo(modulo)}
-                    className="mt-4 flex items-center gap-2 px-4 py-2 rounded-xl bg-white/20 hover:bg-white/30 text-white font-bold text-sm transition-all active:scale-95"
+                    disabled={count === 0}
+                    className={`mt-4 flex items-center gap-2 px-4 py-2 rounded-xl font-bold text-sm transition-all active:scale-95 ${
+                      count === 0
+                        ? 'bg-white/10 text-white/40 cursor-not-allowed'
+                        : 'bg-white/20 hover:bg-white/30 text-white'
+                    }`}
                   >
                     <Play size={16} />
-                    Practicar módulo completo ({count} ejercicios)
+                    {count === 0
+                      ? 'Sin ejercicios en este nivel'
+                      : `Practicar módulo completo (${count} ejercicios)`}
                     <ChevronRight size={16} />
                   </button>
                 </div>
 
                 {/* Subtemas */}
-                <div className="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
-                  {Object.entries(subs).map(([sub, cnt]) => (
+                {count === 0 ? (
+                  <div className="p-6 text-center text-sm text-stone-500 dark:text-stone-400">
+                    No hay ejercicios de este tema en el nivel seleccionado.
+                    <br />
                     <button
-                      key={sub}
-                      onClick={() => handleAbrirModulo(modulo, sub)}
-                      className="flex items-center justify-between gap-2 px-4 py-3 rounded-xl bg-stone-50 dark:bg-stone-800/60 hover:bg-purple-50 dark:hover:bg-purple-900/30 border border-stone-200 dark:border-stone-700 text-left transition-all group active:scale-95"
+                      onClick={() => setNivelFiltro('todos')}
+                      className="mt-2 text-purple-700 dark:text-purple-300 font-bold underline"
                     >
-                      <div>
-                        <div className="text-sm font-semibold text-stone-800 dark:text-stone-100 group-hover:text-purple-700 dark:group-hover:text-purple-300 transition-colors">
-                          {SUBTEMA_LABELS[sub] || sub}
-                        </div>
-                        <div className="text-xs text-stone-500 dark:text-stone-400 mt-0.5">{cnt} ejercicios</div>
-                      </div>
-                      <ChevronRight size={16} className="text-stone-400 group-hover:text-purple-500 shrink-0 transition-colors" />
+                      Mostrar todos los niveles
                     </button>
-                  ))}
-                </div>
+                  </div>
+                ) : (
+                  <div className="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+                    {Object.entries(subs).map(([sub, cnt]) => (
+                      <button
+                        key={sub}
+                        onClick={() => handleAbrirModulo(modulo, sub)}
+                        className="flex items-center justify-between gap-2 px-4 py-3 rounded-xl bg-stone-50 dark:bg-stone-800/60 hover:bg-purple-50 dark:hover:bg-purple-900/30 border border-stone-200 dark:border-stone-700 text-left transition-all group active:scale-95"
+                      >
+                        <div>
+                          <div className="text-sm font-semibold text-stone-800 dark:text-stone-100 group-hover:text-purple-700 dark:group-hover:text-purple-300 transition-colors">
+                            {SUBTEMA_LABELS[sub] || sub}
+                          </div>
+                          <div className="text-xs text-stone-500 dark:text-stone-400 mt-0.5">{cnt} ejercicios</div>
+                        </div>
+                        <ChevronRight size={16} className="text-stone-400 group-hover:text-purple-500 shrink-0 transition-colors" />
+                      </button>
+                    ))}
+                  </div>
+                )}
               </div>
             );
           })}
@@ -283,9 +367,9 @@ export default function QuimicaView({ perfilActual = 'bachillerato', onVolver })
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           {[
             { label: 'Total ejercicios', value: '981' },
-            { label: 'Temas cubiertos', value: '5' },
-            { label: 'Subtemas', value: '20' },
-            { label: 'Dificultades', value: '1.0 – 2.1' },
+            { label: 'Niveles de dificultad', value: '3' },
+            { label: 'Temas · subtemas', value: '5 · 20' },
+            { label: 'Autocalificable', value: '✓' },
           ].map(({ label, value }) => (
             <div key={label} className="bg-white dark:bg-purple-950/40 rounded-xl p-3 text-center border border-purple-200 dark:border-purple-800">
               <div className="text-2xl font-black text-purple-800 dark:text-purple-300">{value}</div>
@@ -293,9 +377,24 @@ export default function QuimicaView({ perfilActual = 'bachillerato', onVolver })
             </div>
           ))}
         </div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-4">
+          <div className="rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 px-3 py-2 text-center">
+            <div className="text-xs text-emerald-700 dark:text-emerald-300 font-bold">🟢 Fácil</div>
+            <div className="text-sm font-black text-emerald-900 dark:text-emerald-200">{conteosPorNivel.facil}</div>
+          </div>
+          <div className="rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 px-3 py-2 text-center">
+            <div className="text-xs text-amber-700 dark:text-amber-300 font-bold">🟡 Intermedio</div>
+            <div className="text-sm font-black text-amber-900 dark:text-amber-200">{conteosPorNivel.intermedio}</div>
+          </div>
+          <div className="rounded-xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-800 px-3 py-2 text-center">
+            <div className="text-xs text-rose-700 dark:text-rose-300 font-bold">🔴 Intermedio-Difícil</div>
+            <div className="text-sm font-black text-rose-900 dark:text-rose-200">{conteosPorNivel.intermedio_dificil}</div>
+          </div>
+        </div>
         <p className="text-xs text-stone-500 dark:text-stone-400 mt-4">
-          Ejercicios generados con el sistema de plantillas inteligentes MayaTiqIA.
-          Cubre todos los temas de la Guía Temática Facultad de Odontología — Ciencias Naturales y Exactas.
+          Todos los ejercicios son de opción múltiple (4 alternativas, 1 correcta) con calificación automática,
+          explicación paso a paso y XP acumulable. Ejercicios generados con el sistema de plantillas inteligentes
+          MayaTiqIA — Guía Temática Facultad de Odontología.
         </p>
       </div>
     </div>
