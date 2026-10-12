@@ -20,6 +20,7 @@ import AdmisionUniView from './AdmisionUniView';
 import AgroTechIA from './src/components/AgroTechIA';
 import SimuladoresPhETView from './src/components/SimuladoresPhETView';
 import PortalProfesorDirectorView from './src/components/PortalProfesorDirectorView';
+import QuimicaView from './QuimicaView';
 import './mayan-theme.css';
 
 const materias = [
@@ -53,6 +54,7 @@ const modos = [
 const navItems = [
   { id: 'dashboard', label: 'Inicio', corto: 'Inicio', icono: Home },
   { id: 'matematicas', label: 'Rutas Matemáticas (1000)', corto: 'Matemáticas', icono: Calculator },
+  { id: 'quimica', label: 'Química (981)', corto: 'Química', icono: FlaskConical },
   { id: 'phet', label: 'Laboratorio PhET', corto: 'PhET', icono: FlaskConical },
   { id: 'admision', label: 'Simulacros PAA', corto: 'PAA', icono: GraduationCap },
   { id: 'agrotechia', label: 'AgroTechIA', corto: 'Agro', icono: Leaf },
@@ -136,6 +138,11 @@ export default function MayanDashboard() {
         description: `Adaptado al perfil ${perfilActual === 'bachillerato' ? 'Bachillerato' : 'Universitario'}.`
       });
       setVistaActiva('matematicas');
+    } else if (materiaId === 'quim') {
+      toast.info('Abriendo Portal de Química...', {
+        description: '981 ejercicios de Química Inorgánica — Guía Odontología.'
+      });
+      setVistaActiva('quimica');
     } else if (materia) {
       toast.info(`Materia seleccionada: ${materia.nombre}`);
     }
@@ -339,6 +346,13 @@ export default function MayanDashboard() {
 
         {vistaActiva === 'matematicas' && (
           <MatematicasView
+            perfilActual={perfilActual}
+            onVolver={() => setVistaActiva('dashboard')}
+          />
+        )}
+
+        {vistaActiva === 'quimica' && (
+          <QuimicaView
             perfilActual={perfilActual}
             onVolver={() => setVistaActiva('dashboard')}
           />
