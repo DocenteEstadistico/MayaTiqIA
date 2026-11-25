@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import { Toaster, toast } from 'sonner';
 import { useThesisSocket } from './hooks/useThesisSocket';
-import { 
+import {
   BookOpen, Calculator, Languages, FlaskConical, Dna, Globe,
   UserCog, Wifi, WifiOff, Sun, Moon, Home, GraduationCap, ChevronRight,
-  Flame, Star, Sparkles, Trophy, Sliders, Play, Award, Leaf
+  Flame, Star, Sparkles, Trophy, Sliders, Play, Award, Leaf, MessageCircle
 } from 'lucide-react';
 
 import PerfilSelector from './PerfilSelector';
@@ -20,6 +20,7 @@ import AdmisionUniView from './AdmisionUniView';
 import AgroTechIA from './src/components/AgroTechIA';
 import SimuladoresPhETView from './src/components/SimuladoresPhETView';
 import PortalProfesorDirectorView from './src/components/PortalProfesorDirectorView';
+import PegasusAssistantView from './src/components/PegasusAssistantView';
 import QuimicaView from './QuimicaView';
 import './mayan-theme.css';
 
@@ -58,6 +59,7 @@ const navItems = [
   { id: 'phet', label: 'Laboratorio PhET', corto: 'PhET', icono: FlaskConical },
   { id: 'admision', label: 'Simulacros PAA', corto: 'PAA', icono: GraduationCap },
   { id: 'agrotechia', label: 'AgroTechIA', corto: 'Agro', icono: Leaf },
+  { id: 'pegasus', label: 'Ing. Pegasus', corto: 'Pegasus', icono: MessageCircle },
   { id: 'universitario', label: 'Universitario & Tesis', corto: 'Universidad', icono: Award },
   { id: 'profesor_director', label: 'Profesor & Director', corto: 'Docentes', icono: UserCog },
 ];
@@ -341,6 +343,12 @@ export default function MayanDashboard() {
         {vistaActiva === 'agrotechia' && (
           <AgroTechIA
             onVolver={() => setVistaActiva('dashboard')}
+          />
+        )}
+
+        {vistaActiva === 'pegasus' && (
+          <PegasusAssistantView
+            onBack={() => setVistaActiva('dashboard')}
           />
         )}
 
