@@ -170,6 +170,7 @@ export default function PegasusAssistantView({ onBack }) {
   const [input, setInput] = useState('');
   const [entering, setEntering] = useState(false);
   const [activeSpeaker, setActiveSpeaker] = useState('pegasus');
+  const [showAll, setShowAll] = useState(false);
   const messagesRef = useRef(null);
 
   useEffect(() => {
@@ -183,6 +184,7 @@ export default function PegasusAssistantView({ onBack }) {
   const openMode = (m) => {
     setMode(m);
     setMessages([]);
+    setShowAll(false);
     setEntering(true);
     setTimeout(() => setEntering(false), 950);
     setTimeout(() => {
@@ -212,6 +214,11 @@ export default function PegasusAssistantView({ onBack }) {
     e.preventDefault();
     const v = input.trim();
     if (!v) return;
+    if (/^(otras|otra|m[aá]s|ver\s+m[aá]s|m[aá]s\s+preguntas|otras\s+preguntas)\s*\??$/i.test(v)) {
+      setShowAll(true);
+      setInput('');
+      return;
+    }
     setMessages((prev) => [...prev, { who: 'student', text: v }]);
     setActiveSpeaker('student');
     setInput('');
@@ -301,10 +308,22 @@ export default function PegasusAssistantView({ onBack }) {
               ))}
             </div>
             <div className="pegasus-quick">
-              <span className="pegasus-quick-label">Preguntas frecuentes · toca una</span>
-              {BANK[mode].qa.slice(0, 8).map((item, i) => (
+              <span className="pegasus-quick-label">
+                Preguntas frecuentes · toca una
+                {!showAll && BANK[mode].qa.length > 8 && ` (${BANK[mode].qa.length} en total)`}
+              </span>
+              {(showAll ? BANK[mode].qa : BANK[mode].qa.slice(0, 8)).map((item, i) => (
                 <button key={i} type="button" className="pegasus-chip" onClick={() => askQuick(item.q)}>{item.q}</button>
               ))}
+              {BANK[mode].qa.length > 8 && (
+                <button
+                  type="button"
+                  className="pegasus-chip pegasus-chip-more"
+                  onClick={() => setShowAll((v) => !v)}
+                >
+                  {showAll ? '— Ver menos' : `+ Otras (${BANK[mode].qa.length - 8})`}
+                </button>
+              )}
             </div>
             <form className="pegasus-composer" onSubmit={handleSubmit}>
               <input value={input} onChange={(e) => setInput(e.target.value)} placeholder="Escribe tu pregunta…" />
@@ -395,6 +414,8 @@ const PEGASUS_STYLES = `
 .pegasus-quick-label { font-size: 10px; text-transform: uppercase; letter-spacing: .08em; color: #6E614A; width: 100%; margin-bottom: 2px; }
 .pegasus-chip { background: transparent; border: 1px solid #D7CBA7; color: #6E614A; font: inherit; font-size: 12px; padding: 6px 10px; border-radius: 999px; cursor: pointer; }
 .pegasus-chip:hover { border-color: #3F5E2A; color: #3F5E2A; }
+.pegasus-chip-more { background: #3F5E2A; border-color: #3F5E2A; color: #FBF6E8; font-weight: 600; }
+.pegasus-chip-more:hover { background: #2E4620; border-color: #2E4620; color: #FBF6E8; }
 .pegasus-composer { display: flex; gap: 8px; padding: 12px; border-top: 1px solid #D7CBA7; }
 .pegasus-composer input { flex: 1; padding: 10px 14px; border-radius: 10px; border: 1px solid #D7CBA7; background: #F3EDDA; color: #2A2419; font: inherit; font-size: 14px; }
 .pegasus-composer input:focus { outline: none; border-color: #3F5E2A; }
